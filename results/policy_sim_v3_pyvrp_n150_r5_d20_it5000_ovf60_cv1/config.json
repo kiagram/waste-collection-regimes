@@ -1,0 +1,17 @@
+{
+ "n": 150,
+ "reps": 5,
+ "days": 20,
+ "time_limit": 10.0,
+ "overflow_cost": 60.0,
+ "daily_cv": 1.0,
+ "pyvrp_iters": 5000,
+ "policies": [
+  "fixed_daily",
+  "fixed_alternate",
+  "threshold70",
+  "risk_myopic",
+  "risk_cfa_t5",
+  "risk_cfa_t15"
+ ]
+}

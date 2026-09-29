@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article."
+title: "waste-collection-regimes: risk-priced selective routing and regime analysis for sensor-based waste collection"
+version: 1.0.0
+date-released: 2026-09-29
+license: MIT
+repository-code: "https://github.com/kiagram/waste-collection-regimes"
+authors:
+  - family-names: "Sanaei Namaghi"
+    given-names: "Kiarash"
+    affiliation: "Amirkabir University of Technology"
+  - family-names: "Mirzapour Al-e-hashem"
+    given-names: "Seyyed Mohammad Javad"
+    affiliation: "Amirkabir University of Technology"
+preferred-citation:
+  type: article
+  title: "When does sensor-based waste collection pay off? Risk-priced selective routing and a regime analysis for a megacity district"
+  authors:
+    - family-names: "Sanaei Namaghi"
+      given-names: "Kiarash"
+    - family-names: "Mirzapour Al-e-hashem"
+      given-names: "Seyyed Mohammad Javad"
+  status: submitted

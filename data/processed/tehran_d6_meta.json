@@ -1,0 +1,39 @@
+{
+ "bins": 2852,
+ "points": 300,
+ "total_t_day": 276.25,
+ "days_to_full_mean": 2.4611229092992923,
+ "bin_fill_per_day_mean": 0.4402811424199924,
+ "zones_bins": {
+  "residential": 2153,
+  "political": 294,
+  "historical": 16,
+  "commercial": 2,
+  "recreational": 387
+ },
+ "network_nodes": 3712,
+ "alley_km": 235.0304624890763,
+ "assumptions": {
+  "population": 250000,
+  "kg_per_capita_day": 0.85,
+  "nonresident_uplift": 1.3,
+  "bin_volume_m3": 1.1,
+  "n_points": 300,
+  "transfer_leg_km": 6.0,
+  "zone_weight": {
+   "commercial": 1.3,
+   "recreational": 1.2,
+   "residential": 1.0,
+   "historical": 1.0,
+   "political": 0.7,
+   "semi_industrial": 0.6,
+   "industrial": 0.5
+  },
+  "fleet_counts": {
+   "new_compactor": 8,
+   "old_compactor": 18,
+   "small_loader": 8
+  },
+  "seed": 0
+ }
+}

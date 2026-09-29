@@ -1,0 +1,17 @@
+cv,capacity,policy,cost,d_cost_pct,co2_kg,overflow,trucks,net_vs_fixed_after_sensors
+1.0,current,fixed_daily,2855,0.0,1738,300.8,22.1,
+1.0,current,threshold70,2456,-14.0,1433,559.0,18.8,237.0
+1.0,current,risk_myopic,2920,2.3,1722,300.8,23.2,-227.0
+1.0,current,risk_cfa_t5,2923,2.4,1721,300.8,23.3,-231.0
+1.0,double,fixed_daily,3594,0.0,2042,65.3,30.2,
+1.0,double,threshold70,2962,-17.6,1774,367.2,22.8,314.0
+1.0,double,risk_myopic,2984,-17.0,1879,107.6,22.4,291.0
+1.0,double,risk_cfa_t5,2998,-16.6,1890,106.2,22.6,277.0
+0.35,current,fixed_daily,3113,0.0,1963,10.9,23.5,
+0.35,current,threshold70,2887,-7.2,1736,446.6,22.2,62.0
+0.35,current,risk_myopic,3034,-2.5,1929,13.9,22.8,-84.0
+0.35,current,risk_cfa_t5,3045,-2.2,1946,12.9,22.8,-95.0
+0.35,double,fixed_daily,3754,0.0,2175,0.0,31.4,
+0.35,double,threshold70,3118,-16.9,1868,96.0,24.3,317.0
+0.35,double,risk_myopic,3117,-17.0,1889,27.6,24.0,318.0
+0.35,double,risk_cfa_t5,3085,-17.8,1907,23.4,23.5,350.0
