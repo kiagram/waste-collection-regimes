@@ -65,8 +65,8 @@ Other scripts: `02_pareto_demo.py` (cost–CO₂ front on a synthetic instance).
   template; no responses are included.
 
 All cost and fleet parameters are low-cost global benchmarks and documented assumptions (`src/swc/config.py`,
-`src/swc/tehran.py`), not municipal records. Zone sensitivities are placeholders until the expert survey is
-complete.
+`src/swc/tehran.py`), not municipal records. Zone sensitivities are illustrative values set by the authors;
+the questionnaire and `11_bwm_analysis.py` let a municipality elicit its own.
 
 ## Citation
 
