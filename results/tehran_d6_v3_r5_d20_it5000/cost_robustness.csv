@@ -1,0 +1,10 @@
+scenario,today,sensors_only,double_daily,double_sensors,threshold,C1 sensors alone cost more,C3 double+sensors < double+daily,C4 threshold cheapest
+base,2855,3086,3741,3464,2619,True,True,True
+f_fixx0.5,1861,2051,2458,2438,1746,True,True,True
+f_fixx1.5,3849,4121,5024,4490,3491,True,True,True
+f_varx0.5,2421,2659,3226,2991,2263,True,True,True
+f_varx1.5,3289,3512,4255,3937,2974,True,True,True
+f_sensorx0.5,2855,3004,3741,3304,2537,True,True,True
+f_sensorx1.5,2855,3167,3741,3623,2700,True,True,True
+f_binx0.5,2855,3086,3668,3390,2619,True,True,True
+f_binx1.5,2855,3086,3814,3537,2619,True,True,True

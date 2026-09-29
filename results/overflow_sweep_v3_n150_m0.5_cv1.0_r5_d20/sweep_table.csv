@@ -1,0 +1,8 @@
+setting,cost,dcost,overflow,weighted,served
+fixed_daily,713,0.0,8.1,5.4,150
+threshold70,439,-38.5,44.8,29.4,31
+"risk, price=15",425,-40.5,25.7,15.2,48
+"risk, price=30",425,-40.4,20.7,12.1,54
+"risk, price=60",429,-39.9,16.5,9.6,61
+"risk, price=120",433,-39.3,14.5,8.5,67
+"risk, price=240",434,-39.2,12.5,7.6,73

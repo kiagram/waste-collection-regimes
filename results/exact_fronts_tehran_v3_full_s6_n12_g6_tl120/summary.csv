@@ -1,0 +1,7 @@
+sub,bins,mandatory,demand_t,front_points,proven,cost_min,co2_at_cost_min,co2_min,cost_at_co2_min,co2_range_pct,cost_premium_pct,abatement_usd_per_t,pyvrp_gap_cost_pct,hv_ratio_pyvrp,trucks_cost_min,trucks_co2_min
+0,110,12,10.6,2,2,127.1,88.1,59.2,139.4,32.8,9.6,423.0,0.0,0.247,old_compactor,new_compactor
+1,121,12,8.6,3,3,123.1,76.4,51.6,136.9,32.5,11.2,557.0,0.0,0.999,old_compactor,new_compactor
+2,113,12,12.1,1,1,148.2,79.8,79.8,148.2,0.0,0.0,,0.0,1.0,new_compactor,new_compactor
+3,90,12,8.9,4,4,130.6,90.6,57.9,201.6,36.2,54.4,2168.0,0.0,0.99,old_compactor,new_compactor+small_loader
+4,118,12,9.0,4,4,139.9,109.2,67.7,205.3,38.0,46.7,1574.0,0.0,0.064,old_compactor,new_compactor+small_loader
+5,106,12,7.5,3,3,123.4,76.2,50.3,198.6,34.0,61.0,2909.0,0.0,0.07,old_compactor,new_compactor+small_loader

@@ -1,0 +1,13 @@
+days_to_full,cv,policy,saving_per_day,net_per_day,pays_off,breakeven_usd_per_bin_day,d_overflow_vs_fixed
+2.8,0.35,risk_myopic,55.7,-10.7,no,0.054,3.5
+2.8,0.35,threshold70,70.6,4.2,yes,0.068,98.9
+5.5,0.35,risk_myopic,295.5,229.1,yes,0.284,3.5
+5.5,0.35,threshold70,271.6,205.2,yes,0.261,7.2
+8.3,0.35,risk_myopic,247.1,180.7,yes,0.238,3.4
+8.3,0.35,threshold70,218.9,152.5,yes,0.211,1.0
+2.8,1.0,risk_myopic,42.9,-23.5,no,0.041,1.9
+2.8,1.0,threshold70,144.3,77.9,yes,0.139,83.5
+5.5,1.0,risk_myopic,284.2,217.8,yes,0.274,8.3
+5.5,1.0,threshold70,274.6,208.1,yes,0.264,36.7
+8.3,1.0,risk_myopic,246.6,180.2,yes,0.237,8.4
+8.3,1.0,threshold70,221.5,155.1,yes,0.213,15.5

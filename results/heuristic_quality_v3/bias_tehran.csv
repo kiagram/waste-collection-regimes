@@ -1,0 +1,4 @@
+claim,option,compared_with,diff_pct,holds
+C1 sensors alone cost more than daily collection,2869,2789,2.9,True
+C3 doubled bins: sensors cheaper than daily collection,3385,3438,-1.6,True
+C4 threshold rule cheaper than daily collection,2619,2724,-3.9,True
