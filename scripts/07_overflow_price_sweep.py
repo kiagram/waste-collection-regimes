@@ -1,72 +1,105 @@
-"""Overflow-price sweep: how the risk-based policy trades cost against overflows.
+"""Cost-service frontiers: sensor and no-sensor policy families at matched overflow (v4, review R1).
 
-Run in the regime where the decision matters (≈6 days to full, CV = 1.0; see R7), on the
-same instances and fill realisations as the regime map, so fixed-daily / threshold baselines
-from the regime map are directly comparable (common random numbers).
-usage: python scripts/07_overflow_price_sweep.py [reps] [days] [pyvrp_iters]
+The risk-priced policies trace a frontier when the overflow price c_o is varied; the other families
+trace one through their own parameter (period k, threshold tau). On the regime-map instances and fill
+realisations (clustered layout, common random numbers), this script adds the price sweep of
+risk_cfa_t5 (sensors) and blind_risk (no sensors) and combines it with the grid runs of
+06_regime_map.py. For each family the lower envelope of (operating + cleanup cost, overflowing
+containers) is computed, and families are compared at the overflow level of today's practice.
+usage: python scripts/07_overflow_price_sweep.py [reps] [pyvrp_iters]   (after 06_regime_map.py)
 """
+import os
 import sys
-import time
-from dataclasses import asdict, replace
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
+sys.path.insert(0, str(ROOT / "scripts"))
 
+import numpy as np
 import pandas as pd
 
-from swc.config import MODEL_VERSION, Params
-from swc.instance import generate_synthetic
-from swc.simulate import DayRecord, RiskMyopic, SimConfig, draw_increments, simulate, summarise
+from swc.config import MODEL_VERSION
+from swc.experiments import family, horizon, regime_instance, run_or_load
+from swc.simulate import BlindRisk, RiskCFA, SimConfig, draw_increments, summarise
+
+_sh = os.environ.get("SHARD")
+SH_I, SH_N = (int(x) for x in _sh.split("/")) if _sh else (0, 1)
 
 reps = int(sys.argv[1]) if len(sys.argv) > 1 else 3
-days = int(sys.argv[2]) if len(sys.argv) > 2 else 20
-iters = int(sys.argv[3]) if len(sys.argv) > 3 else 1500
-n, MULT, CV = 150, 0.5, 1.0
-PRICES = [15.0, 30.0, 60.0, 120.0, 240.0]
-cfg = SimConfig(days=days, engine="pyvrp", pyvrp_s=120, pyvrp_iters=iters)
-out = ROOT / "results" / f"overflow_sweep_{MODEL_VERSION}_n{n}_m{MULT}_cv{CV}_r{reps}_d{days}"
+iters = int(sys.argv[2]) if len(sys.argv) > 2 else 5000
+n, CV, LAYOUT = 150, 1.0, "clustered"
+MULTS = [1.0, 0.5]
+PRICES = [15.0, 30.0, 120.0, 240.0, 480.0]     # 60 is the base run of the regime map
+REG = ROOT / "results" / f"regime_map_{MODEL_VERSION}_n{n}_r{reps}_it{iters}"
+out = ROOT / "results" / f"frontiers_{MODEL_VERSION}_n{n}_cv{CV:g}_r{reps}_it{iters}"
 out.mkdir(parents=True, exist_ok=True)
 
+def scenario(mult, rep, price):
+    return regime_instance(n, mult, CV, LAYOUT, rep, overflow_cost=price)
+
+
+POLS = [RiskCFA(name="risk_cfa_t5", theta=5.0), BlindRisk(name="blind_risk")]
+jobs = [(mult, rep, price, pol) for rep in range(reps) for mult in MULTS for price in PRICES for pol in POLS]
+fname = lambda mult, rep, price, pol: out / f"days_m{mult:g}_{pol.name}_price{price:g}_rep{rep}.csv"
+
+if SH_N > 1:
+    for j, (mult, rep, price, pol) in enumerate(jobs):
+        f = fname(mult, rep, price, pol)
+        if j % SH_N != SH_I or f.exists():
+            continue
+        inst, dtf = scenario(mult, rep, price)
+        burn, days = horizon(dtf)
+        run_or_load(f, inst, pol, draw_increments(inst, days, seed=1000 + rep), SimConfig(days=days, pyvrp_iters=iters))
+        print("done", f.name, flush=True)
+    sys.exit(0)
+
 rows = []
-for price in PRICES:
-    for rep in range(reps):
-        P = Params()
-        P.risk = replace(P.risk, overflow_cost=price, fill_rate_cv=CV)
-        fleet = {"new_compactor": max(1, n // 60), "old_compactor": max(2, n // 30), "small_loader": max(1, n // 60)}
-        inst = generate_synthetic(n, seed=100 + rep, params=P, bins_per_point=(4, 10), fleet_counts=fleet,
-                                  area_m=5000.0 * (n / 40) ** 0.5 / 1.6)
-        inst.rate_mean_per_h = inst.rate_mean_per_h * MULT
-        inst.rate_sd_per_h = inst.rate_sd_per_h * MULT
-        inc = draw_increments(inst, days, seed=1000 + rep)   # identical to the regime map
-        f = out / f"days_price{price:g}_rep{rep}.csv"
-        t0 = time.perf_counter()
-        if f.exists():
-            d = pd.read_csv(f)
-            recs = [DayRecord(**{k: (None if pd.isna(v) else v) for k, v in r.items()}) for r in d.to_dict("records")]
-        else:
-            recs = simulate(inst, RiskMyopic(), inc, cfg)
-            pd.DataFrame([asdict(r) for r in recs]).to_csv(f, index=False)
-        s = summarise(recs, burn_in=3)
-        s.update(price=price, rep=rep, sim_s=time.perf_counter() - t0)
-        rows.append(s)
-        print(f"price={price:<6g} rep={rep} cost={s['cost_per_day']:7.1f} overflow={s['overflow_bins_per_day']:5.1f} "
-              f"weighted={s['overflow_weighted_per_day']:5.1f} served={s['points_served_per_day']:5.1f} "
-              f"({s['sim_s']:.0f}s)", flush=True)
-sw = pd.DataFrame(rows)
-sw.to_csv(out / "summary_by_rep.csv", index=False)
-# sweep table, with fixed-daily and threshold baselines from the regime map (same instances and increments)
-reg = pd.read_csv(ROOT / "results" / f"regime_map_{MODEL_VERSION}_n{n}_r5_d{days}_it{iters}" / "summary_by_rep.csv")
-reg = reg[(reg.rate_mult == MULT) & (reg.cv == CV) & (reg.rep < reps)]
-base = reg[reg.policy == "fixed_daily"].set_index("rep").cost_per_day
+for mult, rep, price, pol in jobs:
+    inst, dtf = scenario(mult, rep, price)
+    burn, days = horizon(dtf)
+    recs = run_or_load(fname(mult, rep, price, pol), inst, pol, draw_increments(inst, days, seed=1000 + rep),
+                       SimConfig(days=days, pyvrp_iters=iters))
+    s = summarise(recs, burn_in=burn)
+    s.update(rate_mult=mult, rep=rep, policy=f"{pol.name}@{price:g}", base_policy=pol.name, price=price)
+    rows.append(s)
+sweep = pd.DataFrame(rows)
+reg = pd.read_csv(REG / "summary_by_rep.csv")
+reg = reg[(reg.cv == CV) & (reg.layout == LAYOUT) & reg.rate_mult.isin(MULTS)].copy()
+reg["base_policy"], reg["price"] = reg["policy"], 60.0
+pts = pd.concat([reg, sweep], ignore_index=True)
+pts["family"] = pts["base_policy"].map(family)
+pts["op_cost"] = pts["cost_per_day"] + pts["cleanup_cost_per_day"]
+# mean over replications (common random numbers) per setting
+mean = pts.groupby(["rate_mult", "family", "policy"])[["op_cost", "overflow_bins_per_day",
+                                                       "overflow_weighted_per_day"]].mean().reset_index()
+mean.to_csv(out / "frontier_points.csv", index=False)
+
+
+def envelope(g):
+    """Lower-left envelope: points not dominated in (op_cost, overflow)."""
+    g = g.sort_values(["overflow_bins_per_day", "op_cost"])
+    keep, best = [], np.inf
+    for _, r in g.iterrows():
+        if r.op_cost < best - 1e-9:
+            keep.append(r)
+            best = r.op_cost
+    return pd.DataFrame(keep)
+
+
 tab = []
-for name, g in [(p, reg[reg.policy == p]) for p in ("fixed_daily", "threshold70")] + \
-        [(f"risk, price={pr:g}", sw[sw.price == pr]) for pr in PRICES]:
-    g = g.set_index("rep")
-    tab.append(dict(setting=name, cost=round(g.cost_per_day.mean()),
-                    dcost=round(((g.cost_per_day / base - 1) * 100).mean(), 1),
-                    overflow=round(g.overflow_bins_per_day.mean(), 1),
-                    weighted=round(g.overflow_weighted_per_day.mean(), 1), served=round(g.points_served_per_day.mean())))
-pd.DataFrame(tab).to_csv(out / "sweep_table.csv", index=False)
-print(pd.DataFrame(tab).to_string(index=False))
+for mult, g in mean.groupby("rate_mult"):
+    target = float(g[g.policy == "fixed_daily"]["overflow_bins_per_day"].iloc[0])
+    for fam, gf in g.groupby("family"):
+        env = envelope(gf)
+        ok = env[env.overflow_bins_per_day <= target + 1e-9]
+        tab.append(dict(rate_mult=mult, family=fam, overflow_target=round(target, 2),
+                        cost_at_target=None if ok.empty else round(float(ok.op_cost.min()), 1),
+                        policy_at_target=None if ok.empty else ok.loc[ok.op_cost.idxmin(), "policy"],
+                        envelope=" ".join(f"{r.policy}({r.op_cost:.0f},{r.overflow_bins_per_day:.1f})"
+                                          for _, r in env.iterrows())))
+t = pd.DataFrame(tab)
+t.to_csv(out / "matched_overflow.csv", index=False)
+pd.set_option("display.width", 250)
+print(t.drop(columns="envelope").to_string(index=False))
 print("saved", out)

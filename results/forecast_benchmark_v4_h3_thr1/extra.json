@@ -1,0 +1,29 @@
+{
+ "conformal_coverage": 0.7700799390940236,
+ "conformal_width": 0.008946068146112743,
+ "n": {
+  "train": 7273,
+  "calib": 2779,
+  "test": 5254
+ },
+ "event_rate_test": 0.06966121050628094,
+ "importance": {
+  "bin_rate": 1737,
+  "nbr_fill": 1380,
+  "mean7": 1258,
+  "month": 1180,
+  "dow": 936,
+  "lag4": 638,
+  "lag7": 622,
+  "lag5": 592,
+  "lag6": 590,
+  "lag3": 580,
+  "d2": 577,
+  "lag0": 457,
+  "days_since_drop": 431,
+  "d1": 323,
+  "lag2": 315,
+  "lag1": 208,
+  "is_recycling": 176
+ }
+}

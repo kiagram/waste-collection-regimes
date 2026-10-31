@@ -1,0 +1,5 @@
+cv,capacity,best_no_sensor,best_sensor,net_saving_reported,net_saving_worst_for_sensing,net_saving_best_for_sensing,verdict
+1.0,current,fixed_daily,risk_cfa_t15/risk_cfa_t5,-259.3,-142.8,-39.4,sensing does not pay under any gap
+1.0,double,fixed_daily,risk_myopic,-218.7,-268.3,-120.4,sensing does not pay under any gap
+0.35,current,fixed_daily,risk_cfa_t15/risk_cfa_t5,-139.3,-33.3,67.4,depends on the gap
+0.35,double,periodic2,threshold50,-346.3,-552.8,-138.9,sensing does not pay under any gap

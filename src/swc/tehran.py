@@ -216,21 +216,29 @@ def _split_points(z: dict, max_bins: int) -> dict:
     idx = np.array(idx)
     rows = np.r_[0, idx + 1, len(m) + 1]
     return dict(dist=z["dist"][np.ix_(rows, rows)], xy=z["xy"][rows], fill0=z["fill0"][idx],
-                rate_day=z["rate_day"][idx], zone=z["zone"][idx], m=np.array(sizes))
+                rate_day=z["rate_day"][idx], zone=z["zone"][idx], m=np.array(sizes), parent=idx)
 
 
 def load(params: Params | None = None, fleet_counts: dict | None = None, rate_mult: float = 1.0,
-         transfer_leg_km: float | None = None, max_bins_per_point: int | None = MAX_BINS_PER_POINT) -> Instance:
+         transfer_leg_km: float | None = None, max_bins_per_point: int | None = MAX_BINS_PER_POINT,
+         intra_m: int = 0) -> Instance:
     """Rebuild the Instance from the saved arrays (no network access).
 
     rate_mult scales waste generation (population / per-capita sensitivity);
     transfer_leg_km overrides the off-network distance to the transfer station (built with 6 km);
-    max_bins_per_point splits large points into co-located sub-points (None = original 300 points).
+    max_bins_per_point splits large points into co-located sub-points (None = original 300 points);
+    sub-points fill independently of each other (each gets its own increments in the simulator).
+    intra_m is the road distance between sub-points of the same original point (0 = co-located),
+    to test the aggregation resolution and the travel it hides.
     """
     z = dict(np.load(ROOT / "data" / "processed" / "tehran_d6.npz", allow_pickle=True))
     if max_bins_per_point is not None:
         z = _split_points(z, max_bins_per_point)
     dist = z["dist"].copy()
+    if intra_m and "parent" in z:
+        par = z["parent"]
+        same = (par[:, None] == par[None, :]) & ~np.eye(len(par), dtype=bool)
+        dist[1:-1, 1:-1][same] = int(intra_m)
     if transfer_leg_km is not None:
         delta = int(round((transfer_leg_km - TehranAssumptions().transfer_leg_km) * 1000))
         dist[:-1, -1] += delta

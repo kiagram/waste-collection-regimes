@@ -48,7 +48,9 @@ for fname, counts in FLEETS.items():
                 if r:
                     used[inst.vehicles[t].name] = used.get(inst.vehicles[t].name, 0) + 1
             rows.append(dict(fleet=fname, carbon_price=lam, seed=s, feasible=k.feasible, cost=k.cost_total,
-                             co2_kg=k.co2_kg, km=k.km, trucks=k.trucks_used, **{f"used_{a}": b for a, b in used.items()}))
+                             co2_kg=k.co2_kg, co2_empty_kg=k.co2_empty_kg,
+                             priced=k.priced(lam),                         # objective the search optimised
+                             priced_true=k.cost_total + lam * k.co2_kg / 1000, km=k.km, trucks=k.trucks_used, **{f"used_{a}": b for a, b in used.items()}))
             print(f"{fname:15s} lambda={lam:<4} seed={s} cost={k.cost_total:7.0f} CO2={k.co2_kg:6.0f} kg "
                   f"km={k.km:6.0f} used={used} ok={k.feasible}", flush=True)
 
@@ -56,7 +58,9 @@ df = pd.DataFrame(rows).fillna(0)
 out = ROOT / "results" / f"fleet_tradeoff_tehran_{INSTANCE_VERSION}"
 out.mkdir(exist_ok=True)
 df.to_csv(out / "runs.csv", index=False)
-best = df.loc[df.groupby(["fleet", "carbon_price"])["cost"].idxmin()]  # best of seeds per setting
+# best of seeds per setting, by the objective the search optimised (cost + carbon charge), not by cost alone
+feas = df[df.feasible.astype(bool)]
+best = feas.loc[feas.groupby(["fleet", "carbon_price"])["priced"].idxmin()]
 summ = best.groupby(["fleet", "carbon_price"])[["cost", "co2_kg", "km", "trucks"]].first().round(1)
 print("\n", summ.to_string())
 base = summ.loc[("current_ageing", 0)]

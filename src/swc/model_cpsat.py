@@ -1,6 +1,6 @@
 """Daily selective heterogeneous-fleet, multi-trip collection model (exact, OR-Tools CP-SAT).
 
-Merges thesis stages 1 and 2: instead of ranking grey bins with BWM and
+Merges thesis stages 1 and 2 (audit M1): instead of ranking grey bins with BWM and
 cutting the list by solver time, every collection point is a candidate. Leaving point i
 uncollected costs its zone-weighted overflow penalty pi_i (risk.py), and points whose
 overflow probability exceeds their zone tolerance are mandatory (chance constraint).
@@ -11,11 +11,11 @@ where start is the depot for t = 0 and D for t >= 1 (the truck has just unloaded
 only the truck's last trip is charged the return D -> depot.
 
     f1 (cost) = sum_p F_p used_p + sum_{k} c_k sum_ij d_ij x_ijk + sum_i pi_i (1 - served_i)
-    f2 (CO2)  = sum_{k} sum_ij d_ij (a_k x_ijk + b_k l_ijk)     (load-dependent)
+    f2 (CO2)  = sum_{k} sum_ij d_ij (a_k x_ijk + b_k l_ijk)     (load-dependent, audit M3)
 
 l_ijk is the load (kg) carried on arc (i, j) during trip k.
 
-Fixes relative to the thesis code: truck-specific variable cost, shift-length
+Fixes relative to the thesis code (audit C5): truck-specific variable cost, shift-length
 limit, no zone multipliers on CO2, no mirror-symmetry constraint, single-point routes
 allowed, arc filtering only as an explicit optional k-nearest-neighbour rule, and solver
 status and bound always reported.
@@ -184,8 +184,8 @@ class DailyModel:
         co2_expr = sum(co2_terms)
 
         self.m, self.x, self.l, self.skip, self.used, self.served = m, x, l, skip, used, served
-        self.cost_var = m.NewIntVar(0, 2**50, "cost")
-        self.co2_var = m.NewIntVar(0, 2**50, "co2")
+        self.cost_var = m.NewIntVar(0, 2**40, "cost")   # 2**40 keeps 1e6 x cost within int64 ("priced")
+        self.co2_var = m.NewIntVar(0, 2**40, "co2")
         m.Add(self.cost_var == cost_expr)
         m.Add(self.co2_var == co2_expr)
 
@@ -217,7 +217,9 @@ class DailyModel:
     # ------------------------------------------------------------------
     def solve(self, objective: str = "cost", co2_ub: int | None = None, cost_ub: int | None = None,
               time_limit: float = 60.0, workers: int = 8, seed: int = 0, hint: Solution | None = None,
-              log: bool = False) -> Solution:
+              log: bool = False, carbon_price: int = 0) -> Solution:
+        """objective: 'cost', 'co2', or 'priced' = cost + carbon_price (USD/t, integer) x true
+        load-dependent CO2."""
         # Work on a clone so epsilon bounds / hints never leak between solves.
         m = self.m.Clone()
         self._cur = m
@@ -229,7 +231,13 @@ class DailyModel:
             m.Add(cost_v <= int(cost_ub))
         if hint is not None and hint.routes:
             self._add_hint(hint)
-        m.Minimize(cost_v if objective == "cost" else co2_v)
+        if objective == "priced":
+            # cost_int / cs + lambda * 1e-6 * co2_int / es, scaled by 1e6 * cs (cs == es)
+            p = self.inst.params.scale
+            assert p.cost_scale == p.co2_scale
+            m.Minimize(1_000_000 * cost_v + int(carbon_price) * co2_v)
+        else:
+            m.Minimize(cost_v if objective == "cost" else co2_v)
 
         solver = cp_model.CpSolver()
         solver.parameters.max_time_in_seconds = time_limit

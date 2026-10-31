@@ -23,6 +23,11 @@ class KPIs:
     bins_skipped: int
     kg_collected: float
     expected_overflows_weighted: float  # sum over skipped bins of sensitivity * risk
+    co2_empty_kg: float = 0.0  # empty-truck emissions only: the proxy a carbon price acts on inside PyVRP
+
+    def priced(self, carbon_price: float) -> float:
+        """Cost plus carbon charge on the empty-truck proxy (USD/t), the objective PyVRP optimises."""
+        return self.cost_total + carbon_price * self.co2_empty_kg / 1000.0
 
     def as_dict(self):
         return asdict(self)
@@ -36,7 +41,7 @@ def evaluate(inst: Instance, routes: list, penalty: np.ndarray, risk: np.ndarray
     q = inst.demand_kg()
     viol = []
     served = np.zeros(inst.n, dtype=int)
-    fixed = var = co2_g = metres = kg = 0.0
+    fixed = var = co2_g = co2_empty_g = metres = kg = 0.0
     used = 0
     for k, r in enumerate(routes):
         if not r:
@@ -52,6 +57,7 @@ def evaluate(inst: Instance, routes: list, penalty: np.ndarray, risk: np.ndarray
             metres += d
             var += veh.var_cost_per_km * d / 1000.0
             co2_g += d * (veh.a_g_per_m + veh.b_g_per_m_per_kg * load)
+            co2_empty_g += d * veh.a_g_per_m
             dur += tt[a, b]
             if b in inst.bins:
                 served[b - 1] += 1
@@ -77,5 +83,5 @@ def evaluate(inst: Instance, routes: list, penalty: np.ndarray, risk: np.ndarray
         feasible=not viol, violations=viol, cost_total=fixed + var + pen, cost_fixed=fixed,
         cost_variable=var, cost_penalty=pen, co2_kg=co2_g / 1000.0, km=metres / 1000.0,
         trucks_used=used, bins_served=int((served > 0).sum()), bins_skipped=int(skipped.sum()),
-        kg_collected=kg, expected_overflows_weighted=wexp,
+        kg_collected=kg, expected_overflows_weighted=wexp, co2_empty_kg=co2_empty_g / 1000.0,
     )

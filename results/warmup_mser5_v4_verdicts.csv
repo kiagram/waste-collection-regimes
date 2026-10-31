@@ -1,0 +1,57 @@
+experiment,cell,warmup,net,hw,verdict
+Tehran,"(0.35, 'current')",as used,-139.34940368131407,34.21085504556565,does not pay
+Tehran,"(0.35, 'double')",as used,-346.32114458971904,35.28414474392509,does not pay
+Tehran,"(1.0, 'current')",as used,-259.32649878604127,51.87920923779661,does not pay
+Tehran,"(1.0, 'double')",as used,-218.6724332538883,145.70756610097592,does not pay
+Tehran,"(0.35, 'current')",MSER-5 warm-up,-136.81464251248676,19.691544399216216,does not pay
+Tehran,"(0.35, 'double')",MSER-5 warm-up,-368.3468712717647,63.466020343044306,does not pay
+Tehran,"(1.0, 'current')",MSER-5 warm-up,-266.48745666359673,60.1461017477039,does not pay
+Tehran,"(1.0, 'double')",MSER-5 warm-up,-211.44119595040343,144.58168320760765,does not pay
+regime map,"(0.25, 0.35, 'clustered')",as used,-59.68961732885918,34.92670541854993,does not pay
+regime map,"(0.25, 0.35, 'uniform')",as used,-35.8700996264104,24.527301563320474,does not pay
+regime map,"(0.25, 1.0, 'clustered')",as used,18.989260520868694,5.151091474489075,pays
+regime map,"(0.25, 1.0, 'uniform')",as used,-2.4743481343130647,18.61447461129701,inconclusive
+regime map,"(0.4, 0.35, 'clustered')",as used,-47.2032361653789,28.50631683625549,does not pay
+regime map,"(0.4, 0.35, 'uniform')",as used,-25.14702058874714,38.85099153140503,inconclusive
+regime map,"(0.4, 1.0, 'clustered')",as used,64.9625111541396,42.78827367660786,pays
+regime map,"(0.4, 1.0, 'uniform')",as used,75.48961471985083,31.040102354672264,pays
+regime map,"(0.5, 0.35, 'clustered')",as used,-7.1057986665116335,41.9635114750443,inconclusive
+regime map,"(0.5, 0.35, 'uniform')",as used,-51.91739427363427,44.89805879791291,does not pay
+regime map,"(0.5, 1.0, 'clustered')",as used,76.22643544932956,26.017990263592758,pays
+regime map,"(0.5, 1.0, 'uniform')",as used,115.0754385566175,37.69450821981309,pays
+regime map,"(0.65, 0.35, 'clustered')",as used,139.6841356240452,40.953326855178204,pays
+regime map,"(0.65, 0.35, 'uniform')",as used,124.24293799908435,111.21039856881447,pays
+regime map,"(0.65, 1.0, 'clustered')",as used,12.555432386615541,33.81591457777542,inconclusive
+regime map,"(0.65, 1.0, 'uniform')",as used,41.22877896403224,39.21472794581727,pays
+regime map,"(0.8, 0.35, 'clustered')",as used,48.21080379861562,37.964804364200454,pays
+regime map,"(0.8, 0.35, 'uniform')",as used,82.78309917893839,61.522043764262,pays
+regime map,"(0.8, 1.0, 'clustered')",as used,-28.297802428652027,30.079823658693826,inconclusive
+regime map,"(0.8, 1.0, 'uniform')",as used,-19.00076810785776,31.384036800559986,inconclusive
+regime map,"(1.0, 0.35, 'clustered')",as used,78.96479603544371,270.59254400258425,inconclusive
+regime map,"(1.0, 0.35, 'uniform')",as used,-17.535030711860223,47.7170683133859,inconclusive
+regime map,"(1.0, 1.0, 'clustered')",as used,30.22009897020216,167.18821436902766,inconclusive
+regime map,"(1.0, 1.0, 'uniform')",as used,-16.588406633817918,49.69720942372373,inconclusive
+regime map,"(0.25, 0.35, 'clustered')",MSER-5 warm-up,-73.8201952234388,18.693603657517635,does not pay
+regime map,"(0.25, 0.35, 'uniform')",MSER-5 warm-up,-30.110044911910705,44.72914311107991,inconclusive
+regime map,"(0.25, 1.0, 'clustered')",MSER-5 warm-up,26.296803834911803,38.039491108364835,inconclusive
+regime map,"(0.25, 1.0, 'uniform')",MSER-5 warm-up,-3.2018419021902567,13.772885671380442,inconclusive
+regime map,"(0.4, 0.35, 'clustered')",MSER-5 warm-up,-52.97866844480902,37.816097511094405,does not pay
+regime map,"(0.4, 0.35, 'uniform')",MSER-5 warm-up,-8.557867315849691,57.865384866597076,inconclusive
+regime map,"(0.4, 1.0, 'clustered')",MSER-5 warm-up,65.9119729179244,59.41214555197312,pays
+regime map,"(0.4, 1.0, 'uniform')",MSER-5 warm-up,67.25006909833608,40.08899568723271,pays
+regime map,"(0.5, 0.35, 'clustered')",MSER-5 warm-up,-2.9515896091261684,41.76281529506365,inconclusive
+regime map,"(0.5, 0.35, 'uniform')",MSER-5 warm-up,-25.07343314988769,33.050120076799445,inconclusive
+regime map,"(0.5, 1.0, 'clustered')",MSER-5 warm-up,38.41336869671547,53.48099121955588,inconclusive
+regime map,"(0.5, 1.0, 'uniform')",MSER-5 warm-up,151.19350787864363,168.44430078714657,inconclusive
+regime map,"(0.65, 0.35, 'clustered')",MSER-5 warm-up,142.05493181548962,45.28281395705345,pays
+regime map,"(0.65, 0.35, 'uniform')",MSER-5 warm-up,106.53208637560128,99.70865180306247,pays
+regime map,"(0.65, 1.0, 'clustered')",MSER-5 warm-up,17.114586210845495,45.36932666938081,inconclusive
+regime map,"(0.65, 1.0, 'uniform')",MSER-5 warm-up,44.10294991562251,44.54528941065037,inconclusive
+regime map,"(0.8, 0.35, 'clustered')",MSER-5 warm-up,48.3226167690216,27.060882099422045,pays
+regime map,"(0.8, 0.35, 'uniform')",MSER-5 warm-up,82.1064840761274,64.68371651873264,pays
+regime map,"(0.8, 1.0, 'clustered')",MSER-5 warm-up,-31.040168306413047,31.678734841928357,inconclusive
+regime map,"(0.8, 1.0, 'uniform')",MSER-5 warm-up,-25.45798272515534,27.45890140761954,inconclusive
+regime map,"(1.0, 0.35, 'clustered')",MSER-5 warm-up,66.20654046998223,234.47112430627308,inconclusive
+regime map,"(1.0, 0.35, 'uniform')",MSER-5 warm-up,-20.197870910478592,55.34129015888226,inconclusive
+regime map,"(1.0, 1.0, 'clustered')",MSER-5 warm-up,15.037099251887788,138.50692718761206,inconclusive
+regime map,"(1.0, 1.0, 'uniform')",MSER-5 warm-up,-18.740907657779495,36.87719846646789,inconclusive

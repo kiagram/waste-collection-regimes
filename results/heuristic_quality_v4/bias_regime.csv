@@ -1,0 +1,25 @@
+rate_mult,cv,layout,best_no_sensor,best_sensor,net_saving_reported,net_saving_worst_for_sensing,net_saving_best_for_sensing,verdict
+1.0,1.0,clustered,fixed_daily,risk_cfa_t15,30.2,-92.5,-90.8,sensing does not pay under any gap
+0.8,1.0,clustered,fixed_daily,risk_cfa_t15/risk_cfa_t5,-28.3,-137.1,-135.7,sensing does not pay under any gap
+0.65,1.0,clustered,fixed_daily,risk_cfa_t15,12.6,-57.3,-55.7,sensing does not pay under any gap
+0.5,1.0,clustered,fixed_daily,risk_cfa_t15,76.2,8.3,9.5,sensing pays under any gap
+0.4,1.0,clustered,fixed_daily,risk_cfa_t15,65.0,57.2,61.3,sensing pays under any gap
+0.25,1.0,clustered,periodic2/periodic3,threshold50,19.0,-25.1,55.3,depends on the gap
+1.0,0.35,clustered,fixed_daily,risk_cfa_t15,79.0,-43.4,-41.7,sensing does not pay under any gap
+0.8,0.35,clustered,fixed_daily,risk_cfa_t15,48.2,-58.0,-56.8,sensing does not pay under any gap
+0.65,0.35,clustered,fixed_daily,risk_cfa_t15,139.7,64.8,66.3,sensing pays under any gap
+0.5,0.35,clustered,periodic2,risk_cfa_t15,-7.1,-56.1,12.4,depends on the gap
+0.4,0.35,clustered,periodic2,risk_cfa_t15,-47.2,-105.3,-43.2,sensing does not pay under any gap
+0.25,0.35,clustered,periodic4,risk_cfa_t15,-59.7,-94.4,-57.3,sensing does not pay under any gap
+1.0,1.0,uniform,fixed_daily,risk_cfa_t15,-16.6,-139.9,-138.2,sensing does not pay under any gap
+0.8,1.0,uniform,fixed_daily,risk_cfa_t15,-19.0,-128.7,-127.4,sensing does not pay under any gap
+0.65,1.0,uniform,fixed_daily,risk_cfa_t15,41.2,-31.7,-30.1,sensing does not pay under any gap
+0.5,1.0,uniform,fixed_daily,risk_cfa_t15/risk_myopic,115.1,46.8,47.9,sensing pays under any gap
+0.4,1.0,uniform,fixed_daily,risk_cfa_t15,75.5,67.7,71.6,sensing pays under any gap
+0.25,1.0,uniform,periodic2/periodic3,threshold50,-2.5,-44.1,33.7,depends on the gap
+1.0,0.35,uniform,fixed_daily,risk_cfa_t15,-17.5,-137.7,-136.1,sensing does not pay under any gap
+0.8,0.35,uniform,fixed_daily,risk_cfa_t15,82.8,-28.3,-27.0,sensing does not pay under any gap
+0.65,0.35,uniform,periodic2,risk_cfa_t15,124.2,64.5,149.2,sensing pays under any gap
+0.5,0.35,uniform,periodic2,risk_cfa_t15/risk_cfa_t5/threshold50,-51.9,-103.3,-27.6,sensing does not pay under any gap
+0.4,0.35,uniform,periodic3,risk_cfa_t15,-25.1,-78.7,-21.3,sensing does not pay under any gap
+0.25,0.35,uniform,blind_threshold50/periodic4,risk_cfa_t15,-35.9,-70.8,-33.5,sensing does not pay under any gap

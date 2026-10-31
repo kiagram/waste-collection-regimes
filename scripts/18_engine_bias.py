@@ -1,75 +1,89 @@
-"""Are the conclusions robust to the routing engine's optimality gap?
+"""Are the v4 conclusions robust to the routing engine's optimality gap?
 
-17_heuristic_quality.py measures, per policy class, how far the simulation engine's cost lies above a
-much longer search on representative nights (gap range [gmin, gmax]). Here every headline comparison is
-recomputed under the adversarial correction: the option claimed to be better is corrected by its
-SMALLEST measured gap (true cost = reported / (1 + gmin)) and the option it is compared with by its
-LARGEST (reported / (1 + gmax)), or the reverse when the claim is that a saving is small.
-Capital costs (sensors, containers) are not affected. Classes without a measurement (threshold rule)
-are left uncorrected, which is conservative for every claim below.
-usage: python scripts/18_engine_bias.py
+17_heuristic_quality.py measures how far the simulation engine's nightly cost lies above a much longer
+search (gap range [gmin, gmax] per instance family and policy class). Here each sensing decision is
+recomputed under the adversarial correction: the engine gap affects operating cost only, true operating
+cost = reported / (1 + g). To test a claim that sensing does NOT pay, the sensor option is corrected by
+the LARGEST gap and the no-sensor option by the SMALLEST (the sensor saving grows as much as the
+measurements allow); to test a claim that sensing DOES pay, the reverse. Policy classes without their own
+measurement (periodic, threshold, blind) take the full measured range of their instance family.
+Overflow, cleanup and sensor costs are not affected by the routing gap.
+usage: python scripts/18_engine_bias.py [regime_reps]
 """
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
-sys.path.insert(0, str(ROOT / "scripts"))
 
-from importlib import import_module
-
+import numpy as np
 import pandas as pd
 
 from swc.config import MODEL_VERSION as V
+from swc.experiments import family
 
-be = import_module("08_break_even")
-g = pd.read_csv(ROOT / "results" / f"heuristic_quality_{V}" / "district_gaps.csv").dropna(subset=["gap_pct"])
-rng = g.groupby(["kind", "scenario", "policy"]).gap_pct.agg(["min", "max"]) / 100
-print("measured gap ranges (fraction):\n", rng.round(3))
-
-T = pd.read_csv(ROOT / "results" / f"tehran_d6_{V}_r5_d20_it5000" / "summary_by_rep.csv")
-T = T[T.cv == 1.0].groupby(["capacity", "policy"]).cost_per_day.mean()
-SENS = {"current": be.sensor_cost_per_day(2852, 21.4), "double": be.sensor_cost_per_day(5704, 21.4)}
-BINS = 2852 * 150.0 / (8 * 365)
+REG_REPS = sys.argv[1] if len(sys.argv) > 1 else "8"
+OUT = ROOT / "results" / f"heuristic_quality_{V}"
+g = pd.read_csv(OUT / "district_gaps.csv").dropna(subset=["gap_pct"])
+g["gap"] = g.gap_pct.clip(lower=0) / 100
 
 
-def teh(cap, pol, bound):
-    cls = "fd" if pol == "fixed_daily" else ("risk" if pol.startswith("risk") else None)
-    gap = 0.0 if cls is None else rng.loc[("tehran", cap, cls), bound]
-    capex = (BINS if cap == "double" else 0.0) + (SENS[cap] if pol != "fixed_daily" else 0.0)
-    return T[(cap, pol)] / (1 + gap) + capex
+def gap_range(kind, scenario, pol):
+    """[gmin, gmax] for a policy on an instance family/scenario."""
+    sub = g[g.kind == kind]
+    cls = "fd" if pol == "fixed_daily" else ("risk" if family(pol) == "risk" else None)
+    if kind == "synthetic":       # nearest measured fill speed
+        mults = sorted(sub.scenario.astype(float).unique())
+        m = min(mults, key=lambda x: abs(x - float(scenario)))
+        sub = sub[sub.scenario.astype(float) == m]
+    else:
+        sub = sub[sub.scenario == ("double" if scenario in ("double", "targeted", "large") else "current")]
+    s = sub[sub.policy == cls] if cls is not None and (sub.policy == cls).any() else g[g.kind == kind]
+    return float(s.gap.min()), float(s.gap.max())
 
 
-rows = []
-# C1: sensors alone cost more than today (claim: RC > FD). Adversarial: RC small, FD large.
-rows.append(("C1 sensors alone cost more than daily collection", teh("current", "risk_cfa_t5", "max"),
-             teh("current", "fixed_daily", "min"), ">"))
-# C3: with doubled bins, sensors cheaper than daily (claim: double RC < double FD). Adversarial: RC large, FD small.
-rows.append(("C3 doubled bins: sensors cheaper than daily collection", teh("double", "risk_cfa_t5", "min"),
-             teh("double", "fixed_daily", "max"), "<"))
-# C4: threshold cheapest (claim: TH < FD). TH uncorrected; FD corrected by its largest gap.
-rows.append(("C4 threshold rule cheaper than daily collection", teh("current", "threshold70", "min"),
-             teh("current", "fixed_daily", "max"), "<"))
-out = []
-for name, a, b, op in rows:
-    holds = a > b if op == ">" else a < b
-    out.append(dict(claim=name, option=round(a), compared_with=round(b), diff_pct=round(100 * (a / b - 1), 1), holds=holds))
-t1 = pd.DataFrame(out)
-print("\nTehran District 6 under adversarial gap correction (USD/day incl. capital cost):\n", t1.to_string(index=False))
+def corrected(row, kind, scenario, which):
+    lo, hi = gap_range(kind, scenario, row["policy"])
+    gap = hi if which == "max" else lo
+    op = row["cost_per_day"] / (1 + gap)
+    sens = row["sensor_cost_day"] if row["sensing"] else 0.0
+    return op + (row["social_cost"] - row["cost_per_day"]) + sens
 
-R = pd.read_csv(ROOT / "results" / f"regime_map_{V}_n150_r5_d20_it5000" / "summary_by_rep.csv")
-R = R[R.cv == 1.0].groupby(["rate_mult", "policy"]).cost_per_day.mean()
-out = []
-for m in (1.0, 0.5, 0.33):
-    fd, rk = R[(m, "fixed_daily")], R[(m, "risk_myopic")]
-    gf, gr = rng.loc[("synthetic", str(m), "fd")], rng.loc[("synthetic", str(m), "risk")]
-    lo = 100 * (rk / (1 + gr["min"]) / (fd / (1 + gf["max"])) - 1)   # saving shrinks most
-    hi = 100 * (rk / (1 + gr["max"]) / (fd / (1 + gf["min"])) - 1)   # saving grows most
-    out.append(dict(days_to_full={1.0: 2.8, 0.5: 5.5, 0.33: 8.3}[m], reported=round(100 * (rk / fd - 1), 1),
-                    corrected_range=f"{min(lo, hi):+.1f} to {max(lo, hi):+.1f}"))
-t2 = pd.DataFrame(out)
-print("\nRegime map (CV 1.0), risk-based vs daily collection, operating-cost change (%):\n", t2.to_string(index=False))
-d = ROOT / "results" / f"heuristic_quality_{V}"
-t1.to_csv(d / "bias_tehran.csv", index=False)
-t2.to_csv(d / "bias_regime.csv", index=False)
-print("saved", d)
+
+def verdicts(tuned, keys, kind, scen_key):
+    out = []
+    for cell, c in tuned.groupby(keys, sort=False):
+        ns = c[c.tuned_family == "best_no_sensor"].set_index("rep")
+        se = c[c.tuned_family == "best_sensor"].set_index("rep").loc[ns.index]
+        scen = cell[keys.index(scen_key)]
+        rep_net = (ns.social_cost - se.social_cost - se.sensor_cost_day).mean()
+        # most favourable to sensing / least favourable, over the measured gap ranges
+        fav = np.mean([corrected(ns.loc[r], kind, scen, "min") - corrected(se.loc[r], kind, scen, "max")
+                       for r in ns.index])
+        unfav = np.mean([corrected(ns.loc[r], kind, scen, "max") - corrected(se.loc[r], kind, scen, "min")
+                         for r in ns.index])
+        out.append(dict(zip(keys, cell), best_no_sensor="/".join(sorted(set(ns.chosen))),
+                        best_sensor="/".join(sorted(set(se.chosen))), net_saving_reported=round(rep_net, 1),
+                        net_saving_worst_for_sensing=round(unfav, 1), net_saving_best_for_sensing=round(fav, 1),
+                        verdict=("sensing pays under any gap" if unfav > 0 else
+                                 "sensing does not pay under any gap" if fav < 0 else "depends on the gap")))
+    return pd.DataFrame(out)
+
+
+pd.set_option("display.width", 250)
+T = pd.read_csv(ROOT / "results" / f"tehran_d6_{V}_r5_it5000" / "tuned_by_rep.csv")
+t1 = verdicts(T, ["cv", "capacity"], "tehran", "capacity")
+print("Tehran District 6 (net saving of the best sensor policy over the best no-sensor policy, USD/day):")
+print(t1.to_string(index=False))
+S = pd.read_csv(ROOT / "results" / f"tehran_sensitivity_{V}_r3_it5000" / "tuned_by_rep.csv")
+t2 = verdicts(S, ["scenario", "capacity"], "tehran", "capacity")
+print("\nTehran sensitivity scenarios:")
+print(t2.to_string(index=False))
+R = pd.read_csv(ROOT / "results" / f"regime_map_{V}_n150_r{REG_REPS}_it5000" / "tuned_by_rep.csv")
+t3 = verdicts(R, ["rate_mult", "cv", "layout"], "synthetic", "rate_mult")
+print("\nRegime map:")
+print(t3.to_string(index=False))
+t1.to_csv(OUT / "bias_tehran.csv", index=False)
+t2.to_csv(OUT / "bias_tehran_sensitivity.csv", index=False)
+t3.to_csv(OUT / "bias_regime.csv", index=False)
+print("saved", OUT)
