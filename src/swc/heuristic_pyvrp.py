@@ -123,7 +123,7 @@ def solve_pyvrp(inst: Instance, penalty: np.ndarray, mandatory: set[int], time_s
     # truck-type swaps, then a short re-optimisation from the swapped plan (repeat while it helps)
     vt_of = {k: vt for vt, grp in enumerate(type_trucks) for k in grp}
     for _ in range(3 if (warm_start and best.is_feasible()) else 0):
-        routes, changed = swap_types(inst, routes, T)
+        routes, changed = swap_types(inst, routes, T, carbon_price)
         if not changed:
             break
         data = m.data()
@@ -190,22 +190,25 @@ def reduce_fleet(data, best, best_cost, seed, params, time_s, iters, max_rounds=
 
 def solve_pyvrp_best(inst: Instance, penalty: np.ndarray, mandatory: set[int], starts: int = 2, seed: int = 0,
                      **kw) -> Solution:
-    """Best of `starts` independent warm-started runs (seeds seed, seed+1, ...), by the checker's cost."""
+    """Best of `starts` independent warm-started runs (seeds seed, seed+1, ...), by the checker's value
+    of the objective the search optimised (cost, plus the carbon charge if a carbon price is set)."""
     best, best_cost, wall = None, np.inf, 0.0
+    lam = kw.get("carbon_price", 0.0)
     for s in range(starts):
         sol = solve_pyvrp(inst, penalty, mandatory, seed=seed + s, **kw)
         wall += sol.wall_s
         k = evaluate(inst, sol.routes, penalty, mandatory=mandatory)
-        c = k.cost_total if k.feasible else np.inf
+        c = k.priced(lam) if k.feasible else np.inf
         if best is None or c < best_cost:
             best, best_cost = sol, c
     best.wall_s = wall
     return best
 
 
-def swap_types(inst: Instance, routes: list, max_trips: int) -> tuple[list, bool]:
+def swap_types(inst: Instance, routes: list, max_trips: int, carbon_price: float = 0.0) -> tuple[list, bool]:
     """Exact truck-type swap: move a used truck's whole plan onto an idle truck of another type when
-    that truck can carry every trip within its shift and the cost (fixed + distance) falls.
+    that truck can carry every trip within its shift and the cost (fixed + distance, plus the carbon
+    charge on empty-truck emissions that the search itself prices) falls.
 
     Local search moves visits one or two at a time, so it rarely changes the type of a whole route;
     with fixed costs per shift that differ by type this leaves easy savings. Best improvement first.
@@ -230,6 +233,7 @@ def swap_types(inst: Instance, routes: list, max_trips: int) -> tuple[list, bool
                 if vj is vk or max(loads) > vj.capacity_kg:
                     continue
                 delta = (vj.fixed_cost - vk.fixed_cost) + (vj.var_cost_per_km - vk.var_cost_per_km) * km
+                delta += carbon_price * (vj.a_g_per_m - vk.a_g_per_m) * km / 1000.0  # kg/km * USD/t
                 if delta < best[0] - 1e-9:
                     best = (delta, k, j)
         if best[1] is None:

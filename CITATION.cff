@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the article."
 title: "waste-collection-regimes: risk-priced selective routing and regime analysis for sensor-based waste collection"
-version: 1.0.0
-date-released: 2026-09-29
+version: 2.0.0
+date-released: 2026-10-31
 license: MIT
 repository-code: "https://github.com/kiagram/waste-collection-regimes"
 authors:

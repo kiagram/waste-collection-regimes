@@ -1,14 +1,14 @@
-"""Cost robustness of the Tehran District 6 conclusions (ex-post re-costing).
+"""Price robustness of the Tehran District 6 conclusions (v4): prices that change no routing decision.
 
-Each cost component is varied one at a time by -50% / +50% (truck fixed cost per shift, cost
-per km, sensor-network cost, container price). The simulated plans (optimised at base prices)
-are re-costed; the paper states this approximation. For every scenario the four headline
-claims of R13 are re-checked:
-  C1 sensors alone (current bins, risk policy) cost more than today's practice
-  C2 doubling capacity reduces overflow volume (cost-independent; checked once)
-  C3 with doubled bins, sensors + risk policy is cheaper than collecting every point daily
-  C4 the threshold rule is the cheapest option but overflows more than today
-usage: python scripts/13_cost_robustness.py [results_dir_name]
+Sensor-network, container and cleanup prices, and the overflow valuation used for scoring, do not enter
+any nightly decision (the risk policies price overflow at their own c_o = 60), so they can be varied
+ex post on the simulated runs. Truck prices do change decisions and are re-optimised in
+12_tehran_sensitivity.py. For every price scenario the families are re-tuned leave-one-replication-out on
+the re-priced social cost, and two conclusions are re-checked per variability level:
+  S  sensing does not pay: best sensor policy (incl. sensor network) vs best policy without sensors
+     (value = net saving of sensing; the claim holds when the whole 95% interval is below zero)
+  K  doubling container capacity lowers the social cost, container capital cost included
+usage: python scripts/13_cost_robustness.py
 """
 import sys
 from importlib import import_module
@@ -18,89 +18,48 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 sys.path.insert(0, str(ROOT / "scripts"))
 
+import numpy as np
 import pandas as pd
 
+from swc.config import MODEL_VERSION as V
+from swc.experiments import loo_tuned, paired_ci
+
 be = import_module("08_break_even")
-from swc.config import MODEL_VERSION
-res_dir = ROOT / "results" / (sys.argv[1] if len(sys.argv) > 1 else f"tehran_d6_{MODEL_VERSION}_r5_d20_it5000")
-BURN, AREA, BINS = 3, 21.4, {"current": 2852, "double": 5704}
-BIN_USD, BIN_LIFE_Y = 150.0, 8.0
+res = ROOT / "results" / f"tehran_d6_{V}_r5_it5000"
+df0 = pd.read_csv(res / "summary_by_rep.csv")
+BIN_USD, BIN_LIFE_Y, EXTRA_BINS = 150.0, 8.0, 2852
+BASE = dict(sensor=1.0, container=1.0, cleanup=30.0, overflow=60.0)
+SCEN = {"base": {}, "sensor x0.5": dict(sensor=0.5), "sensor x2": dict(sensor=2.0),
+        "container x0.5": dict(container=0.5), "container x1.5": dict(container=1.5),
+        "cleanup 0": dict(cleanup=0.0), "cleanup 100": dict(cleanup=100.0),
+        "overflow 30": dict(overflow=30.0), "overflow 120": dict(overflow=120.0)}
 
 rows = []
-for f in sorted(res_dir.glob("days_cv1_*_rep*.csv")):
-    _, cv, cap, *pol, rep = f.stem.split("_")
-    pol = "_".join(pol)
-    d = pd.read_csv(f).iloc[BURN:]
-    rows.append(dict(capacity=cap, policy=pol, rep=int(rep[3:]), fixed=d.cost_fixed.mean(),
-                     variable=d.cost_variable.mean(), overflow_m3=1.1 * d.overflow_volume_bins.mean()))
-base = pd.DataFrame(rows).groupby(["capacity", "policy"])[["fixed", "variable", "overflow_m3"]].mean()
-reps = pd.DataFrame(rows).rep.nunique()
-print(f"source: {res_dir.name} ({reps} replications, CV 1.0)\n")
-
-
-def totals(f_fix=1.0, f_var=1.0, f_sensor=1.0, f_bin=1.0):
-    t = {}
-    for (cap, pol), r in base.iterrows():
-        capex = 0.0
-        if cap == "double":
-            capex += f_bin * 2852 * BIN_USD / (BIN_LIFE_Y * 365)
-        if pol != "fixed_daily":
-            capex += f_sensor * be.sensor_cost_per_day(BINS[cap], AREA)
-        t[(cap, pol)] = f_fix * r.fixed + f_var * r.variable + capex
-    return t
-
-
-def claims(t):
-    today = t[("current", "fixed_daily")]
-    thr = t[("current", "threshold70")]
-    return {
-        "C1 sensors alone cost more": t[("current", "risk_cfa_t5")] > today,
-        "C3 double+sensors < double+daily": t[("double", "risk_cfa_t5")] < t[("double", "fixed_daily")],
-        "C4 threshold cheapest": thr <= min(t.values()) + 1e-9,
-    }
-
-
-scen = [("base", {})]
-for comp in ("f_fix", "f_var", "f_sensor", "f_bin"):
-    for m in (0.5, 1.5):
-        scen.append((f"{comp}x{m:g}", {comp: m}))
-out = []
-for name, kw in scen:
-    t = totals(**kw)
-    c = claims(t)
-    out.append(dict(scenario=name, today=round(t[("current", "fixed_daily")]),
-                    sensors_only=round(t[("current", "risk_cfa_t5")]), double_daily=round(t[("double", "fixed_daily")]),
-                    double_sensors=round(t[("double", "risk_cfa_t5")]), threshold=round(t[("current", "threshold70")]),
-                    **c))
-tab = pd.DataFrame(out)
-print(tab.to_string(index=False))
-ov = base["overflow_m3"]
-print(f"\nC2 overflow m3/day: today {ov[('current', 'fixed_daily')]:.1f} -> double+daily "
-      f"{ov[('double', 'fixed_daily')]:.1f}, double+sensors {ov[('double', 'risk_cfa_t5')]:.1f}; "
-      f"threshold {ov[('current', 'threshold70')]:.1f}")
-held = {k: bool(tab[k].all()) for k in tab.columns if k.startswith("C")}
-print("claims holding in ALL cost scenarios:", held)
-tab.to_csv(res_dir / "cost_robustness.csv", index=False)
-print("saved", res_dir / "cost_robustness.csv")
-
-
-def breakeven(comp, lo=0.1, hi=5.0, tol=1e-3):
-    """Multiplier of one cost component at which C3 flips (None if it never flips in [lo, hi])."""
-    f = lambda m: (lambda t: t[("double", "fixed_daily")] - t[("double", "risk_cfa_t5")])(totals(**{comp: m}))
-    a, b = f(lo), f(hi)
-    if a * b > 0:
-        return None
-    while hi - lo > tol:
-        mid = (lo + hi) / 2
-        if f(mid) * a > 0:
-            lo, a = mid, f(mid)
-        else:
-            hi = mid
-    return round((lo + hi) / 2, 3)
-
-
-print("\nC3 break-even multipliers (sensors pay after capacity expansion only on one side of these):")
-for comp, label in (("f_fix", "truck fixed cost/shift"), ("f_var", "cost per km"), ("f_sensor", "sensor-network cost"),
-                    ("f_bin", "container price")):
-    m = breakeven(comp)
-    print(f"  {label:24s}: {'never flips in 0.1-5x' if m is None else f'flips at {m}x base'}")
+for name, ch in SCEN.items():
+    p = {**BASE, **ch}
+    d = df0.copy()
+    d["sensor_cost_day"] = d["sensor_cost_day"] * p["sensor"]
+    d["social_cost"] = (d.cost_per_day + p["cleanup"] * d.spill_t_per_day
+                        + p["overflow"] * d.overflow_weighted_per_day)
+    t = loo_tuned(d, ["cv", "capacity"])
+    t["net"] = t.social_cost + np.where(t.sensing.astype(bool), t.sensor_cost_day, 0.0)
+    t.loc[t.capacity == "double", "net"] += p["container"] * EXTRA_BINS * BIN_USD / (BIN_LIFE_Y * 365)
+    for cv, g in t.groupby("cv"):
+        for cap in ("current", "double"):
+            c = g[g.capacity == cap]
+            ns = c[c.tuned_family == "best_no_sensor"].set_index("rep")
+            se = c[c.tuned_family == "best_sensor"].set_index("rep").loc[ns.index]
+            s, hw = paired_ci(ns.net - se.net)
+            rows.append(dict(scenario=name, cv=cv, claim=f"S sensing does not pay ({cap})", value=round(s, 1),
+                             hw=round(hw, 1), holds_original=s + hw < 0,
+                             detail=f"{ns.chosen.mode().iloc[0]} vs {se.chosen.mode().iloc[0]}"))
+        best = {cap: g[(g.capacity == cap) & g.tuned_family.isin(["best_no_sensor", "best_sensor"])]
+                .groupby("rep").net.min() for cap in ("current", "double")}
+        k, hw = paired_ci(best["double"] - best["current"])
+        rows.append(dict(scenario=name, cv=cv, claim="K doubling capacity lowers social cost", value=round(k, 1),
+                         hw=round(hw, 1), holds_original=k + hw < 0, detail="best option per capacity"))
+out = pd.DataFrame(rows)
+pd.set_option("display.width", 250)
+print(out.to_string(index=False))
+out.to_csv(res / "cost_robustness.csv", index=False)
+print("saved", res / "cost_robustness.csv")

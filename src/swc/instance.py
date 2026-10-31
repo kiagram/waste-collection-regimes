@@ -30,6 +30,8 @@ class Instance:
     params: Params = field(default_factory=Params)
     dist_m: np.ndarray | None = None  # (n+2, n+2) road distances in metres (int)
     bins_per_point: np.ndarray | None = None  # (n,) number of identical bins at each collection point
+    street_bins: np.ndarray | None = None     # (n,) spilled waste the crew picks up tonight if the point is served,
+                                              # in container volumes (simulator state; zero for a single night)
 
     def __post_init__(self):
         if self.bins_per_point is None:
@@ -56,13 +58,22 @@ class Instance:
         return range(1, self.n + 1)
 
     def demand_kg(self) -> np.ndarray:
-        """Waste collected if a bin is emptied tonight (kg, integer), capped at the bin volume."""
+        """Waste collected if a point is served tonight (kg, integer): its containers, capped at their
+        volume, plus any spilled waste lying next to them."""
         full = self.params.ops.bin_full_kg
-        return np.rint(np.clip(self.fill, 0.0, 1.0) * full * self.bins_per_point).astype(np.int64)
+        vol = np.clip(self.fill, 0.0, 1.0) * self.bins_per_point
+        if self.street_bins is not None:
+            vol = vol + self.street_bins
+        return np.rint(vol * full).astype(np.int64)
 
     def service_s(self) -> np.ndarray:
-        """Service time at each collection point (s): lift-and-tip time x number of containers."""
-        return (self.params.ops.service_s_per_bin * self.bins_per_point).astype(np.int64)
+        """Service time at each collection point (s): lift-and-tip time x number of containers, plus
+        manual pick-up of spilled waste."""
+        ops = self.params.ops
+        s = ops.service_s_per_bin * self.bins_per_point.astype(float)
+        if self.street_bins is not None:
+            s = s + ops.service_s_per_bin * self.params.spill.manual_service_factor * self.street_bins
+        return np.rint(s).astype(np.int64)
 
     def travel_s(self) -> np.ndarray:
         v = self.params.ops.speed_kmh / 3.6
@@ -82,6 +93,7 @@ class Instance:
             rate_sd_per_h=self.rate_sd_per_h[b], zone=[self.zone[i] for i in b],
             vehicles=list(self.vehicles), params=self.params,
             dist_m=self.dist_m[np.ix_(rows, rows)], bins_per_point=self.bins_per_point[b],
+            street_bins=None if self.street_bins is None else self.street_bins[b],
         )
 
 
@@ -108,7 +120,7 @@ def _assign_zones(xy: np.ndarray, rng: np.random.Generator, n_centres: int = 8,
 
 def from_thesis_excel(path: str | Path, params: Params | None = None, seed: int = 0,
                       grid_unit_m: float = 50.0) -> Instance:
-    """The 90-bin set used in the MSc thesis (synthetic grid).
+    """The 90-bin set used in the MSc thesis (synthetic grid, see audit C1).
 
     grid_unit_m: the thesis grid (-50..50) is interpreted as 50 m per unit, i.e. a
     5 km x 5 km area, roughly the size of Tehran District 6. Zones are assigned

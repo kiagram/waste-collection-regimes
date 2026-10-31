@@ -1,0 +1,11 @@
+rate_mult,family,overflow_target,cost_at_target,policy_at_target,envelope
+0.5,blind_risk,7.6,,,"blind_risk@480(486,27.2)"
+0.5,blind_threshold,7.6,,,"blind_threshold50(595,93.7)"
+0.5,periodic,7.6,732.2,fixed_daily,"fixed_daily(732,7.6) periodic2(496,23.6)"
+0.5,risk,7.6,,,"risk_cfa_t5@480(570,8.0) risk_cfa_t5@240(520,8.1) risk_cfa_t5@120(483,8.5) risk_cfa_t15(465,10.8) risk_myopic(446,11.4)"
+0.5,threshold,7.6,,,"threshold50(490,23.7)"
+1.0,blind_risk,71.32,,,"blind_risk@480(1362,149.8)"
+1.0,blind_threshold,71.32,,,"blind_threshold50(1609,250.1)"
+1.0,periodic,71.32,1202.5,fixed_daily,"fixed_daily(1203,71.3)"
+1.0,risk,71.32,1183.1,risk_cfa_t5@240,"risk_cfa_t5@480(1185,70.6) risk_cfa_t5@240(1183,70.9) risk_cfa_t5@120(1178,71.4) risk_cfa_t15(1175,72.1) risk_cfa_t5(1168,73.2) risk_myopic(1165,73.5) risk_cfa_t5@30(1162,74.8) risk_cfa_t5@15(1158,77.2)"
+1.0,threshold,71.32,,,"threshold50(1282,112.7)"

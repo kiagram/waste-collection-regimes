@@ -1,0 +1,2725 @@
+experiment,file,days,burn_in,mser5,covered,excess
+Tehran,days_cv1_current_fixed_daily_rep0.csv,23,3,5,False,2
+Tehran,days_cv1_current_periodic2_rep0.csv,23,3,10,False,7
+Tehran,days_cv1_current_periodic3_rep0.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_threshold50_rep0.csv,23,3,5,False,2
+Tehran,days_cv1_current_blind_threshold70_rep0.csv,23,3,5,False,2
+Tehran,days_cv1_current_blind_threshold90_rep0.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_risk_rep0.csv,23,3,10,False,7
+Tehran,days_cv1_current_threshold50_rep0.csv,23,3,0,True,0
+Tehran,days_cv1_current_threshold70_rep0.csv,23,3,10,False,7
+Tehran,days_cv1_current_threshold90_rep0.csv,23,3,10,False,7
+Tehran,days_cv1_current_risk_myopic_rep0.csv,23,3,5,False,2
+Tehran,days_cv1_current_risk_cfa_t5_rep0.csv,23,3,5,False,2
+Tehran,days_cv1_current_risk_cfa_t15_rep0.csv,23,3,5,False,2
+Tehran,days_cv1_double_fixed_daily_rep0.csv,25,5,0,True,0
+Tehran,days_cv1_double_periodic2_rep0.csv,25,5,5,True,0
+Tehran,days_cv1_double_periodic3_rep0.csv,25,5,5,True,0
+Tehran,days_cv1_double_periodic4_rep0.csv,25,5,10,False,5
+Tehran,days_cv1_double_periodic6_rep0.csv,25,5,10,False,5
+Tehran,days_cv1_double_blind_threshold50_rep0.csv,25,5,5,True,0
+Tehran,days_cv1_double_blind_threshold70_rep0.csv,25,5,5,True,0
+Tehran,days_cv1_double_blind_threshold90_rep0.csv,25,5,10,False,5
+Tehran,days_cv1_double_blind_risk_rep0.csv,25,5,5,True,0
+Tehran,days_cv1_double_threshold50_rep0.csv,25,5,10,False,5
+Tehran,days_cv1_double_threshold70_rep0.csv,25,5,10,False,5
+Tehran,days_cv1_double_threshold90_rep0.csv,25,5,5,True,0
+Tehran,days_cv1_double_risk_myopic_rep0.csv,25,5,5,True,0
+Tehran,days_cv1_double_risk_cfa_t5_rep0.csv,25,5,10,False,5
+Tehran,days_cv1_double_risk_cfa_t15_rep0.csv,25,5,0,True,0
+Tehran,days_cv0.35_current_fixed_daily_rep0.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_periodic2_rep0.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_periodic3_rep0.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_blind_threshold50_rep0.csv,23,3,5,False,2
+Tehran,days_cv0.35_current_blind_threshold70_rep0.csv,23,3,5,False,2
+Tehran,days_cv0.35_current_blind_threshold90_rep0.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_blind_risk_rep0.csv,23,3,5,False,2
+Tehran,days_cv0.35_current_threshold50_rep0.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_threshold70_rep0.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_threshold90_rep0.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_risk_myopic_rep0.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_risk_cfa_t5_rep0.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_risk_cfa_t15_rep0.csv,23,3,5,False,2
+Tehran,days_cv0.35_double_fixed_daily_rep0.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_periodic2_rep0.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_periodic3_rep0.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_periodic4_rep0.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_periodic6_rep0.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_blind_threshold50_rep0.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_blind_threshold70_rep0.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_blind_threshold90_rep0.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_blind_risk_rep0.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_threshold50_rep0.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_threshold70_rep0.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_threshold90_rep0.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_risk_myopic_rep0.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_risk_cfa_t5_rep0.csv,25,5,0,True,0
+Tehran,days_cv0.35_double_risk_cfa_t15_rep0.csv,25,5,5,True,0
+Tehran,days_cv1_current_fixed_daily_rep1.csv,23,3,10,False,7
+Tehran,days_cv1_current_periodic2_rep1.csv,23,3,10,False,7
+Tehran,days_cv1_current_periodic3_rep1.csv,23,3,0,True,0
+Tehran,days_cv1_current_blind_threshold50_rep1.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_threshold70_rep1.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_threshold90_rep1.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_risk_rep1.csv,23,3,10,False,7
+Tehran,days_cv1_current_threshold50_rep1.csv,23,3,10,False,7
+Tehran,days_cv1_current_threshold70_rep1.csv,23,3,10,False,7
+Tehran,days_cv1_current_threshold90_rep1.csv,23,3,5,False,2
+Tehran,days_cv1_current_risk_myopic_rep1.csv,23,3,10,False,7
+Tehran,days_cv1_current_risk_cfa_t5_rep1.csv,23,3,10,False,7
+Tehran,days_cv1_current_risk_cfa_t15_rep1.csv,23,3,10,False,7
+Tehran,days_cv1_double_fixed_daily_rep1.csv,25,5,10,False,5
+Tehran,days_cv1_double_periodic2_rep1.csv,25,5,0,True,0
+Tehran,days_cv1_double_periodic3_rep1.csv,25,5,10,False,5
+Tehran,days_cv1_double_periodic4_rep1.csv,25,5,10,False,5
+Tehran,days_cv1_double_periodic6_rep1.csv,25,5,5,True,0
+Tehran,days_cv1_double_blind_threshold50_rep1.csv,25,5,10,False,5
+Tehran,days_cv1_double_blind_threshold70_rep1.csv,25,5,5,True,0
+Tehran,days_cv1_double_blind_threshold90_rep1.csv,25,5,10,False,5
+Tehran,days_cv1_double_blind_risk_rep1.csv,25,5,10,False,5
+Tehran,days_cv1_double_threshold50_rep1.csv,25,5,10,False,5
+Tehran,days_cv1_double_threshold70_rep1.csv,25,5,10,False,5
+Tehran,days_cv1_double_threshold90_rep1.csv,25,5,10,False,5
+Tehran,days_cv1_double_risk_myopic_rep1.csv,25,5,10,False,5
+Tehran,days_cv1_double_risk_cfa_t5_rep1.csv,25,5,10,False,5
+Tehran,days_cv1_double_risk_cfa_t15_rep1.csv,25,5,10,False,5
+Tehran,days_cv0.35_current_fixed_daily_rep1.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_periodic2_rep1.csv,23,3,5,False,2
+Tehran,days_cv0.35_current_periodic3_rep1.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_blind_threshold50_rep1.csv,23,3,5,False,2
+Tehran,days_cv0.35_current_blind_threshold70_rep1.csv,23,3,5,False,2
+Tehran,days_cv0.35_current_blind_threshold90_rep1.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_blind_risk_rep1.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_threshold50_rep1.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_threshold70_rep1.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_threshold90_rep1.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_risk_myopic_rep1.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_risk_cfa_t5_rep1.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_risk_cfa_t15_rep1.csv,23,3,5,False,2
+Tehran,days_cv0.35_double_fixed_daily_rep1.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_periodic2_rep1.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_periodic3_rep1.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_periodic4_rep1.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_periodic6_rep1.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_blind_threshold50_rep1.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_blind_threshold70_rep1.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_blind_threshold90_rep1.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_blind_risk_rep1.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_threshold50_rep1.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_threshold70_rep1.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_threshold90_rep1.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_risk_myopic_rep1.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_risk_cfa_t5_rep1.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_risk_cfa_t15_rep1.csv,25,5,5,True,0
+Tehran,days_cv1_current_fixed_daily_rep2.csv,23,3,0,True,0
+Tehran,days_cv1_current_periodic2_rep2.csv,23,3,10,False,7
+Tehran,days_cv1_current_periodic3_rep2.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_threshold50_rep2.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_threshold70_rep2.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_threshold90_rep2.csv,23,3,5,False,2
+Tehran,days_cv1_current_blind_risk_rep2.csv,23,3,10,False,7
+Tehran,days_cv1_current_threshold50_rep2.csv,23,3,0,True,0
+Tehran,days_cv1_current_threshold70_rep2.csv,23,3,0,True,0
+Tehran,days_cv1_current_threshold90_rep2.csv,23,3,0,True,0
+Tehran,days_cv1_current_risk_myopic_rep2.csv,23,3,0,True,0
+Tehran,days_cv1_current_risk_cfa_t5_rep2.csv,23,3,0,True,0
+Tehran,days_cv1_current_risk_cfa_t15_rep2.csv,23,3,0,True,0
+Tehran,days_cv1_double_fixed_daily_rep2.csv,25,5,10,False,5
+Tehran,days_cv1_double_periodic2_rep2.csv,25,5,10,False,5
+Tehran,days_cv1_double_periodic3_rep2.csv,25,5,10,False,5
+Tehran,days_cv1_double_periodic4_rep2.csv,25,5,10,False,5
+Tehran,days_cv1_double_periodic6_rep2.csv,25,5,10,False,5
+Tehran,days_cv1_double_blind_threshold50_rep2.csv,25,5,5,True,0
+Tehran,days_cv1_double_blind_threshold70_rep2.csv,25,5,5,True,0
+Tehran,days_cv1_double_blind_threshold90_rep2.csv,25,5,10,False,5
+Tehran,days_cv1_double_blind_risk_rep2.csv,25,5,10,False,5
+Tehran,days_cv1_double_threshold50_rep2.csv,25,5,10,False,5
+Tehran,days_cv1_double_threshold70_rep2.csv,25,5,5,True,0
+Tehran,days_cv1_double_threshold90_rep2.csv,25,5,5,True,0
+Tehran,days_cv1_double_risk_myopic_rep2.csv,25,5,0,True,0
+Tehran,days_cv1_double_risk_cfa_t5_rep2.csv,25,5,0,True,0
+Tehran,days_cv1_double_risk_cfa_t15_rep2.csv,25,5,10,False,5
+Tehran,days_cv0.35_current_fixed_daily_rep2.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_periodic2_rep2.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_periodic3_rep2.csv,23,3,5,False,2
+Tehran,days_cv0.35_current_blind_threshold50_rep2.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_blind_threshold70_rep2.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_blind_threshold90_rep2.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_blind_risk_rep2.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_threshold50_rep2.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_threshold70_rep2.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_threshold90_rep2.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_risk_myopic_rep2.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_risk_cfa_t5_rep2.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_risk_cfa_t15_rep2.csv,23,3,0,True,0
+Tehran,days_cv0.35_double_fixed_daily_rep2.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_periodic2_rep2.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_periodic3_rep2.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_periodic4_rep2.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_periodic6_rep2.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_blind_threshold50_rep2.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_blind_threshold70_rep2.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_blind_threshold90_rep2.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_blind_risk_rep2.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_threshold50_rep2.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_threshold70_rep2.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_threshold90_rep2.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_risk_myopic_rep2.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_risk_cfa_t5_rep2.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_risk_cfa_t15_rep2.csv,25,5,0,True,0
+Tehran,days_cv1_current_fixed_daily_rep3.csv,23,3,0,True,0
+Tehran,days_cv1_current_periodic2_rep3.csv,23,3,0,True,0
+Tehran,days_cv1_current_periodic3_rep3.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_threshold50_rep3.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_threshold70_rep3.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_threshold90_rep3.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_risk_rep3.csv,23,3,0,True,0
+Tehran,days_cv1_current_threshold50_rep3.csv,23,3,10,False,7
+Tehran,days_cv1_current_threshold70_rep3.csv,23,3,10,False,7
+Tehran,days_cv1_current_threshold90_rep3.csv,23,3,10,False,7
+Tehran,days_cv1_current_risk_myopic_rep3.csv,23,3,0,True,0
+Tehran,days_cv1_current_risk_cfa_t5_rep3.csv,23,3,0,True,0
+Tehran,days_cv1_current_risk_cfa_t15_rep3.csv,23,3,0,True,0
+Tehran,days_cv1_double_fixed_daily_rep3.csv,25,5,10,False,5
+Tehran,days_cv1_double_periodic2_rep3.csv,25,5,5,True,0
+Tehran,days_cv1_double_periodic3_rep3.csv,25,5,5,True,0
+Tehran,days_cv1_double_periodic4_rep3.csv,25,5,5,True,0
+Tehran,days_cv1_double_periodic6_rep3.csv,25,5,10,False,5
+Tehran,days_cv1_double_blind_threshold50_rep3.csv,25,5,5,True,0
+Tehran,days_cv1_double_blind_threshold70_rep3.csv,25,5,10,False,5
+Tehran,days_cv1_double_blind_threshold90_rep3.csv,25,5,10,False,5
+Tehran,days_cv1_double_blind_risk_rep3.csv,25,5,5,True,0
+Tehran,days_cv1_double_threshold50_rep3.csv,25,5,0,True,0
+Tehran,days_cv1_double_threshold70_rep3.csv,25,5,10,False,5
+Tehran,days_cv1_double_threshold90_rep3.csv,25,5,5,True,0
+Tehran,days_cv1_double_risk_myopic_rep3.csv,25,5,10,False,5
+Tehran,days_cv1_double_risk_cfa_t5_rep3.csv,25,5,10,False,5
+Tehran,days_cv1_double_risk_cfa_t15_rep3.csv,25,5,10,False,5
+Tehran,days_cv0.35_current_fixed_daily_rep3.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_periodic2_rep3.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_periodic3_rep3.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_blind_threshold50_rep3.csv,23,3,5,False,2
+Tehran,days_cv0.35_current_blind_threshold70_rep3.csv,23,3,5,False,2
+Tehran,days_cv0.35_current_blind_threshold90_rep3.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_blind_risk_rep3.csv,23,3,5,False,2
+Tehran,days_cv0.35_current_threshold50_rep3.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_threshold70_rep3.csv,23,3,5,False,2
+Tehran,days_cv0.35_current_threshold90_rep3.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_risk_myopic_rep3.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_risk_cfa_t5_rep3.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_risk_cfa_t15_rep3.csv,23,3,0,True,0
+Tehran,days_cv0.35_double_fixed_daily_rep3.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_periodic2_rep3.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_periodic3_rep3.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_periodic4_rep3.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_periodic6_rep3.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_blind_threshold50_rep3.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_blind_threshold70_rep3.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_blind_threshold90_rep3.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_blind_risk_rep3.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_threshold50_rep3.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_threshold70_rep3.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_threshold90_rep3.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_risk_myopic_rep3.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_risk_cfa_t5_rep3.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_risk_cfa_t15_rep3.csv,25,5,5,True,0
+Tehran,days_cv1_current_fixed_daily_rep4.csv,23,3,10,False,7
+Tehran,days_cv1_current_periodic2_rep4.csv,23,3,10,False,7
+Tehran,days_cv1_current_periodic3_rep4.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_threshold50_rep4.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_threshold70_rep4.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_threshold90_rep4.csv,23,3,10,False,7
+Tehran,days_cv1_current_blind_risk_rep4.csv,23,3,10,False,7
+Tehran,days_cv1_current_threshold50_rep4.csv,23,3,10,False,7
+Tehran,days_cv1_current_threshold70_rep4.csv,23,3,0,True,0
+Tehran,days_cv1_current_threshold90_rep4.csv,23,3,10,False,7
+Tehran,days_cv1_current_risk_myopic_rep4.csv,23,3,10,False,7
+Tehran,days_cv1_current_risk_cfa_t5_rep4.csv,23,3,10,False,7
+Tehran,days_cv1_current_risk_cfa_t15_rep4.csv,23,3,10,False,7
+Tehran,days_cv1_double_fixed_daily_rep4.csv,25,5,10,False,5
+Tehran,days_cv1_double_periodic2_rep4.csv,25,5,10,False,5
+Tehran,days_cv1_double_periodic3_rep4.csv,25,5,10,False,5
+Tehran,days_cv1_double_periodic4_rep4.csv,25,5,10,False,5
+Tehran,days_cv1_double_periodic6_rep4.csv,25,5,10,False,5
+Tehran,days_cv1_double_blind_threshold50_rep4.csv,25,5,10,False,5
+Tehran,days_cv1_double_blind_threshold70_rep4.csv,25,5,5,True,0
+Tehran,days_cv1_double_blind_threshold90_rep4.csv,25,5,10,False,5
+Tehran,days_cv1_double_blind_risk_rep4.csv,25,5,10,False,5
+Tehran,days_cv1_double_threshold50_rep4.csv,25,5,10,False,5
+Tehran,days_cv1_double_threshold70_rep4.csv,25,5,5,True,0
+Tehran,days_cv1_double_threshold90_rep4.csv,25,5,10,False,5
+Tehran,days_cv1_double_risk_myopic_rep4.csv,25,5,10,False,5
+Tehran,days_cv1_double_risk_cfa_t5_rep4.csv,25,5,10,False,5
+Tehran,days_cv1_double_risk_cfa_t15_rep4.csv,25,5,10,False,5
+Tehran,days_cv0.35_current_fixed_daily_rep4.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_periodic2_rep4.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_periodic3_rep4.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_blind_threshold50_rep4.csv,23,3,5,False,2
+Tehran,days_cv0.35_current_blind_threshold70_rep4.csv,23,3,5,False,2
+Tehran,days_cv0.35_current_blind_threshold90_rep4.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_blind_risk_rep4.csv,23,3,10,False,7
+Tehran,days_cv0.35_current_threshold50_rep4.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_threshold70_rep4.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_threshold90_rep4.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_risk_myopic_rep4.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_risk_cfa_t5_rep4.csv,23,3,0,True,0
+Tehran,days_cv0.35_current_risk_cfa_t15_rep4.csv,23,3,0,True,0
+Tehran,days_cv0.35_double_fixed_daily_rep4.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_periodic2_rep4.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_periodic3_rep4.csv,25,5,0,True,0
+Tehran,days_cv0.35_double_periodic4_rep4.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_periodic6_rep4.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_blind_threshold50_rep4.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_blind_threshold70_rep4.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_blind_threshold90_rep4.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_blind_risk_rep4.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_threshold50_rep4.csv,25,5,5,True,0
+Tehran,days_cv0.35_double_threshold70_rep4.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_threshold90_rep4.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_risk_myopic_rep4.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_risk_cfa_t5_rep4.csv,25,5,10,False,5
+Tehran,days_cv0.35_double_risk_cfa_t15_rep4.csv,25,5,10,False,5
+regime map,days_m1_cv1_clustered_fixed_daily_rep0.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_periodic2_rep0.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_periodic3_rep0.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_periodic4_rep0.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_blind_threshold50_rep0.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_blind_threshold70_rep0.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_blind_threshold90_rep0.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_blind_risk_rep0.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_threshold50_rep0.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_threshold70_rep0.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_threshold90_rep0.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_risk_myopic_rep0.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_risk_cfa_t5_rep0.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_risk_cfa_t15_rep0.csv,23,3,0,True,0
+regime map,days_m0.8_cv1_clustered_fixed_daily_rep0.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_periodic2_rep0.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_periodic3_rep0.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_periodic4_rep0.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_blind_threshold50_rep0.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_blind_threshold70_rep0.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_blind_threshold90_rep0.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_blind_risk_rep0.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_threshold50_rep0.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_threshold70_rep0.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_threshold90_rep0.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_risk_myopic_rep0.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_risk_cfa_t5_rep0.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_risk_cfa_t15_rep0.csv,24,4,5,False,1
+regime map,days_m0.65_cv1_clustered_fixed_daily_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic2_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic3_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic4_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic6_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_blind_threshold50_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_blind_threshold70_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_blind_threshold90_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_blind_risk_rep0.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_threshold50_rep0.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_clustered_threshold70_rep0.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_threshold90_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_risk_myopic_rep0.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_risk_cfa_t5_rep0.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_risk_cfa_t15_rep0.csv,25,5,0,True,0
+regime map,days_m0.5_cv1_clustered_fixed_daily_rep0.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic2_rep0.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic3_rep0.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_clustered_periodic4_rep0.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic6_rep0.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold50_rep0.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold70_rep0.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold90_rep0.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_risk_rep0.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold50_rep0.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold70_rep0.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_clustered_threshold90_rep0.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_risk_myopic_rep0.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_risk_cfa_t5_rep0.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_risk_cfa_t15_rep0.csv,26,6,0,True,0
+regime map,days_m0.4_cv1_clustered_fixed_daily_rep0.csv,30,8,15,False,7
+regime map,days_m0.4_cv1_clustered_periodic2_rep0.csv,30,8,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic3_rep0.csv,30,8,15,False,7
+regime map,days_m0.4_cv1_clustered_periodic4_rep0.csv,30,8,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic6_rep0.csv,30,8,10,False,2
+regime map,days_m0.4_cv1_clustered_blind_threshold50_rep0.csv,30,8,0,True,0
+regime map,days_m0.4_cv1_clustered_blind_threshold70_rep0.csv,30,8,15,False,7
+regime map,days_m0.4_cv1_clustered_blind_threshold90_rep0.csv,30,8,15,False,7
+regime map,days_m0.4_cv1_clustered_blind_risk_rep0.csv,30,8,5,True,0
+regime map,days_m0.4_cv1_clustered_threshold50_rep0.csv,30,8,0,True,0
+regime map,days_m0.4_cv1_clustered_threshold70_rep0.csv,30,8,0,True,0
+regime map,days_m0.4_cv1_clustered_threshold90_rep0.csv,30,8,15,False,7
+regime map,days_m0.4_cv1_clustered_risk_myopic_rep0.csv,30,8,0,True,0
+regime map,days_m0.4_cv1_clustered_risk_cfa_t5_rep0.csv,30,8,15,False,7
+regime map,days_m0.4_cv1_clustered_risk_cfa_t15_rep0.csv,30,8,0,True,0
+regime map,days_m0.25_cv1_clustered_fixed_daily_rep0.csv,47,12,5,True,0
+regime map,days_m0.25_cv1_clustered_periodic2_rep0.csv,47,12,5,True,0
+regime map,days_m0.25_cv1_clustered_periodic3_rep0.csv,47,12,15,False,3
+regime map,days_m0.25_cv1_clustered_periodic4_rep0.csv,47,12,5,True,0
+regime map,days_m0.25_cv1_clustered_periodic6_rep0.csv,47,12,20,False,8
+regime map,days_m0.25_cv1_clustered_blind_threshold50_rep0.csv,47,12,0,True,0
+regime map,days_m0.25_cv1_clustered_blind_threshold70_rep0.csv,47,12,5,True,0
+regime map,days_m0.25_cv1_clustered_blind_threshold90_rep0.csv,47,12,15,False,3
+regime map,days_m0.25_cv1_clustered_blind_risk_rep0.csv,47,12,20,False,8
+regime map,days_m0.25_cv1_clustered_threshold50_rep0.csv,47,12,0,True,0
+regime map,days_m0.25_cv1_clustered_threshold70_rep0.csv,47,12,0,True,0
+regime map,days_m0.25_cv1_clustered_threshold90_rep0.csv,47,12,5,True,0
+regime map,days_m0.25_cv1_clustered_risk_myopic_rep0.csv,47,12,0,True,0
+regime map,days_m0.25_cv1_clustered_risk_cfa_t5_rep0.csv,47,12,0,True,0
+regime map,days_m0.25_cv1_clustered_risk_cfa_t15_rep0.csv,47,12,0,True,0
+regime map,days_m1_cv0.35_clustered_fixed_daily_rep0.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_periodic2_rep0.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_periodic3_rep0.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_periodic4_rep0.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_blind_threshold50_rep0.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_blind_threshold70_rep0.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_blind_threshold90_rep0.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_blind_risk_rep0.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_threshold50_rep0.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_threshold70_rep0.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_threshold90_rep0.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_risk_myopic_rep0.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_risk_cfa_t5_rep0.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_risk_cfa_t15_rep0.csv,23,3,5,False,2
+regime map,days_m0.8_cv0.35_clustered_fixed_daily_rep0.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_clustered_periodic2_rep0.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_clustered_periodic3_rep0.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_clustered_periodic4_rep0.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_clustered_blind_threshold50_rep0.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_clustered_blind_threshold70_rep0.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_clustered_blind_threshold90_rep0.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_clustered_blind_risk_rep0.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_clustered_threshold50_rep0.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_clustered_threshold70_rep0.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_clustered_threshold90_rep0.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_clustered_risk_myopic_rep0.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_clustered_risk_cfa_t5_rep0.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_clustered_risk_cfa_t15_rep0.csv,24,4,5,False,1
+regime map,days_m0.65_cv0.35_clustered_fixed_daily_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic2_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic3_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic4_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic6_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_blind_threshold50_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_blind_threshold70_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_blind_threshold90_rep0.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_blind_risk_rep0.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold50_rep0.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold70_rep0.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold90_rep0.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_risk_myopic_rep0.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t5_rep0.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t15_rep0.csv,25,5,5,True,0
+regime map,days_m0.5_cv0.35_clustered_fixed_daily_rep0.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_periodic2_rep0.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic3_rep0.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic4_rep0.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_periodic6_rep0.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_threshold50_rep0.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_threshold70_rep0.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_blind_threshold90_rep0.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_risk_rep0.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_threshold50_rep0.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_threshold70_rep0.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_clustered_threshold90_rep0.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_risk_myopic_rep0.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t5_rep0.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t15_rep0.csv,26,6,10,False,4
+regime map,days_m0.4_cv0.35_clustered_fixed_daily_rep0.csv,30,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_periodic2_rep0.csv,30,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic3_rep0.csv,30,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_periodic4_rep0.csv,30,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_periodic6_rep0.csv,30,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_blind_threshold50_rep0.csv,30,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_blind_threshold70_rep0.csv,30,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_blind_threshold90_rep0.csv,30,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_blind_risk_rep0.csv,30,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_threshold50_rep0.csv,30,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_threshold70_rep0.csv,30,8,0,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold90_rep0.csv,30,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_risk_myopic_rep0.csv,30,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t5_rep0.csv,30,8,0,True,0
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t15_rep0.csv,30,8,0,True,0
+regime map,days_m0.25_cv0.35_clustered_fixed_daily_rep0.csv,47,12,20,False,8
+regime map,days_m0.25_cv0.35_clustered_periodic2_rep0.csv,47,12,5,True,0
+regime map,days_m0.25_cv0.35_clustered_periodic3_rep0.csv,47,12,5,True,0
+regime map,days_m0.25_cv0.35_clustered_periodic4_rep0.csv,47,12,5,True,0
+regime map,days_m0.25_cv0.35_clustered_periodic6_rep0.csv,47,12,5,True,0
+regime map,days_m0.25_cv0.35_clustered_blind_threshold50_rep0.csv,47,12,5,True,0
+regime map,days_m0.25_cv0.35_clustered_blind_threshold70_rep0.csv,47,12,5,True,0
+regime map,days_m0.25_cv0.35_clustered_blind_threshold90_rep0.csv,47,12,20,False,8
+regime map,days_m0.25_cv0.35_clustered_blind_risk_rep0.csv,47,12,5,True,0
+regime map,days_m0.25_cv0.35_clustered_threshold50_rep0.csv,47,12,15,False,3
+regime map,days_m0.25_cv0.35_clustered_threshold70_rep0.csv,47,12,20,False,8
+regime map,days_m0.25_cv0.35_clustered_threshold90_rep0.csv,47,12,20,False,8
+regime map,days_m0.25_cv0.35_clustered_risk_myopic_rep0.csv,47,12,0,True,0
+regime map,days_m0.25_cv0.35_clustered_risk_cfa_t5_rep0.csv,47,12,0,True,0
+regime map,days_m0.25_cv0.35_clustered_risk_cfa_t15_rep0.csv,47,12,0,True,0
+regime map,days_m1_cv1_uniform_fixed_daily_rep0.csv,24,4,5,False,1
+regime map,days_m1_cv1_uniform_periodic2_rep0.csv,24,4,10,False,6
+regime map,days_m1_cv1_uniform_periodic3_rep0.csv,24,4,5,False,1
+regime map,days_m1_cv1_uniform_periodic4_rep0.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_blind_threshold50_rep0.csv,24,4,5,False,1
+regime map,days_m1_cv1_uniform_blind_threshold70_rep0.csv,24,4,5,False,1
+regime map,days_m1_cv1_uniform_blind_threshold90_rep0.csv,24,4,10,False,6
+regime map,days_m1_cv1_uniform_blind_risk_rep0.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_threshold50_rep0.csv,24,4,10,False,6
+regime map,days_m1_cv1_uniform_threshold70_rep0.csv,24,4,10,False,6
+regime map,days_m1_cv1_uniform_threshold90_rep0.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_risk_myopic_rep0.csv,24,4,5,False,1
+regime map,days_m1_cv1_uniform_risk_cfa_t5_rep0.csv,24,4,5,False,1
+regime map,days_m1_cv1_uniform_risk_cfa_t15_rep0.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_fixed_daily_rep0.csv,25,5,5,True,0
+regime map,days_m0.8_cv1_uniform_periodic2_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_periodic3_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_periodic4_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_periodic6_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_blind_threshold50_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_blind_threshold70_rep0.csv,25,5,5,True,0
+regime map,days_m0.8_cv1_uniform_blind_threshold90_rep0.csv,25,5,5,True,0
+regime map,days_m0.8_cv1_uniform_blind_risk_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_threshold50_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_threshold70_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_threshold90_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_risk_myopic_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_risk_cfa_t5_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_risk_cfa_t15_rep0.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_fixed_daily_rep0.csv,26,6,5,True,0
+regime map,days_m0.65_cv1_uniform_periodic2_rep0.csv,26,6,0,True,0
+regime map,days_m0.65_cv1_uniform_periodic3_rep0.csv,26,6,0,True,0
+regime map,days_m0.65_cv1_uniform_periodic4_rep0.csv,26,6,5,True,0
+regime map,days_m0.65_cv1_uniform_periodic6_rep0.csv,26,6,0,True,0
+regime map,days_m0.65_cv1_uniform_blind_threshold50_rep0.csv,26,6,0,True,0
+regime map,days_m0.65_cv1_uniform_blind_threshold70_rep0.csv,26,6,5,True,0
+regime map,days_m0.65_cv1_uniform_blind_threshold90_rep0.csv,26,6,5,True,0
+regime map,days_m0.65_cv1_uniform_blind_risk_rep0.csv,26,6,0,True,0
+regime map,days_m0.65_cv1_uniform_threshold50_rep0.csv,26,6,0,True,0
+regime map,days_m0.65_cv1_uniform_threshold70_rep0.csv,26,6,0,True,0
+regime map,days_m0.65_cv1_uniform_threshold90_rep0.csv,26,6,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_myopic_rep0.csv,26,6,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t5_rep0.csv,26,6,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t15_rep0.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_uniform_fixed_daily_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv1_uniform_periodic2_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv1_uniform_periodic3_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv1_uniform_periodic4_rep0.csv,28,7,10,False,3
+regime map,days_m0.5_cv1_uniform_periodic6_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv1_uniform_blind_threshold50_rep0.csv,28,7,0,True,0
+regime map,days_m0.5_cv1_uniform_blind_threshold70_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv1_uniform_blind_threshold90_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv1_uniform_blind_risk_rep0.csv,28,7,0,True,0
+regime map,days_m0.5_cv1_uniform_threshold50_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv1_uniform_threshold70_rep0.csv,28,7,0,True,0
+regime map,days_m0.5_cv1_uniform_threshold90_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv1_uniform_risk_myopic_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv1_uniform_risk_cfa_t5_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv1_uniform_risk_cfa_t15_rep0.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_fixed_daily_rep0.csv,35,9,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic2_rep0.csv,35,9,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic3_rep0.csv,35,9,10,False,1
+regime map,days_m0.4_cv1_uniform_periodic4_rep0.csv,35,9,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic6_rep0.csv,35,9,5,True,0
+regime map,days_m0.4_cv1_uniform_blind_threshold50_rep0.csv,35,9,5,True,0
+regime map,days_m0.4_cv1_uniform_blind_threshold70_rep0.csv,35,9,5,True,0
+regime map,days_m0.4_cv1_uniform_blind_threshold90_rep0.csv,35,9,10,False,1
+regime map,days_m0.4_cv1_uniform_blind_risk_rep0.csv,35,9,10,False,1
+regime map,days_m0.4_cv1_uniform_threshold50_rep0.csv,35,9,15,False,6
+regime map,days_m0.4_cv1_uniform_threshold70_rep0.csv,35,9,15,False,6
+regime map,days_m0.4_cv1_uniform_threshold90_rep0.csv,35,9,10,False,1
+regime map,days_m0.4_cv1_uniform_risk_myopic_rep0.csv,35,9,10,False,1
+regime map,days_m0.4_cv1_uniform_risk_cfa_t5_rep0.csv,35,9,5,True,0
+regime map,days_m0.4_cv1_uniform_risk_cfa_t15_rep0.csv,35,9,10,False,1
+regime map,days_m0.25_cv1_uniform_fixed_daily_rep0.csv,55,14,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic2_rep0.csv,55,14,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic3_rep0.csv,55,14,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic4_rep0.csv,55,14,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic6_rep0.csv,55,14,5,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold50_rep0.csv,55,14,20,False,6
+regime map,days_m0.25_cv1_uniform_blind_threshold70_rep0.csv,55,14,5,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold90_rep0.csv,55,14,20,False,6
+regime map,days_m0.25_cv1_uniform_blind_risk_rep0.csv,55,14,0,True,0
+regime map,days_m0.25_cv1_uniform_threshold50_rep0.csv,55,14,5,True,0
+regime map,days_m0.25_cv1_uniform_threshold70_rep0.csv,55,14,0,True,0
+regime map,days_m0.25_cv1_uniform_threshold90_rep0.csv,55,14,20,False,6
+regime map,days_m0.25_cv1_uniform_risk_myopic_rep0.csv,55,14,0,True,0
+regime map,days_m0.25_cv1_uniform_risk_cfa_t5_rep0.csv,55,14,25,False,11
+regime map,days_m0.25_cv1_uniform_risk_cfa_t15_rep0.csv,55,14,5,True,0
+regime map,days_m1_cv0.35_uniform_fixed_daily_rep0.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_periodic2_rep0.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_periodic3_rep0.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_uniform_periodic4_rep0.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_blind_threshold50_rep0.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_blind_threshold70_rep0.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_uniform_blind_threshold90_rep0.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_blind_risk_rep0.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_uniform_threshold50_rep0.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_threshold70_rep0.csv,24,4,0,True,0
+regime map,days_m1_cv0.35_uniform_threshold90_rep0.csv,24,4,0,True,0
+regime map,days_m1_cv0.35_uniform_risk_myopic_rep0.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_uniform_risk_cfa_t5_rep0.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_uniform_risk_cfa_t15_rep0.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_fixed_daily_rep0.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_periodic2_rep0.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_periodic3_rep0.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_periodic4_rep0.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_periodic6_rep0.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_blind_threshold50_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv0.35_uniform_blind_threshold70_rep0.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_blind_threshold90_rep0.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_blind_risk_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv0.35_uniform_threshold50_rep0.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_threshold70_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv0.35_uniform_threshold90_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_myopic_rep0.csv,25,5,0,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t5_rep0.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t15_rep0.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_fixed_daily_rep0.csv,26,6,10,False,4
+regime map,days_m0.65_cv0.35_uniform_periodic2_rep0.csv,26,6,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic3_rep0.csv,26,6,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic4_rep0.csv,26,6,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic6_rep0.csv,26,6,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_threshold50_rep0.csv,26,6,0,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_threshold70_rep0.csv,26,6,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_threshold90_rep0.csv,26,6,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_risk_rep0.csv,26,6,5,True,0
+regime map,days_m0.65_cv0.35_uniform_threshold50_rep0.csv,26,6,10,False,4
+regime map,days_m0.65_cv0.35_uniform_threshold70_rep0.csv,26,6,0,True,0
+regime map,days_m0.65_cv0.35_uniform_threshold90_rep0.csv,26,6,5,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_myopic_rep0.csv,26,6,5,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t5_rep0.csv,26,6,5,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t15_rep0.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_uniform_fixed_daily_rep0.csv,28,7,10,False,3
+regime map,days_m0.5_cv0.35_uniform_periodic2_rep0.csv,28,7,10,False,3
+regime map,days_m0.5_cv0.35_uniform_periodic3_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic4_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic6_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold50_rep0.csv,28,7,0,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold70_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold90_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_risk_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold50_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold70_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold90_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_risk_myopic_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t5_rep0.csv,28,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t15_rep0.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_fixed_daily_rep0.csv,35,9,10,False,1
+regime map,days_m0.4_cv0.35_uniform_periodic2_rep0.csv,35,9,10,False,1
+regime map,days_m0.4_cv0.35_uniform_periodic3_rep0.csv,35,9,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic4_rep0.csv,35,9,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic6_rep0.csv,35,9,15,False,6
+regime map,days_m0.4_cv0.35_uniform_blind_threshold50_rep0.csv,35,9,0,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold70_rep0.csv,35,9,5,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold90_rep0.csv,35,9,10,False,1
+regime map,days_m0.4_cv0.35_uniform_blind_risk_rep0.csv,35,9,5,True,0
+regime map,days_m0.4_cv0.35_uniform_threshold50_rep0.csv,35,9,15,False,6
+regime map,days_m0.4_cv0.35_uniform_threshold70_rep0.csv,35,9,0,True,0
+regime map,days_m0.4_cv0.35_uniform_threshold90_rep0.csv,35,9,10,False,1
+regime map,days_m0.4_cv0.35_uniform_risk_myopic_rep0.csv,35,9,0,True,0
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t5_rep0.csv,35,9,15,False,6
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t15_rep0.csv,35,9,10,False,1
+regime map,days_m0.25_cv0.35_uniform_fixed_daily_rep0.csv,55,14,15,False,1
+regime map,days_m0.25_cv0.35_uniform_periodic2_rep0.csv,55,14,5,True,0
+regime map,days_m0.25_cv0.35_uniform_periodic3_rep0.csv,55,14,15,False,1
+regime map,days_m0.25_cv0.35_uniform_periodic4_rep0.csv,55,14,20,False,6
+regime map,days_m0.25_cv0.35_uniform_periodic6_rep0.csv,55,14,15,False,1
+regime map,days_m0.25_cv0.35_uniform_blind_threshold50_rep0.csv,55,14,5,True,0
+regime map,days_m0.25_cv0.35_uniform_blind_threshold70_rep0.csv,55,14,0,True,0
+regime map,days_m0.25_cv0.35_uniform_blind_threshold90_rep0.csv,55,14,20,False,6
+regime map,days_m0.25_cv0.35_uniform_blind_risk_rep0.csv,55,14,25,False,11
+regime map,days_m0.25_cv0.35_uniform_threshold50_rep0.csv,55,14,5,True,0
+regime map,days_m0.25_cv0.35_uniform_threshold70_rep0.csv,55,14,5,True,0
+regime map,days_m0.25_cv0.35_uniform_threshold90_rep0.csv,55,14,20,False,6
+regime map,days_m0.25_cv0.35_uniform_risk_myopic_rep0.csv,55,14,15,False,1
+regime map,days_m0.25_cv0.35_uniform_risk_cfa_t5_rep0.csv,55,14,15,False,1
+regime map,days_m0.25_cv0.35_uniform_risk_cfa_t15_rep0.csv,55,14,0,True,0
+regime map,days_m1_cv1_clustered_fixed_daily_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_periodic2_rep1.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_periodic3_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_periodic4_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_blind_threshold50_rep1.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_blind_threshold70_rep1.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_blind_threshold90_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_blind_risk_rep1.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_threshold50_rep1.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_threshold70_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_threshold90_rep1.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_risk_myopic_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_risk_cfa_t5_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_risk_cfa_t15_rep1.csv,23,3,10,False,7
+regime map,days_m0.8_cv1_clustered_fixed_daily_rep1.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_periodic2_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_periodic3_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_periodic4_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_blind_threshold50_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_blind_threshold70_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_blind_threshold90_rep1.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_blind_risk_rep1.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_threshold50_rep1.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_threshold70_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_threshold90_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_risk_myopic_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_risk_cfa_t5_rep1.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_risk_cfa_t15_rep1.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_clustered_fixed_daily_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic2_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic3_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic4_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic6_rep1.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_clustered_blind_threshold50_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_blind_threshold70_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_blind_threshold90_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_blind_risk_rep1.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_threshold50_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_threshold70_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_threshold90_rep1.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_clustered_risk_myopic_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_risk_cfa_t5_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_risk_cfa_t15_rep1.csv,25,5,5,True,0
+regime map,days_m0.5_cv1_clustered_fixed_daily_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic2_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_clustered_periodic3_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_clustered_periodic4_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic6_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold50_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_clustered_blind_threshold70_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold90_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_risk_rep1.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold50_rep1.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold70_rep1.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold90_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_clustered_risk_myopic_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_risk_cfa_t5_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_risk_cfa_t15_rep1.csv,26,6,10,False,4
+regime map,days_m0.4_cv1_clustered_fixed_daily_rep1.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_clustered_periodic2_rep1.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_clustered_periodic3_rep1.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic4_rep1.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic6_rep1.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_clustered_blind_threshold50_rep1.csv,31,8,0,True,0
+regime map,days_m0.4_cv1_clustered_blind_threshold70_rep1.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_clustered_blind_threshold90_rep1.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_clustered_blind_risk_rep1.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_clustered_threshold50_rep1.csv,31,8,0,True,0
+regime map,days_m0.4_cv1_clustered_threshold70_rep1.csv,31,8,15,False,7
+regime map,days_m0.4_cv1_clustered_threshold90_rep1.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_clustered_risk_myopic_rep1.csv,31,8,0,True,0
+regime map,days_m0.4_cv1_clustered_risk_cfa_t5_rep1.csv,31,8,15,False,7
+regime map,days_m0.4_cv1_clustered_risk_cfa_t15_rep1.csv,31,8,0,True,0
+regime map,days_m0.25_cv1_clustered_fixed_daily_rep1.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_clustered_periodic2_rep1.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_clustered_periodic3_rep1.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_clustered_periodic4_rep1.csv,48,12,10,True,0
+regime map,days_m0.25_cv1_clustered_periodic6_rep1.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_clustered_blind_threshold50_rep1.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_clustered_blind_threshold70_rep1.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_clustered_blind_threshold90_rep1.csv,48,12,10,True,0
+regime map,days_m0.25_cv1_clustered_blind_risk_rep1.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_clustered_threshold50_rep1.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_clustered_threshold70_rep1.csv,48,12,0,True,0
+regime map,days_m0.25_cv1_clustered_threshold90_rep1.csv,48,12,0,True,0
+regime map,days_m0.25_cv1_clustered_risk_myopic_rep1.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_clustered_risk_cfa_t5_rep1.csv,48,12,20,False,8
+regime map,days_m0.25_cv1_clustered_risk_cfa_t15_rep1.csv,48,12,5,True,0
+regime map,days_m1_cv0.35_clustered_fixed_daily_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_periodic2_rep1.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_periodic3_rep1.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_periodic4_rep1.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_blind_threshold50_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_blind_threshold70_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_blind_threshold90_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_blind_risk_rep1.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_threshold50_rep1.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_threshold70_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_threshold90_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_risk_myopic_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_risk_cfa_t5_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_risk_cfa_t15_rep1.csv,23,3,10,False,7
+regime map,days_m0.8_cv0.35_clustered_fixed_daily_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_clustered_periodic2_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_clustered_periodic3_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_clustered_periodic4_rep1.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_clustered_blind_threshold50_rep1.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_clustered_blind_threshold70_rep1.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_clustered_blind_threshold90_rep1.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_clustered_blind_risk_rep1.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_clustered_threshold50_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_clustered_threshold70_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_clustered_threshold90_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_clustered_risk_myopic_rep1.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_clustered_risk_cfa_t5_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_clustered_risk_cfa_t15_rep1.csv,24,4,10,False,6
+regime map,days_m0.65_cv0.35_clustered_fixed_daily_rep1.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_periodic2_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic3_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic4_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic6_rep1.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_blind_threshold50_rep1.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_blind_threshold70_rep1.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_blind_threshold90_rep1.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_blind_risk_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold50_rep1.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold70_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold90_rep1.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_myopic_rep1.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t5_rep1.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t15_rep1.csv,25,5,0,True,0
+regime map,days_m0.5_cv0.35_clustered_fixed_daily_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic2_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_periodic3_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_periodic4_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic6_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_blind_threshold50_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_threshold70_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_blind_threshold90_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_risk_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_threshold50_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_threshold70_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_threshold90_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_risk_myopic_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t5_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t15_rep1.csv,26,6,5,True,0
+regime map,days_m0.4_cv0.35_clustered_fixed_daily_rep1.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic2_rep1.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic3_rep1.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic4_rep1.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic6_rep1.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_blind_threshold50_rep1.csv,31,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_blind_threshold70_rep1.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_blind_threshold90_rep1.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_blind_risk_rep1.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold50_rep1.csv,31,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_threshold70_rep1.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold90_rep1.csv,31,8,0,True,0
+regime map,days_m0.4_cv0.35_clustered_risk_myopic_rep1.csv,31,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t5_rep1.csv,31,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t15_rep1.csv,31,8,10,False,2
+regime map,days_m0.25_cv0.35_clustered_fixed_daily_rep1.csv,48,12,5,True,0
+regime map,days_m0.25_cv0.35_clustered_periodic2_rep1.csv,48,12,5,True,0
+regime map,days_m0.25_cv0.35_clustered_periodic3_rep1.csv,48,12,5,True,0
+regime map,days_m0.25_cv0.35_clustered_periodic4_rep1.csv,48,12,5,True,0
+regime map,days_m0.25_cv0.35_clustered_periodic6_rep1.csv,48,12,5,True,0
+regime map,days_m0.25_cv0.35_clustered_blind_threshold50_rep1.csv,48,12,15,False,3
+regime map,days_m0.25_cv0.35_clustered_blind_threshold70_rep1.csv,48,12,5,True,0
+regime map,days_m0.25_cv0.35_clustered_blind_threshold90_rep1.csv,48,12,10,True,0
+regime map,days_m0.25_cv0.35_clustered_blind_risk_rep1.csv,48,12,20,False,8
+regime map,days_m0.25_cv0.35_clustered_threshold50_rep1.csv,48,12,15,False,3
+regime map,days_m0.25_cv0.35_clustered_threshold70_rep1.csv,48,12,20,False,8
+regime map,days_m0.25_cv0.35_clustered_threshold90_rep1.csv,48,12,0,True,0
+regime map,days_m0.25_cv0.35_clustered_risk_myopic_rep1.csv,48,12,0,True,0
+regime map,days_m0.25_cv0.35_clustered_risk_cfa_t5_rep1.csv,48,12,15,False,3
+regime map,days_m0.25_cv0.35_clustered_risk_cfa_t15_rep1.csv,48,12,0,True,0
+regime map,days_m1_cv1_uniform_fixed_daily_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_periodic2_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_periodic3_rep1.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_periodic4_rep1.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_blind_threshold50_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_blind_threshold70_rep1.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_blind_threshold90_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_blind_risk_rep1.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_threshold50_rep1.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_threshold70_rep1.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_threshold90_rep1.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_risk_myopic_rep1.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_risk_cfa_t5_rep1.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_risk_cfa_t15_rep1.csv,23,3,5,False,2
+regime map,days_m0.8_cv1_uniform_fixed_daily_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_periodic2_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_periodic3_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_periodic4_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_blind_threshold50_rep1.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_blind_threshold70_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_blind_threshold90_rep1.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_blind_risk_rep1.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_threshold50_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_threshold70_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_threshold90_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_risk_myopic_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_risk_cfa_t5_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_risk_cfa_t15_rep1.csv,24,4,0,True,0
+regime map,days_m0.65_cv1_uniform_fixed_daily_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_periodic2_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_periodic3_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_periodic4_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_periodic6_rep1.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_blind_threshold50_rep1.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_blind_threshold70_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_blind_threshold90_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_blind_risk_rep1.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_threshold50_rep1.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_threshold70_rep1.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_threshold90_rep1.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_myopic_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t5_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t15_rep1.csv,25,5,5,True,0
+regime map,days_m0.5_cv1_uniform_fixed_daily_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_uniform_periodic2_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_uniform_periodic3_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_uniform_periodic4_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_uniform_periodic6_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_uniform_blind_threshold50_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_uniform_blind_threshold70_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_uniform_blind_threshold90_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_uniform_blind_risk_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_uniform_threshold50_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_uniform_threshold70_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_uniform_threshold90_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_uniform_risk_myopic_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_uniform_risk_cfa_t5_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_uniform_risk_cfa_t15_rep1.csv,26,6,5,True,0
+regime map,days_m0.4_cv1_uniform_fixed_daily_rep1.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_periodic2_rep1.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic3_rep1.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_periodic4_rep1.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic6_rep1.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_blind_threshold50_rep1.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_blind_threshold70_rep1.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_blind_threshold90_rep1.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_blind_risk_rep1.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_threshold50_rep1.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_threshold70_rep1.csv,28,7,0,True,0
+regime map,days_m0.4_cv1_uniform_threshold90_rep1.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_risk_myopic_rep1.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_risk_cfa_t5_rep1.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_risk_cfa_t15_rep1.csv,28,7,10,False,3
+regime map,days_m0.25_cv1_uniform_fixed_daily_rep1.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic2_rep1.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic3_rep1.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic4_rep1.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic6_rep1.csv,44,11,20,False,9
+regime map,days_m0.25_cv1_uniform_blind_threshold50_rep1.csv,44,11,15,False,4
+regime map,days_m0.25_cv1_uniform_blind_threshold70_rep1.csv,44,11,10,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold90_rep1.csv,44,11,20,False,9
+regime map,days_m0.25_cv1_uniform_blind_risk_rep1.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_threshold50_rep1.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_threshold70_rep1.csv,44,11,20,False,9
+regime map,days_m0.25_cv1_uniform_threshold90_rep1.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_risk_myopic_rep1.csv,44,11,0,True,0
+regime map,days_m0.25_cv1_uniform_risk_cfa_t5_rep1.csv,44,11,20,False,9
+regime map,days_m0.25_cv1_uniform_risk_cfa_t15_rep1.csv,44,11,0,True,0
+regime map,days_m1_cv0.35_uniform_fixed_daily_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_periodic2_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_periodic3_rep1.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_periodic4_rep1.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_blind_threshold50_rep1.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_blind_threshold70_rep1.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_blind_threshold90_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_blind_risk_rep1.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_threshold50_rep1.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_threshold70_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_threshold90_rep1.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_risk_myopic_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_risk_cfa_t5_rep1.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_risk_cfa_t15_rep1.csv,23,3,0,True,0
+regime map,days_m0.8_cv0.35_uniform_fixed_daily_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_periodic2_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_periodic3_rep1.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_periodic4_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_blind_threshold50_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_blind_threshold70_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_blind_threshold90_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_blind_risk_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_threshold50_rep1.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_threshold70_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_threshold90_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_myopic_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t5_rep1.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t15_rep1.csv,24,4,10,False,6
+regime map,days_m0.65_cv0.35_uniform_fixed_daily_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic2_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic3_rep1.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_periodic4_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic6_rep1.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_blind_threshold50_rep1.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_blind_threshold70_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_threshold90_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_risk_rep1.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_threshold50_rep1.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_threshold70_rep1.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_threshold90_rep1.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_myopic_rep1.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t5_rep1.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t15_rep1.csv,25,5,5,True,0
+regime map,days_m0.5_cv0.35_uniform_fixed_daily_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic2_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic3_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic4_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic6_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_blind_threshold50_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_blind_threshold70_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold90_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_risk_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold50_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold70_rep1.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold90_rep1.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_risk_myopic_rep1.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t5_rep1.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t15_rep1.csv,26,6,10,False,4
+regime map,days_m0.4_cv0.35_uniform_fixed_daily_rep1.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic2_rep1.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_uniform_periodic3_rep1.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic4_rep1.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic6_rep1.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold50_rep1.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold70_rep1.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold90_rep1.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_uniform_blind_risk_rep1.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_threshold50_rep1.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_uniform_threshold70_rep1.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_uniform_threshold90_rep1.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_uniform_risk_myopic_rep1.csv,28,7,0,True,0
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t5_rep1.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t15_rep1.csv,28,7,0,True,0
+regime map,days_m0.25_cv0.35_uniform_fixed_daily_rep1.csv,44,11,5,True,0
+regime map,days_m0.25_cv0.35_uniform_periodic2_rep1.csv,44,11,10,True,0
+regime map,days_m0.25_cv0.35_uniform_periodic3_rep1.csv,44,11,5,True,0
+regime map,days_m0.25_cv0.35_uniform_periodic4_rep1.csv,44,11,5,True,0
+regime map,days_m0.25_cv0.35_uniform_periodic6_rep1.csv,44,11,5,True,0
+regime map,days_m0.25_cv0.35_uniform_blind_threshold50_rep1.csv,44,11,5,True,0
+regime map,days_m0.25_cv0.35_uniform_blind_threshold70_rep1.csv,44,11,20,False,9
+regime map,days_m0.25_cv0.35_uniform_blind_threshold90_rep1.csv,44,11,10,True,0
+regime map,days_m0.25_cv0.35_uniform_blind_risk_rep1.csv,44,11,15,False,4
+regime map,days_m0.25_cv0.35_uniform_threshold50_rep1.csv,44,11,5,True,0
+regime map,days_m0.25_cv0.35_uniform_threshold70_rep1.csv,44,11,5,True,0
+regime map,days_m0.25_cv0.35_uniform_threshold90_rep1.csv,44,11,15,False,4
+regime map,days_m0.25_cv0.35_uniform_risk_myopic_rep1.csv,44,11,10,True,0
+regime map,days_m0.25_cv0.35_uniform_risk_cfa_t5_rep1.csv,44,11,15,False,4
+regime map,days_m0.25_cv0.35_uniform_risk_cfa_t15_rep1.csv,44,11,20,False,9
+regime map,days_m1_cv1_clustered_fixed_daily_rep2.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_periodic2_rep2.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_periodic3_rep2.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_blind_threshold50_rep2.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_blind_threshold70_rep2.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_blind_threshold90_rep2.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_blind_risk_rep2.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_threshold50_rep2.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_threshold70_rep2.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_threshold90_rep2.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_risk_myopic_rep2.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_risk_cfa_t5_rep2.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_risk_cfa_t15_rep2.csv,23,3,10,False,7
+regime map,days_m0.8_cv1_clustered_fixed_daily_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_periodic2_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_periodic3_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_periodic4_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_blind_threshold50_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_blind_threshold70_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_blind_threshold90_rep2.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_blind_risk_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_threshold50_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_threshold70_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_threshold90_rep2.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_risk_myopic_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_risk_cfa_t5_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_risk_cfa_t15_rep2.csv,24,4,0,True,0
+regime map,days_m0.65_cv1_clustered_fixed_daily_rep2.csv,24,4,0,True,0
+regime map,days_m0.65_cv1_clustered_periodic2_rep2.csv,24,4,0,True,0
+regime map,days_m0.65_cv1_clustered_periodic3_rep2.csv,24,4,0,True,0
+regime map,days_m0.65_cv1_clustered_periodic4_rep2.csv,24,4,0,True,0
+regime map,days_m0.65_cv1_clustered_blind_threshold50_rep2.csv,24,4,5,False,1
+regime map,days_m0.65_cv1_clustered_blind_threshold70_rep2.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_clustered_blind_threshold90_rep2.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_clustered_blind_risk_rep2.csv,24,4,5,False,1
+regime map,days_m0.65_cv1_clustered_threshold50_rep2.csv,24,4,0,True,0
+regime map,days_m0.65_cv1_clustered_threshold70_rep2.csv,24,4,0,True,0
+regime map,days_m0.65_cv1_clustered_threshold90_rep2.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_clustered_risk_myopic_rep2.csv,24,4,0,True,0
+regime map,days_m0.65_cv1_clustered_risk_cfa_t5_rep2.csv,24,4,0,True,0
+regime map,days_m0.65_cv1_clustered_risk_cfa_t15_rep2.csv,24,4,0,True,0
+regime map,days_m0.5_cv1_clustered_fixed_daily_rep2.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_clustered_periodic2_rep2.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_periodic3_rep2.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_periodic4_rep2.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_periodic6_rep2.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold50_rep2.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold70_rep2.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold90_rep2.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_risk_rep2.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_threshold50_rep2.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold70_rep2.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold90_rep2.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_risk_myopic_rep2.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_risk_cfa_t5_rep2.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_risk_cfa_t15_rep2.csv,26,6,0,True,0
+regime map,days_m0.4_cv1_clustered_fixed_daily_rep2.csv,27,7,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic2_rep2.csv,27,7,10,False,3
+regime map,days_m0.4_cv1_clustered_periodic3_rep2.csv,27,7,10,False,3
+regime map,days_m0.4_cv1_clustered_periodic4_rep2.csv,27,7,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic6_rep2.csv,27,7,0,True,0
+regime map,days_m0.4_cv1_clustered_blind_threshold50_rep2.csv,27,7,0,True,0
+regime map,days_m0.4_cv1_clustered_blind_threshold70_rep2.csv,27,7,10,False,3
+regime map,days_m0.4_cv1_clustered_blind_threshold90_rep2.csv,27,7,5,True,0
+regime map,days_m0.4_cv1_clustered_blind_risk_rep2.csv,27,7,0,True,0
+regime map,days_m0.4_cv1_clustered_threshold50_rep2.csv,27,7,0,True,0
+regime map,days_m0.4_cv1_clustered_threshold70_rep2.csv,27,7,5,True,0
+regime map,days_m0.4_cv1_clustered_threshold90_rep2.csv,27,7,0,True,0
+regime map,days_m0.4_cv1_clustered_risk_myopic_rep2.csv,27,7,0,True,0
+regime map,days_m0.4_cv1_clustered_risk_cfa_t5_rep2.csv,27,7,0,True,0
+regime map,days_m0.4_cv1_clustered_risk_cfa_t15_rep2.csv,27,7,10,False,3
+regime map,days_m0.25_cv1_clustered_fixed_daily_rep2.csv,42,11,15,False,4
+regime map,days_m0.25_cv1_clustered_periodic2_rep2.csv,42,11,5,True,0
+regime map,days_m0.25_cv1_clustered_periodic3_rep2.csv,42,11,5,True,0
+regime map,days_m0.25_cv1_clustered_periodic4_rep2.csv,42,11,10,True,0
+regime map,days_m0.25_cv1_clustered_periodic6_rep2.csv,42,11,5,True,0
+regime map,days_m0.25_cv1_clustered_blind_threshold50_rep2.csv,42,11,0,True,0
+regime map,days_m0.25_cv1_clustered_blind_threshold70_rep2.csv,42,11,15,False,4
+regime map,days_m0.25_cv1_clustered_blind_threshold90_rep2.csv,42,11,5,True,0
+regime map,days_m0.25_cv1_clustered_blind_risk_rep2.csv,42,11,15,False,4
+regime map,days_m0.25_cv1_clustered_threshold50_rep2.csv,42,11,10,True,0
+regime map,days_m0.25_cv1_clustered_threshold70_rep2.csv,42,11,10,True,0
+regime map,days_m0.25_cv1_clustered_threshold90_rep2.csv,42,11,0,True,0
+regime map,days_m0.25_cv1_clustered_risk_myopic_rep2.csv,42,11,10,True,0
+regime map,days_m0.25_cv1_clustered_risk_cfa_t5_rep2.csv,42,11,10,True,0
+regime map,days_m0.25_cv1_clustered_risk_cfa_t15_rep2.csv,42,11,20,False,9
+regime map,days_m1_cv0.35_clustered_fixed_daily_rep2.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_periodic2_rep2.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_periodic3_rep2.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_blind_threshold50_rep2.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_blind_threshold70_rep2.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_blind_threshold90_rep2.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_blind_risk_rep2.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_threshold50_rep2.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_threshold70_rep2.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_threshold90_rep2.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_risk_myopic_rep2.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_risk_cfa_t5_rep2.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_risk_cfa_t15_rep2.csv,23,3,0,True,0
+regime map,days_m0.8_cv0.35_clustered_fixed_daily_rep2.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_clustered_periodic2_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_clustered_periodic3_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_clustered_periodic4_rep2.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_clustered_blind_threshold50_rep2.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_clustered_blind_threshold70_rep2.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_clustered_blind_threshold90_rep2.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_clustered_blind_risk_rep2.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_clustered_threshold50_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_clustered_threshold70_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_clustered_threshold90_rep2.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_clustered_risk_myopic_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_clustered_risk_cfa_t5_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_clustered_risk_cfa_t15_rep2.csv,24,4,0,True,0
+regime map,days_m0.65_cv0.35_clustered_fixed_daily_rep2.csv,24,4,10,False,6
+regime map,days_m0.65_cv0.35_clustered_periodic2_rep2.csv,24,4,10,False,6
+regime map,days_m0.65_cv0.35_clustered_periodic3_rep2.csv,24,4,5,False,1
+regime map,days_m0.65_cv0.35_clustered_periodic4_rep2.csv,24,4,0,True,0
+regime map,days_m0.65_cv0.35_clustered_blind_threshold50_rep2.csv,24,4,5,False,1
+regime map,days_m0.65_cv0.35_clustered_blind_threshold70_rep2.csv,24,4,10,False,6
+regime map,days_m0.65_cv0.35_clustered_blind_threshold90_rep2.csv,24,4,5,False,1
+regime map,days_m0.65_cv0.35_clustered_blind_risk_rep2.csv,24,4,5,False,1
+regime map,days_m0.65_cv0.35_clustered_threshold50_rep2.csv,24,4,0,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold70_rep2.csv,24,4,5,False,1
+regime map,days_m0.65_cv0.35_clustered_threshold90_rep2.csv,24,4,0,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_myopic_rep2.csv,24,4,10,False,6
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t5_rep2.csv,24,4,10,False,6
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t15_rep2.csv,24,4,10,False,6
+regime map,days_m0.5_cv0.35_clustered_fixed_daily_rep2.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic2_rep2.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic3_rep2.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic4_rep2.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic6_rep2.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_threshold50_rep2.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_threshold70_rep2.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_blind_threshold90_rep2.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_blind_risk_rep2.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_threshold50_rep2.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_threshold70_rep2.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_clustered_threshold90_rep2.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_risk_myopic_rep2.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t5_rep2.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t15_rep2.csv,26,6,5,True,0
+regime map,days_m0.4_cv0.35_clustered_fixed_daily_rep2.csv,27,7,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic2_rep2.csv,27,7,10,False,3
+regime map,days_m0.4_cv0.35_clustered_periodic3_rep2.csv,27,7,10,False,3
+regime map,days_m0.4_cv0.35_clustered_periodic4_rep2.csv,27,7,10,False,3
+regime map,days_m0.4_cv0.35_clustered_periodic6_rep2.csv,27,7,5,True,0
+regime map,days_m0.4_cv0.35_clustered_blind_threshold50_rep2.csv,27,7,10,False,3
+regime map,days_m0.4_cv0.35_clustered_blind_threshold70_rep2.csv,27,7,5,True,0
+regime map,days_m0.4_cv0.35_clustered_blind_threshold90_rep2.csv,27,7,10,False,3
+regime map,days_m0.4_cv0.35_clustered_blind_risk_rep2.csv,27,7,10,False,3
+regime map,days_m0.4_cv0.35_clustered_threshold50_rep2.csv,27,7,10,False,3
+regime map,days_m0.4_cv0.35_clustered_threshold70_rep2.csv,27,7,0,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold90_rep2.csv,27,7,0,True,0
+regime map,days_m0.4_cv0.35_clustered_risk_myopic_rep2.csv,27,7,5,True,0
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t5_rep2.csv,27,7,5,True,0
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t15_rep2.csv,27,7,10,False,3
+regime map,days_m0.25_cv0.35_clustered_fixed_daily_rep2.csv,42,11,5,True,0
+regime map,days_m0.25_cv0.35_clustered_periodic2_rep2.csv,42,11,5,True,0
+regime map,days_m0.25_cv0.35_clustered_periodic3_rep2.csv,42,11,5,True,0
+regime map,days_m0.25_cv0.35_clustered_periodic4_rep2.csv,42,11,5,True,0
+regime map,days_m0.25_cv0.35_clustered_periodic6_rep2.csv,42,11,15,False,4
+regime map,days_m0.25_cv0.35_clustered_blind_threshold50_rep2.csv,42,11,5,True,0
+regime map,days_m0.25_cv0.35_clustered_blind_threshold70_rep2.csv,42,11,15,False,4
+regime map,days_m0.25_cv0.35_clustered_blind_threshold90_rep2.csv,42,11,10,True,0
+regime map,days_m0.25_cv0.35_clustered_blind_risk_rep2.csv,42,11,5,True,0
+regime map,days_m0.25_cv0.35_clustered_threshold50_rep2.csv,42,11,5,True,0
+regime map,days_m0.25_cv0.35_clustered_threshold70_rep2.csv,42,11,5,True,0
+regime map,days_m0.25_cv0.35_clustered_threshold90_rep2.csv,42,11,10,True,0
+regime map,days_m0.25_cv0.35_clustered_risk_myopic_rep2.csv,42,11,10,True,0
+regime map,days_m0.25_cv0.35_clustered_risk_cfa_t5_rep2.csv,42,11,0,True,0
+regime map,days_m0.25_cv0.35_clustered_risk_cfa_t15_rep2.csv,42,11,20,False,9
+regime map,days_m1_cv1_uniform_fixed_daily_rep2.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_periodic2_rep2.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_periodic3_rep2.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_periodic4_rep2.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_blind_threshold50_rep2.csv,24,4,5,False,1
+regime map,days_m1_cv1_uniform_blind_threshold70_rep2.csv,24,4,10,False,6
+regime map,days_m1_cv1_uniform_blind_threshold90_rep2.csv,24,4,5,False,1
+regime map,days_m1_cv1_uniform_blind_risk_rep2.csv,24,4,5,False,1
+regime map,days_m1_cv1_uniform_threshold50_rep2.csv,24,4,5,False,1
+regime map,days_m1_cv1_uniform_threshold70_rep2.csv,24,4,5,False,1
+regime map,days_m1_cv1_uniform_threshold90_rep2.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_risk_myopic_rep2.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_risk_cfa_t5_rep2.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_risk_cfa_t15_rep2.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_fixed_daily_rep2.csv,25,5,10,False,5
+regime map,days_m0.8_cv1_uniform_periodic2_rep2.csv,25,5,10,False,5
+regime map,days_m0.8_cv1_uniform_periodic3_rep2.csv,25,5,10,False,5
+regime map,days_m0.8_cv1_uniform_periodic4_rep2.csv,25,5,5,True,0
+regime map,days_m0.8_cv1_uniform_periodic6_rep2.csv,25,5,10,False,5
+regime map,days_m0.8_cv1_uniform_blind_threshold50_rep2.csv,25,5,5,True,0
+regime map,days_m0.8_cv1_uniform_blind_threshold70_rep2.csv,25,5,10,False,5
+regime map,days_m0.8_cv1_uniform_blind_threshold90_rep2.csv,25,5,10,False,5
+regime map,days_m0.8_cv1_uniform_blind_risk_rep2.csv,25,5,10,False,5
+regime map,days_m0.8_cv1_uniform_threshold50_rep2.csv,25,5,10,False,5
+regime map,days_m0.8_cv1_uniform_threshold70_rep2.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_threshold90_rep2.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_risk_myopic_rep2.csv,25,5,10,False,5
+regime map,days_m0.8_cv1_uniform_risk_cfa_t5_rep2.csv,25,5,10,False,5
+regime map,days_m0.8_cv1_uniform_risk_cfa_t15_rep2.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_fixed_daily_rep2.csv,26,6,10,False,4
+regime map,days_m0.65_cv1_uniform_periodic2_rep2.csv,26,6,10,False,4
+regime map,days_m0.65_cv1_uniform_periodic3_rep2.csv,26,6,10,False,4
+regime map,days_m0.65_cv1_uniform_periodic4_rep2.csv,26,6,10,False,4
+regime map,days_m0.65_cv1_uniform_periodic6_rep2.csv,26,6,5,True,0
+regime map,days_m0.65_cv1_uniform_blind_threshold50_rep2.csv,26,6,0,True,0
+regime map,days_m0.65_cv1_uniform_blind_threshold70_rep2.csv,26,6,10,False,4
+regime map,days_m0.65_cv1_uniform_blind_threshold90_rep2.csv,26,6,5,True,0
+regime map,days_m0.65_cv1_uniform_blind_risk_rep2.csv,26,6,10,False,4
+regime map,days_m0.65_cv1_uniform_threshold50_rep2.csv,26,6,10,False,4
+regime map,days_m0.65_cv1_uniform_threshold70_rep2.csv,26,6,10,False,4
+regime map,days_m0.65_cv1_uniform_threshold90_rep2.csv,26,6,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_myopic_rep2.csv,26,6,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t5_rep2.csv,26,6,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t15_rep2.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_uniform_fixed_daily_rep2.csv,30,8,0,True,0
+regime map,days_m0.5_cv1_uniform_periodic2_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv1_uniform_periodic3_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv1_uniform_periodic4_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv1_uniform_periodic6_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv1_uniform_blind_threshold50_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv1_uniform_blind_threshold70_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv1_uniform_blind_threshold90_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv1_uniform_blind_risk_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv1_uniform_threshold50_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv1_uniform_threshold70_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv1_uniform_threshold90_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv1_uniform_risk_myopic_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv1_uniform_risk_cfa_t5_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv1_uniform_risk_cfa_t15_rep2.csv,30,8,15,False,7
+regime map,days_m0.4_cv1_uniform_fixed_daily_rep2.csv,38,10,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic2_rep2.csv,38,10,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic3_rep2.csv,38,10,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic4_rep2.csv,38,10,10,True,0
+regime map,days_m0.4_cv1_uniform_periodic6_rep2.csv,38,10,0,True,0
+regime map,days_m0.4_cv1_uniform_blind_threshold50_rep2.csv,38,10,15,False,5
+regime map,days_m0.4_cv1_uniform_blind_threshold70_rep2.csv,38,10,15,False,5
+regime map,days_m0.4_cv1_uniform_blind_threshold90_rep2.csv,38,10,5,True,0
+regime map,days_m0.4_cv1_uniform_blind_risk_rep2.csv,38,10,5,True,0
+regime map,days_m0.4_cv1_uniform_threshold50_rep2.csv,38,10,10,True,0
+regime map,days_m0.4_cv1_uniform_threshold70_rep2.csv,38,10,0,True,0
+regime map,days_m0.4_cv1_uniform_threshold90_rep2.csv,38,10,0,True,0
+regime map,days_m0.4_cv1_uniform_risk_myopic_rep2.csv,38,10,0,True,0
+regime map,days_m0.4_cv1_uniform_risk_cfa_t5_rep2.csv,38,10,0,True,0
+regime map,days_m0.4_cv1_uniform_risk_cfa_t15_rep2.csv,38,10,10,True,0
+regime map,days_m0.25_cv1_uniform_fixed_daily_rep2.csv,59,15,15,True,0
+regime map,days_m0.25_cv1_uniform_periodic2_rep2.csv,59,15,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic3_rep2.csv,59,15,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic4_rep2.csv,59,15,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic6_rep2.csv,59,15,5,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold50_rep2.csv,59,15,0,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold70_rep2.csv,59,15,15,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold90_rep2.csv,59,15,15,True,0
+regime map,days_m0.25_cv1_uniform_blind_risk_rep2.csv,59,15,20,False,5
+regime map,days_m0.25_cv1_uniform_threshold50_rep2.csv,59,15,0,True,0
+regime map,days_m0.25_cv1_uniform_threshold70_rep2.csv,59,15,0,True,0
+regime map,days_m0.25_cv1_uniform_threshold90_rep2.csv,59,15,0,True,0
+regime map,days_m0.25_cv1_uniform_risk_myopic_rep2.csv,59,15,5,True,0
+regime map,days_m0.25_cv1_uniform_risk_cfa_t5_rep2.csv,59,15,5,True,0
+regime map,days_m0.25_cv1_uniform_risk_cfa_t15_rep2.csv,59,15,0,True,0
+regime map,days_m1_cv0.35_uniform_fixed_daily_rep2.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_periodic2_rep2.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_periodic3_rep2.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_periodic4_rep2.csv,24,4,0,True,0
+regime map,days_m1_cv0.35_uniform_blind_threshold50_rep2.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_uniform_blind_threshold70_rep2.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_uniform_blind_threshold90_rep2.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_blind_risk_rep2.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_threshold50_rep2.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_uniform_threshold70_rep2.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_threshold90_rep2.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_uniform_risk_myopic_rep2.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_risk_cfa_t5_rep2.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_risk_cfa_t15_rep2.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_fixed_daily_rep2.csv,25,5,10,False,5
+regime map,days_m0.8_cv0.35_uniform_periodic2_rep2.csv,25,5,10,False,5
+regime map,days_m0.8_cv0.35_uniform_periodic3_rep2.csv,25,5,10,False,5
+regime map,days_m0.8_cv0.35_uniform_periodic4_rep2.csv,25,5,0,True,0
+regime map,days_m0.8_cv0.35_uniform_periodic6_rep2.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_blind_threshold50_rep2.csv,25,5,10,False,5
+regime map,days_m0.8_cv0.35_uniform_blind_threshold70_rep2.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_blind_threshold90_rep2.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_blind_risk_rep2.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_threshold50_rep2.csv,25,5,10,False,5
+regime map,days_m0.8_cv0.35_uniform_threshold70_rep2.csv,25,5,0,True,0
+regime map,days_m0.8_cv0.35_uniform_threshold90_rep2.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_myopic_rep2.csv,25,5,0,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t5_rep2.csv,25,5,0,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t15_rep2.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_fixed_daily_rep2.csv,26,6,10,False,4
+regime map,days_m0.65_cv0.35_uniform_periodic2_rep2.csv,26,6,10,False,4
+regime map,days_m0.65_cv0.35_uniform_periodic3_rep2.csv,26,6,0,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic4_rep2.csv,26,6,0,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic6_rep2.csv,26,6,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_threshold50_rep2.csv,26,6,10,False,4
+regime map,days_m0.65_cv0.35_uniform_blind_threshold70_rep2.csv,26,6,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_threshold90_rep2.csv,26,6,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_risk_rep2.csv,26,6,5,True,0
+regime map,days_m0.65_cv0.35_uniform_threshold50_rep2.csv,26,6,0,True,0
+regime map,days_m0.65_cv0.35_uniform_threshold70_rep2.csv,26,6,0,True,0
+regime map,days_m0.65_cv0.35_uniform_threshold90_rep2.csv,26,6,10,False,4
+regime map,days_m0.65_cv0.35_uniform_risk_myopic_rep2.csv,26,6,10,False,4
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t5_rep2.csv,26,6,10,False,4
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t15_rep2.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_uniform_fixed_daily_rep2.csv,30,8,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic2_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv0.35_uniform_periodic3_rep2.csv,30,8,10,False,2
+regime map,days_m0.5_cv0.35_uniform_periodic4_rep2.csv,30,8,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic6_rep2.csv,30,8,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold50_rep2.csv,30,8,0,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold70_rep2.csv,30,8,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold90_rep2.csv,30,8,10,False,2
+regime map,days_m0.5_cv0.35_uniform_blind_risk_rep2.csv,30,8,10,False,2
+regime map,days_m0.5_cv0.35_uniform_threshold50_rep2.csv,30,8,10,False,2
+regime map,days_m0.5_cv0.35_uniform_threshold70_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv0.35_uniform_threshold90_rep2.csv,30,8,5,True,0
+regime map,days_m0.5_cv0.35_uniform_risk_myopic_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t5_rep2.csv,30,8,15,False,7
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t15_rep2.csv,30,8,10,False,2
+regime map,days_m0.4_cv0.35_uniform_fixed_daily_rep2.csv,38,10,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic2_rep2.csv,38,10,15,False,5
+regime map,days_m0.4_cv0.35_uniform_periodic3_rep2.csv,38,10,15,False,5
+regime map,days_m0.4_cv0.35_uniform_periodic4_rep2.csv,38,10,10,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic6_rep2.csv,38,10,15,False,5
+regime map,days_m0.4_cv0.35_uniform_blind_threshold50_rep2.csv,38,10,0,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold70_rep2.csv,38,10,10,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold90_rep2.csv,38,10,5,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_risk_rep2.csv,38,10,5,True,0
+regime map,days_m0.4_cv0.35_uniform_threshold50_rep2.csv,38,10,5,True,0
+regime map,days_m0.4_cv0.35_uniform_threshold70_rep2.csv,38,10,15,False,5
+regime map,days_m0.4_cv0.35_uniform_threshold90_rep2.csv,38,10,5,True,0
+regime map,days_m0.4_cv0.35_uniform_risk_myopic_rep2.csv,38,10,0,True,0
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t5_rep2.csv,38,10,10,True,0
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t15_rep2.csv,38,10,10,True,0
+regime map,days_m0.25_cv0.35_uniform_fixed_daily_rep2.csv,59,15,5,True,0
+regime map,days_m0.25_cv0.35_uniform_periodic2_rep2.csv,59,15,25,False,10
+regime map,days_m0.25_cv0.35_uniform_periodic3_rep2.csv,59,15,10,True,0
+regime map,days_m0.25_cv0.35_uniform_periodic4_rep2.csv,59,15,5,True,0
+regime map,days_m0.25_cv0.35_uniform_periodic6_rep2.csv,59,15,15,True,0
+regime map,days_m0.25_cv0.35_uniform_blind_threshold50_rep2.csv,59,15,25,False,10
+regime map,days_m0.25_cv0.35_uniform_blind_threshold70_rep2.csv,59,15,15,True,0
+regime map,days_m0.25_cv0.35_uniform_blind_threshold90_rep2.csv,59,15,10,True,0
+regime map,days_m0.25_cv0.35_uniform_blind_risk_rep2.csv,59,15,5,True,0
+regime map,days_m0.25_cv0.35_uniform_threshold50_rep2.csv,59,15,20,False,5
+regime map,days_m0.25_cv0.35_uniform_threshold70_rep2.csv,59,15,20,False,5
+regime map,days_m0.25_cv0.35_uniform_threshold90_rep2.csv,59,15,0,True,0
+regime map,days_m0.25_cv0.35_uniform_risk_myopic_rep2.csv,59,15,5,True,0
+regime map,days_m0.25_cv0.35_uniform_risk_cfa_t5_rep2.csv,59,15,0,True,0
+regime map,days_m0.25_cv0.35_uniform_risk_cfa_t15_rep2.csv,59,15,0,True,0
+regime map,days_m1_cv1_clustered_fixed_daily_rep3.csv,24,4,0,True,0
+regime map,days_m1_cv1_clustered_periodic2_rep3.csv,24,4,0,True,0
+regime map,days_m1_cv1_clustered_periodic3_rep3.csv,24,4,10,False,6
+regime map,days_m1_cv1_clustered_periodic4_rep3.csv,24,4,10,False,6
+regime map,days_m1_cv1_clustered_blind_threshold50_rep3.csv,24,4,10,False,6
+regime map,days_m1_cv1_clustered_blind_threshold70_rep3.csv,24,4,5,False,1
+regime map,days_m1_cv1_clustered_blind_threshold90_rep3.csv,24,4,5,False,1
+regime map,days_m1_cv1_clustered_blind_risk_rep3.csv,24,4,5,False,1
+regime map,days_m1_cv1_clustered_threshold50_rep3.csv,24,4,0,True,0
+regime map,days_m1_cv1_clustered_threshold70_rep3.csv,24,4,0,True,0
+regime map,days_m1_cv1_clustered_threshold90_rep3.csv,24,4,0,True,0
+regime map,days_m1_cv1_clustered_risk_myopic_rep3.csv,24,4,0,True,0
+regime map,days_m1_cv1_clustered_risk_cfa_t5_rep3.csv,24,4,0,True,0
+regime map,days_m1_cv1_clustered_risk_cfa_t15_rep3.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_fixed_daily_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_periodic2_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_periodic3_rep3.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_periodic4_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_blind_threshold50_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_blind_threshold70_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_blind_threshold90_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_blind_risk_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_threshold50_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_threshold70_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_threshold90_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_risk_myopic_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_risk_cfa_t5_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_risk_cfa_t15_rep3.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_clustered_fixed_daily_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic2_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic3_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic4_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic6_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_clustered_blind_threshold50_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_blind_threshold70_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_blind_threshold90_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_clustered_blind_risk_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_threshold50_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_threshold70_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_threshold90_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_risk_myopic_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_risk_cfa_t5_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_risk_cfa_t15_rep3.csv,25,5,0,True,0
+regime map,days_m0.5_cv1_clustered_fixed_daily_rep3.csv,27,7,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic2_rep3.csv,27,7,10,False,3
+regime map,days_m0.5_cv1_clustered_periodic3_rep3.csv,27,7,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic4_rep3.csv,27,7,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic6_rep3.csv,27,7,10,False,3
+regime map,days_m0.5_cv1_clustered_blind_threshold50_rep3.csv,27,7,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold70_rep3.csv,27,7,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold90_rep3.csv,27,7,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_risk_rep3.csv,27,7,5,True,0
+regime map,days_m0.5_cv1_clustered_threshold50_rep3.csv,27,7,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold70_rep3.csv,27,7,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold90_rep3.csv,27,7,0,True,0
+regime map,days_m0.5_cv1_clustered_risk_myopic_rep3.csv,27,7,10,False,3
+regime map,days_m0.5_cv1_clustered_risk_cfa_t5_rep3.csv,27,7,5,True,0
+regime map,days_m0.5_cv1_clustered_risk_cfa_t15_rep3.csv,27,7,0,True,0
+regime map,days_m0.4_cv1_clustered_fixed_daily_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_clustered_periodic2_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_clustered_periodic3_rep3.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic4_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_clustered_periodic6_rep3.csv,31,8,15,False,7
+regime map,days_m0.4_cv1_clustered_blind_threshold50_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_clustered_blind_threshold70_rep3.csv,31,8,15,False,7
+regime map,days_m0.4_cv1_clustered_blind_threshold90_rep3.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_clustered_blind_risk_rep3.csv,31,8,15,False,7
+regime map,days_m0.4_cv1_clustered_threshold50_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_clustered_threshold70_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_clustered_threshold90_rep3.csv,31,8,0,True,0
+regime map,days_m0.4_cv1_clustered_risk_myopic_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_clustered_risk_cfa_t5_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_clustered_risk_cfa_t15_rep3.csv,31,8,10,False,2
+regime map,days_m1_cv0.35_clustered_fixed_daily_rep3.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_clustered_periodic2_rep3.csv,24,4,0,True,0
+regime map,days_m1_cv0.35_clustered_periodic3_rep3.csv,24,4,0,True,0
+regime map,days_m1_cv0.35_clustered_periodic4_rep3.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_clustered_blind_threshold50_rep3.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_clustered_blind_threshold70_rep3.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_clustered_blind_threshold90_rep3.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_clustered_blind_risk_rep3.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_clustered_threshold50_rep3.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_clustered_threshold70_rep3.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_clustered_threshold90_rep3.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_clustered_risk_myopic_rep3.csv,24,4,0,True,0
+regime map,days_m1_cv0.35_clustered_risk_cfa_t5_rep3.csv,24,4,0,True,0
+regime map,days_m1_cv0.35_clustered_risk_cfa_t15_rep3.csv,24,4,0,True,0
+regime map,days_m0.65_cv0.35_clustered_fixed_daily_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_periodic2_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic3_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic4_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic6_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_blind_threshold50_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_blind_threshold70_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_blind_threshold90_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_blind_risk_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_threshold50_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold70_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold90_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_myopic_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t5_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t15_rep3.csv,25,5,10,False,5
+regime map,days_m0.5_cv0.35_clustered_fixed_daily_rep3.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic2_rep3.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_clustered_periodic3_rep3.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic4_rep3.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic6_rep3.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_clustered_blind_threshold50_rep3.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_clustered_blind_threshold70_rep3.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_clustered_blind_threshold90_rep3.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_clustered_blind_risk_rep3.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_clustered_threshold50_rep3.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_clustered_threshold70_rep3.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_clustered_threshold90_rep3.csv,27,7,0,True,0
+regime map,days_m0.5_cv0.35_clustered_risk_myopic_rep3.csv,27,7,0,True,0
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t5_rep3.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t15_rep3.csv,27,7,0,True,0
+regime map,days_m0.4_cv0.35_clustered_fixed_daily_rep3.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic2_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_periodic3_rep3.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic4_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_periodic6_rep3.csv,31,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_blind_threshold50_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_blind_threshold70_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_blind_threshold90_rep3.csv,31,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_blind_risk_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_threshold50_rep3.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold70_rep3.csv,31,8,0,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold90_rep3.csv,31,8,0,True,0
+regime map,days_m0.4_cv0.35_clustered_risk_myopic_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t5_rep3.csv,31,8,0,True,0
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t15_rep3.csv,31,8,0,True,0
+regime map,days_m1_cv1_uniform_fixed_daily_rep3.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_periodic2_rep3.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_periodic3_rep3.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_periodic4_rep3.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_blind_threshold50_rep3.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_blind_threshold70_rep3.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_blind_threshold90_rep3.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_blind_risk_rep3.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_threshold50_rep3.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_threshold70_rep3.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_threshold90_rep3.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_risk_myopic_rep3.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_risk_cfa_t5_rep3.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_risk_cfa_t15_rep3.csv,23,3,5,False,2
+regime map,days_m0.8_cv1_uniform_fixed_daily_rep3.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_periodic2_rep3.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_periodic3_rep3.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_periodic4_rep3.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_blind_threshold50_rep3.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_blind_threshold70_rep3.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_blind_threshold90_rep3.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_blind_risk_rep3.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_threshold50_rep3.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_threshold70_rep3.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_threshold90_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_risk_myopic_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_risk_cfa_t5_rep3.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_risk_cfa_t15_rep3.csv,24,4,0,True,0
+regime map,days_m0.65_cv1_uniform_fixed_daily_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_periodic2_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_periodic3_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_periodic4_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_periodic6_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_blind_threshold50_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_blind_threshold70_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_blind_threshold90_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_blind_risk_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_threshold50_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_threshold70_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_threshold90_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_risk_myopic_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t5_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t15_rep3.csv,25,5,0,True,0
+regime map,days_m0.4_cv1_uniform_fixed_daily_rep3.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic2_rep3.csv,31,8,15,False,7
+regime map,days_m0.4_cv1_uniform_periodic3_rep3.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic4_rep3.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic6_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_uniform_blind_threshold50_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_uniform_blind_threshold70_rep3.csv,31,8,15,False,7
+regime map,days_m0.4_cv1_uniform_blind_threshold90_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_uniform_blind_risk_rep3.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_uniform_threshold50_rep3.csv,31,8,15,False,7
+regime map,days_m0.4_cv1_uniform_threshold70_rep3.csv,31,8,0,True,0
+regime map,days_m0.4_cv1_uniform_threshold90_rep3.csv,31,8,15,False,7
+regime map,days_m0.4_cv1_uniform_risk_myopic_rep3.csv,31,8,0,True,0
+regime map,days_m0.4_cv1_uniform_risk_cfa_t5_rep3.csv,31,8,15,False,7
+regime map,days_m0.4_cv1_uniform_risk_cfa_t15_rep3.csv,31,8,15,False,7
+regime map,days_m0.25_cv1_uniform_fixed_daily_rep3.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic2_rep3.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic3_rep3.csv,48,12,20,False,8
+regime map,days_m0.25_cv1_uniform_periodic4_rep3.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic6_rep3.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold50_rep3.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold70_rep3.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold90_rep3.csv,48,12,10,True,0
+regime map,days_m0.25_cv1_uniform_blind_risk_rep3.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_uniform_threshold50_rep3.csv,48,12,20,False,8
+regime map,days_m0.25_cv1_uniform_threshold70_rep3.csv,48,12,0,True,0
+regime map,days_m0.25_cv1_uniform_threshold90_rep3.csv,48,12,5,True,0
+regime map,days_m0.25_cv1_uniform_risk_myopic_rep3.csv,48,12,0,True,0
+regime map,days_m0.25_cv1_uniform_risk_cfa_t5_rep3.csv,48,12,0,True,0
+regime map,days_m0.25_cv1_uniform_risk_cfa_t15_rep3.csv,48,12,0,True,0
+regime map,days_m1_cv0.35_uniform_fixed_daily_rep3.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_periodic2_rep3.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_periodic3_rep3.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_periodic4_rep3.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_blind_threshold50_rep3.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_blind_threshold70_rep3.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_blind_threshold90_rep3.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_blind_risk_rep3.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_threshold50_rep3.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_threshold70_rep3.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_threshold90_rep3.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_risk_myopic_rep3.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_risk_cfa_t5_rep3.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_risk_cfa_t15_rep3.csv,23,3,10,False,7
+regime map,days_m0.8_cv0.35_uniform_fixed_daily_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_periodic2_rep3.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_periodic3_rep3.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_periodic4_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_blind_threshold50_rep3.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_blind_threshold70_rep3.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_blind_threshold90_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_blind_risk_rep3.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_threshold50_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_threshold70_rep3.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_threshold90_rep3.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_myopic_rep3.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t5_rep3.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t15_rep3.csv,24,4,5,False,1
+regime map,days_m0.65_cv0.35_uniform_fixed_daily_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_periodic2_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic3_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_periodic4_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_periodic6_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_blind_threshold50_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_blind_threshold70_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_blind_threshold90_rep3.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_risk_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_threshold50_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_threshold70_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_threshold90_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_myopic_rep3.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t5_rep3.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t15_rep3.csv,25,5,0,True,0
+regime map,days_m0.5_cv0.35_uniform_fixed_daily_rep3.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic2_rep3.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_periodic3_rep3.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic4_rep3.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_periodic6_rep3.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_blind_threshold50_rep3.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold70_rep3.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold90_rep3.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_blind_risk_rep3.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold50_rep3.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold70_rep3.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold90_rep3.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_risk_myopic_rep3.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t5_rep3.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t15_rep3.csv,26,6,0,True,0
+regime map,days_m0.4_cv0.35_uniform_fixed_daily_rep3.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic2_rep3.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic3_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_uniform_periodic4_rep3.csv,31,8,15,False,7
+regime map,days_m0.4_cv0.35_uniform_periodic6_rep3.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold50_rep3.csv,31,8,0,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold70_rep3.csv,31,8,15,False,7
+regime map,days_m0.4_cv0.35_uniform_blind_threshold90_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_uniform_blind_risk_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_uniform_threshold50_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_uniform_threshold70_rep3.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_uniform_threshold90_rep3.csv,31,8,15,False,7
+regime map,days_m0.4_cv0.35_uniform_risk_myopic_rep3.csv,31,8,15,False,7
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t5_rep3.csv,31,8,0,True,0
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t15_rep3.csv,31,8,0,True,0
+regime map,days_m1_cv1_clustered_fixed_daily_rep4.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_periodic2_rep4.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_periodic3_rep4.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_blind_threshold50_rep4.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_blind_threshold70_rep4.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_blind_threshold90_rep4.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_blind_risk_rep4.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_threshold50_rep4.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_threshold70_rep4.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_threshold90_rep4.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_risk_myopic_rep4.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_risk_cfa_t5_rep4.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_risk_cfa_t15_rep4.csv,23,3,0,True,0
+regime map,days_m0.8_cv1_clustered_fixed_daily_rep4.csv,23,3,5,False,2
+regime map,days_m0.8_cv1_clustered_periodic2_rep4.csv,23,3,10,False,7
+regime map,days_m0.8_cv1_clustered_periodic3_rep4.csv,23,3,10,False,7
+regime map,days_m0.8_cv1_clustered_periodic4_rep4.csv,23,3,0,True,0
+regime map,days_m0.8_cv1_clustered_blind_threshold50_rep4.csv,23,3,10,False,7
+regime map,days_m0.8_cv1_clustered_blind_threshold70_rep4.csv,23,3,10,False,7
+regime map,days_m0.8_cv1_clustered_blind_threshold90_rep4.csv,23,3,10,False,7
+regime map,days_m0.8_cv1_clustered_blind_risk_rep4.csv,23,3,10,False,7
+regime map,days_m0.8_cv1_clustered_threshold50_rep4.csv,23,3,10,False,7
+regime map,days_m0.8_cv1_clustered_threshold70_rep4.csv,23,3,10,False,7
+regime map,days_m0.8_cv1_clustered_threshold90_rep4.csv,23,3,10,False,7
+regime map,days_m0.8_cv1_clustered_risk_myopic_rep4.csv,23,3,0,True,0
+regime map,days_m0.8_cv1_clustered_risk_cfa_t5_rep4.csv,23,3,0,True,0
+regime map,days_m0.8_cv1_clustered_risk_cfa_t15_rep4.csv,23,3,0,True,0
+regime map,days_m0.65_cv1_clustered_fixed_daily_rep4.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_clustered_periodic2_rep4.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_clustered_periodic3_rep4.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_clustered_periodic4_rep4.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_clustered_blind_threshold50_rep4.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_clustered_blind_threshold70_rep4.csv,24,4,5,False,1
+regime map,days_m0.65_cv1_clustered_blind_threshold90_rep4.csv,24,4,5,False,1
+regime map,days_m0.65_cv1_clustered_blind_risk_rep4.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_clustered_threshold50_rep4.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_clustered_threshold70_rep4.csv,24,4,0,True,0
+regime map,days_m0.65_cv1_clustered_threshold90_rep4.csv,24,4,5,False,1
+regime map,days_m0.65_cv1_clustered_risk_myopic_rep4.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_clustered_risk_cfa_t5_rep4.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_clustered_risk_cfa_t15_rep4.csv,24,4,10,False,6
+regime map,days_m0.5_cv1_clustered_fixed_daily_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic2_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic3_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic4_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic6_rep4.csv,25,5,0,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold50_rep4.csv,25,5,10,False,5
+regime map,days_m0.5_cv1_clustered_blind_threshold70_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold90_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_risk_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv1_clustered_threshold50_rep4.csv,25,5,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold70_rep4.csv,25,5,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold90_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv1_clustered_risk_myopic_rep4.csv,25,5,0,True,0
+regime map,days_m0.5_cv1_clustered_risk_cfa_t5_rep4.csv,25,5,0,True,0
+regime map,days_m0.5_cv1_clustered_risk_cfa_t15_rep4.csv,25,5,0,True,0
+regime map,days_m0.4_cv1_clustered_fixed_daily_rep4.csv,26,6,10,False,4
+regime map,days_m0.4_cv1_clustered_periodic2_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic3_rep4.csv,26,6,10,False,4
+regime map,days_m0.4_cv1_clustered_periodic4_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic6_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv1_clustered_blind_threshold50_rep4.csv,26,6,0,True,0
+regime map,days_m0.4_cv1_clustered_blind_threshold70_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv1_clustered_blind_threshold90_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv1_clustered_blind_risk_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv1_clustered_threshold50_rep4.csv,26,6,0,True,0
+regime map,days_m0.4_cv1_clustered_threshold70_rep4.csv,26,6,0,True,0
+regime map,days_m0.4_cv1_clustered_threshold90_rep4.csv,26,6,0,True,0
+regime map,days_m0.4_cv1_clustered_risk_myopic_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv1_clustered_risk_cfa_t5_rep4.csv,26,6,10,False,4
+regime map,days_m0.4_cv1_clustered_risk_cfa_t15_rep4.csv,26,6,0,True,0
+regime map,days_m1_cv0.35_clustered_fixed_daily_rep4.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_periodic2_rep4.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_periodic3_rep4.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_blind_threshold50_rep4.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_blind_threshold70_rep4.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_blind_threshold90_rep4.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_blind_risk_rep4.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_threshold50_rep4.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_threshold70_rep4.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_threshold90_rep4.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_risk_myopic_rep4.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_risk_cfa_t5_rep4.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_risk_cfa_t15_rep4.csv,23,3,10,False,7
+regime map,days_m0.65_cv0.35_clustered_fixed_daily_rep4.csv,24,4,5,False,1
+regime map,days_m0.65_cv0.35_clustered_periodic2_rep4.csv,24,4,10,False,6
+regime map,days_m0.65_cv0.35_clustered_periodic3_rep4.csv,24,4,5,False,1
+regime map,days_m0.65_cv0.35_clustered_periodic4_rep4.csv,24,4,5,False,1
+regime map,days_m0.65_cv0.35_clustered_blind_threshold50_rep4.csv,24,4,10,False,6
+regime map,days_m0.65_cv0.35_clustered_blind_threshold70_rep4.csv,24,4,10,False,6
+regime map,days_m0.65_cv0.35_clustered_blind_threshold90_rep4.csv,24,4,5,False,1
+regime map,days_m0.65_cv0.35_clustered_blind_risk_rep4.csv,24,4,5,False,1
+regime map,days_m0.65_cv0.35_clustered_threshold50_rep4.csv,24,4,0,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold70_rep4.csv,24,4,0,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold90_rep4.csv,24,4,5,False,1
+regime map,days_m0.65_cv0.35_clustered_risk_myopic_rep4.csv,24,4,0,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t5_rep4.csv,24,4,0,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t15_rep4.csv,24,4,0,True,0
+regime map,days_m0.5_cv0.35_clustered_fixed_daily_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic2_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic3_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic4_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic6_rep4.csv,25,5,10,False,5
+regime map,days_m0.5_cv0.35_clustered_blind_threshold50_rep4.csv,25,5,0,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_threshold70_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_threshold90_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_risk_rep4.csv,25,5,10,False,5
+regime map,days_m0.5_cv0.35_clustered_threshold50_rep4.csv,25,5,0,True,0
+regime map,days_m0.5_cv0.35_clustered_threshold70_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv0.35_clustered_threshold90_rep4.csv,25,5,10,False,5
+regime map,days_m0.5_cv0.35_clustered_risk_myopic_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t5_rep4.csv,25,5,0,True,0
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t15_rep4.csv,25,5,0,True,0
+regime map,days_m0.4_cv0.35_clustered_fixed_daily_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic2_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic3_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic4_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic6_rep4.csv,26,6,10,False,4
+regime map,days_m0.4_cv0.35_clustered_blind_threshold50_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv0.35_clustered_blind_threshold70_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv0.35_clustered_blind_threshold90_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv0.35_clustered_blind_risk_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold50_rep4.csv,26,6,0,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold70_rep4.csv,26,6,0,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold90_rep4.csv,26,6,5,True,0
+regime map,days_m0.4_cv0.35_clustered_risk_myopic_rep4.csv,26,6,10,False,4
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t5_rep4.csv,26,6,0,True,0
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t15_rep4.csv,26,6,0,True,0
+regime map,days_m1_cv1_uniform_fixed_daily_rep4.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_periodic2_rep4.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_periodic3_rep4.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_periodic4_rep4.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_blind_threshold50_rep4.csv,24,4,5,False,1
+regime map,days_m1_cv1_uniform_blind_threshold70_rep4.csv,24,4,5,False,1
+regime map,days_m1_cv1_uniform_blind_threshold90_rep4.csv,24,4,10,False,6
+regime map,days_m1_cv1_uniform_blind_risk_rep4.csv,24,4,5,False,1
+regime map,days_m1_cv1_uniform_threshold50_rep4.csv,24,4,10,False,6
+regime map,days_m1_cv1_uniform_threshold70_rep4.csv,24,4,5,False,1
+regime map,days_m1_cv1_uniform_threshold90_rep4.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_risk_myopic_rep4.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_risk_cfa_t5_rep4.csv,24,4,0,True,0
+regime map,days_m1_cv1_uniform_risk_cfa_t15_rep4.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_fixed_daily_rep4.csv,25,5,5,True,0
+regime map,days_m0.8_cv1_uniform_periodic2_rep4.csv,25,5,5,True,0
+regime map,days_m0.8_cv1_uniform_periodic3_rep4.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_periodic4_rep4.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_periodic6_rep4.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_blind_threshold50_rep4.csv,25,5,5,True,0
+regime map,days_m0.8_cv1_uniform_blind_threshold70_rep4.csv,25,5,5,True,0
+regime map,days_m0.8_cv1_uniform_blind_threshold90_rep4.csv,25,5,5,True,0
+regime map,days_m0.8_cv1_uniform_blind_risk_rep4.csv,25,5,5,True,0
+regime map,days_m0.8_cv1_uniform_threshold50_rep4.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_threshold70_rep4.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_threshold90_rep4.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_risk_myopic_rep4.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_risk_cfa_t5_rep4.csv,25,5,0,True,0
+regime map,days_m0.8_cv1_uniform_risk_cfa_t15_rep4.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_fixed_daily_rep4.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_periodic2_rep4.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_periodic3_rep4.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_periodic4_rep4.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_periodic6_rep4.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_blind_threshold50_rep4.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_blind_threshold70_rep4.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_blind_threshold90_rep4.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_blind_risk_rep4.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_threshold50_rep4.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_threshold70_rep4.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_threshold90_rep4.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_risk_myopic_rep4.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t5_rep4.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t15_rep4.csv,25,5,0,True,0
+regime map,days_m0.4_cv1_uniform_fixed_daily_rep4.csv,34,9,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic2_rep4.csv,34,9,15,False,6
+regime map,days_m0.4_cv1_uniform_periodic3_rep4.csv,34,9,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic4_rep4.csv,34,9,15,False,6
+regime map,days_m0.4_cv1_uniform_periodic6_rep4.csv,34,9,15,False,6
+regime map,days_m0.4_cv1_uniform_blind_threshold50_rep4.csv,34,9,5,True,0
+regime map,days_m0.4_cv1_uniform_blind_threshold70_rep4.csv,34,9,5,True,0
+regime map,days_m0.4_cv1_uniform_blind_threshold90_rep4.csv,34,9,5,True,0
+regime map,days_m0.4_cv1_uniform_blind_risk_rep4.csv,34,9,15,False,6
+regime map,days_m0.4_cv1_uniform_threshold50_rep4.csv,34,9,0,True,0
+regime map,days_m0.4_cv1_uniform_threshold70_rep4.csv,34,9,0,True,0
+regime map,days_m0.4_cv1_uniform_threshold90_rep4.csv,34,9,15,False,6
+regime map,days_m0.4_cv1_uniform_risk_myopic_rep4.csv,34,9,0,True,0
+regime map,days_m0.4_cv1_uniform_risk_cfa_t5_rep4.csv,34,9,15,False,6
+regime map,days_m0.4_cv1_uniform_risk_cfa_t15_rep4.csv,34,9,0,True,0
+regime map,days_m0.25_cv1_uniform_fixed_daily_rep4.csv,52,13,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic2_rep4.csv,52,13,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic3_rep4.csv,52,13,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic4_rep4.csv,52,13,10,True,0
+regime map,days_m0.25_cv1_uniform_periodic6_rep4.csv,52,13,15,False,2
+regime map,days_m0.25_cv1_uniform_blind_threshold50_rep4.csv,52,13,10,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold70_rep4.csv,52,13,5,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold90_rep4.csv,52,13,15,False,2
+regime map,days_m0.25_cv1_uniform_blind_risk_rep4.csv,52,13,25,False,12
+regime map,days_m0.25_cv1_uniform_threshold50_rep4.csv,52,13,10,True,0
+regime map,days_m0.25_cv1_uniform_threshold70_rep4.csv,52,13,0,True,0
+regime map,days_m0.25_cv1_uniform_threshold90_rep4.csv,52,13,10,True,0
+regime map,days_m0.25_cv1_uniform_risk_myopic_rep4.csv,52,13,0,True,0
+regime map,days_m0.25_cv1_uniform_risk_cfa_t5_rep4.csv,52,13,0,True,0
+regime map,days_m0.25_cv1_uniform_risk_cfa_t15_rep4.csv,52,13,15,False,2
+regime map,days_m1_cv0.35_uniform_fixed_daily_rep4.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_uniform_periodic2_rep4.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_uniform_periodic3_rep4.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_periodic4_rep4.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_blind_threshold50_rep4.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_blind_threshold70_rep4.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_uniform_blind_threshold90_rep4.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_blind_risk_rep4.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_threshold50_rep4.csv,24,4,0,True,0
+regime map,days_m1_cv0.35_uniform_threshold70_rep4.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_threshold90_rep4.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_uniform_risk_myopic_rep4.csv,24,4,0,True,0
+regime map,days_m1_cv0.35_uniform_risk_cfa_t5_rep4.csv,24,4,0,True,0
+regime map,days_m1_cv0.35_uniform_risk_cfa_t15_rep4.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_fixed_daily_rep4.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_periodic2_rep4.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_periodic3_rep4.csv,25,5,10,False,5
+regime map,days_m0.8_cv0.35_uniform_periodic4_rep4.csv,25,5,10,False,5
+regime map,days_m0.8_cv0.35_uniform_periodic6_rep4.csv,25,5,0,True,0
+regime map,days_m0.8_cv0.35_uniform_blind_threshold50_rep4.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_blind_threshold70_rep4.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_blind_threshold90_rep4.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_blind_risk_rep4.csv,25,5,5,True,0
+regime map,days_m0.8_cv0.35_uniform_threshold50_rep4.csv,25,5,10,False,5
+regime map,days_m0.8_cv0.35_uniform_threshold70_rep4.csv,25,5,0,True,0
+regime map,days_m0.8_cv0.35_uniform_threshold90_rep4.csv,25,5,0,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_myopic_rep4.csv,25,5,0,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t5_rep4.csv,25,5,0,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t15_rep4.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_fixed_daily_rep4.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic2_rep4.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic3_rep4.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_periodic4_rep4.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic6_rep4.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_threshold50_rep4.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_blind_threshold70_rep4.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_threshold90_rep4.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_blind_risk_rep4.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_threshold50_rep4.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_threshold70_rep4.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_threshold90_rep4.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_risk_myopic_rep4.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t5_rep4.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t15_rep4.csv,25,5,5,True,0
+regime map,days_m0.5_cv0.35_uniform_fixed_daily_rep4.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic2_rep4.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic3_rep4.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic4_rep4.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic6_rep4.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold50_rep4.csv,27,7,0,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold70_rep4.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold90_rep4.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_uniform_blind_risk_rep4.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_uniform_threshold50_rep4.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold70_rep4.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_uniform_threshold90_rep4.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_uniform_risk_myopic_rep4.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t5_rep4.csv,27,7,0,True,0
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t15_rep4.csv,27,7,0,True,0
+regime map,days_m0.4_cv0.35_uniform_fixed_daily_rep4.csv,34,9,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic2_rep4.csv,34,9,15,False,6
+regime map,days_m0.4_cv0.35_uniform_periodic3_rep4.csv,34,9,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic4_rep4.csv,34,9,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic6_rep4.csv,34,9,5,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold50_rep4.csv,34,9,5,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold70_rep4.csv,34,9,5,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold90_rep4.csv,34,9,10,False,1
+regime map,days_m0.4_cv0.35_uniform_blind_risk_rep4.csv,34,9,15,False,6
+regime map,days_m0.4_cv0.35_uniform_threshold50_rep4.csv,34,9,5,True,0
+regime map,days_m0.4_cv0.35_uniform_threshold70_rep4.csv,34,9,15,False,6
+regime map,days_m0.4_cv0.35_uniform_threshold90_rep4.csv,34,9,0,True,0
+regime map,days_m0.4_cv0.35_uniform_risk_myopic_rep4.csv,34,9,0,True,0
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t5_rep4.csv,34,9,5,True,0
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t15_rep4.csv,34,9,0,True,0
+regime map,days_m1_cv1_clustered_fixed_daily_rep5.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_periodic2_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_periodic3_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_periodic4_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_blind_threshold50_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_blind_threshold70_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_blind_threshold90_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_blind_risk_rep5.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_threshold50_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_threshold70_rep5.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_threshold90_rep5.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_risk_myopic_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_risk_cfa_t5_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_risk_cfa_t15_rep5.csv,23,3,5,False,2
+regime map,days_m0.8_cv1_clustered_fixed_daily_rep5.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_periodic2_rep5.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_periodic3_rep5.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_periodic4_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_blind_threshold50_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_blind_threshold70_rep5.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_blind_threshold90_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_blind_risk_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_threshold50_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_threshold70_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_threshold90_rep5.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_risk_myopic_rep5.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_risk_cfa_t5_rep5.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_risk_cfa_t15_rep5.csv,24,4,5,False,1
+regime map,days_m0.65_cv1_clustered_fixed_daily_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic2_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic3_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic4_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_periodic6_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_blind_threshold50_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_blind_threshold70_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_blind_threshold90_rep5.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_clustered_blind_risk_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_threshold50_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_threshold70_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_threshold90_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_risk_myopic_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_risk_cfa_t5_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_risk_cfa_t15_rep5.csv,25,5,10,False,5
+regime map,days_m0.5_cv1_clustered_fixed_daily_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic2_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_clustered_periodic3_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_clustered_periodic4_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic6_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold50_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_clustered_blind_threshold70_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_clustered_blind_threshold90_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_risk_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_clustered_threshold50_rep5.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold70_rep5.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold90_rep5.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_risk_myopic_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_risk_cfa_t5_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_risk_cfa_t15_rep5.csv,26,6,5,True,0
+regime map,days_m0.4_cv1_clustered_fixed_daily_rep5.csv,30,8,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic2_rep5.csv,30,8,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic3_rep5.csv,30,8,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic4_rep5.csv,30,8,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic6_rep5.csv,30,8,10,False,2
+regime map,days_m0.4_cv1_clustered_blind_threshold50_rep5.csv,30,8,0,True,0
+regime map,days_m0.4_cv1_clustered_blind_threshold70_rep5.csv,30,8,5,True,0
+regime map,days_m0.4_cv1_clustered_blind_threshold90_rep5.csv,30,8,5,True,0
+regime map,days_m0.4_cv1_clustered_blind_risk_rep5.csv,30,8,15,False,7
+regime map,days_m0.4_cv1_clustered_threshold50_rep5.csv,30,8,0,True,0
+regime map,days_m0.4_cv1_clustered_threshold70_rep5.csv,30,8,15,False,7
+regime map,days_m0.4_cv1_clustered_threshold90_rep5.csv,30,8,0,True,0
+regime map,days_m0.4_cv1_clustered_risk_myopic_rep5.csv,30,8,0,True,0
+regime map,days_m0.4_cv1_clustered_risk_cfa_t5_rep5.csv,30,8,0,True,0
+regime map,days_m0.4_cv1_clustered_risk_cfa_t15_rep5.csv,30,8,0,True,0
+regime map,days_m1_cv0.35_clustered_fixed_daily_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_periodic2_rep5.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_periodic3_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_periodic4_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_blind_threshold50_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_blind_threshold70_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_blind_threshold90_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_blind_risk_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_threshold50_rep5.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_threshold70_rep5.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_threshold90_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_risk_myopic_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_risk_cfa_t5_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_risk_cfa_t15_rep5.csv,23,3,0,True,0
+regime map,days_m0.65_cv0.35_clustered_fixed_daily_rep5.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_periodic2_rep5.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_periodic3_rep5.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_periodic4_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic6_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_blind_threshold50_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_blind_threshold70_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_blind_threshold90_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_blind_risk_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold50_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold70_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold90_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_myopic_rep5.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t5_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t15_rep5.csv,25,5,0,True,0
+regime map,days_m0.5_cv0.35_clustered_fixed_daily_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic2_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic3_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic4_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic6_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_blind_threshold50_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_threshold70_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_threshold90_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_risk_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_threshold50_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_threshold70_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_threshold90_rep5.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_clustered_risk_myopic_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t5_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t15_rep5.csv,26,6,10,False,4
+regime map,days_m0.4_cv0.35_clustered_fixed_daily_rep5.csv,30,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic2_rep5.csv,30,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic3_rep5.csv,30,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic4_rep5.csv,30,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_periodic6_rep5.csv,30,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_blind_threshold50_rep5.csv,30,8,0,True,0
+regime map,days_m0.4_cv0.35_clustered_blind_threshold70_rep5.csv,30,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_blind_threshold90_rep5.csv,30,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_blind_risk_rep5.csv,30,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold50_rep5.csv,30,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_threshold70_rep5.csv,30,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_threshold90_rep5.csv,30,8,0,True,0
+regime map,days_m0.4_cv0.35_clustered_risk_myopic_rep5.csv,30,8,0,True,0
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t5_rep5.csv,30,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t15_rep5.csv,30,8,0,True,0
+regime map,days_m1_cv1_uniform_fixed_daily_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_periodic2_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_periodic3_rep5.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_periodic4_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_blind_threshold50_rep5.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_blind_threshold70_rep5.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_blind_threshold90_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_blind_risk_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_threshold50_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_threshold70_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_threshold90_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_risk_myopic_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_risk_cfa_t5_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_risk_cfa_t15_rep5.csv,23,3,0,True,0
+regime map,days_m0.8_cv1_uniform_fixed_daily_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_periodic2_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_periodic3_rep5.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_periodic4_rep5.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_blind_threshold50_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_blind_threshold70_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_blind_threshold90_rep5.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_blind_risk_rep5.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_threshold50_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_threshold70_rep5.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_threshold90_rep5.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_risk_myopic_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_risk_cfa_t5_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_risk_cfa_t15_rep5.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_uniform_fixed_daily_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_periodic2_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_periodic3_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_periodic4_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_periodic6_rep5.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_blind_threshold50_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_blind_threshold70_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_blind_threshold90_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_blind_risk_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_threshold50_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_threshold70_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_threshold90_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_myopic_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t5_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t15_rep5.csv,25,5,0,True,0
+regime map,days_m0.4_cv1_uniform_fixed_daily_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic2_rep5.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_periodic3_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic4_rep5.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_periodic6_rep5.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_blind_threshold50_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_blind_threshold70_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_blind_threshold90_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_blind_risk_rep5.csv,28,7,0,True,0
+regime map,days_m0.4_cv1_uniform_threshold50_rep5.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_threshold70_rep5.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_threshold90_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_risk_myopic_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_risk_cfa_t5_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_risk_cfa_t15_rep5.csv,28,7,5,True,0
+regime map,days_m0.25_cv1_uniform_fixed_daily_rep5.csv,44,11,20,False,9
+regime map,days_m0.25_cv1_uniform_periodic2_rep5.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic3_rep5.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic4_rep5.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic6_rep5.csv,44,11,20,False,9
+regime map,days_m0.25_cv1_uniform_blind_threshold50_rep5.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold70_rep5.csv,44,11,15,False,4
+regime map,days_m0.25_cv1_uniform_blind_threshold90_rep5.csv,44,11,10,True,0
+regime map,days_m0.25_cv1_uniform_blind_risk_rep5.csv,44,11,10,True,0
+regime map,days_m0.25_cv1_uniform_threshold50_rep5.csv,44,11,0,True,0
+regime map,days_m0.25_cv1_uniform_threshold70_rep5.csv,44,11,0,True,0
+regime map,days_m0.25_cv1_uniform_threshold90_rep5.csv,44,11,0,True,0
+regime map,days_m0.25_cv1_uniform_risk_myopic_rep5.csv,44,11,0,True,0
+regime map,days_m0.25_cv1_uniform_risk_cfa_t5_rep5.csv,44,11,0,True,0
+regime map,days_m0.25_cv1_uniform_risk_cfa_t15_rep5.csv,44,11,15,False,4
+regime map,days_m1_cv0.35_uniform_fixed_daily_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_periodic2_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_periodic3_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_periodic4_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_blind_threshold50_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_blind_threshold70_rep5.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_blind_threshold90_rep5.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_blind_risk_rep5.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_threshold50_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_threshold70_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_threshold90_rep5.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_risk_myopic_rep5.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_risk_cfa_t5_rep5.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_risk_cfa_t15_rep5.csv,23,3,5,False,2
+regime map,days_m0.8_cv0.35_uniform_fixed_daily_rep5.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_periodic2_rep5.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_periodic3_rep5.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_periodic4_rep5.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_blind_threshold50_rep5.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_blind_threshold70_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_blind_threshold90_rep5.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_blind_risk_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_threshold50_rep5.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_threshold70_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_threshold90_rep5.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_myopic_rep5.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t5_rep5.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t15_rep5.csv,24,4,10,False,6
+regime map,days_m0.65_cv0.35_uniform_fixed_daily_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic2_rep5.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_periodic3_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic4_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic6_rep5.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_blind_threshold50_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_threshold70_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_threshold90_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_risk_rep5.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_threshold50_rep5.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_threshold70_rep5.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_threshold90_rep5.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_risk_myopic_rep5.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t5_rep5.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t15_rep5.csv,25,5,0,True,0
+regime map,days_m0.5_cv0.35_uniform_fixed_daily_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_periodic2_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_periodic3_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_periodic4_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_periodic6_rep5.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold50_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold70_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold90_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_risk_rep5.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold50_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_threshold70_rep5.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold90_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_risk_myopic_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t5_rep5.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t15_rep5.csv,26,6,10,False,4
+regime map,days_m0.4_cv0.35_uniform_fixed_daily_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic2_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic3_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic4_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic6_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold50_rep5.csv,28,7,0,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold70_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold90_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_risk_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_threshold50_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_threshold70_rep5.csv,28,7,0,True,0
+regime map,days_m0.4_cv0.35_uniform_threshold90_rep5.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_uniform_risk_myopic_rep5.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t5_rep5.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t15_rep5.csv,28,7,10,False,3
+regime map,days_m1_cv1_clustered_fixed_daily_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_periodic2_rep6.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_periodic3_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_periodic4_rep6.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_blind_threshold50_rep6.csv,23,3,0,True,0
+regime map,days_m1_cv1_clustered_blind_threshold70_rep6.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_blind_threshold90_rep6.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_blind_risk_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_threshold50_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_threshold70_rep6.csv,23,3,5,False,2
+regime map,days_m1_cv1_clustered_threshold90_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_risk_myopic_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_risk_cfa_t5_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv1_clustered_risk_cfa_t15_rep6.csv,23,3,10,False,7
+regime map,days_m0.8_cv1_clustered_fixed_daily_rep6.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_periodic2_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_periodic3_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_periodic4_rep6.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_blind_threshold50_rep6.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_blind_threshold70_rep6.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_blind_threshold90_rep6.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_blind_risk_rep6.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_threshold50_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_threshold70_rep6.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_threshold90_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_risk_myopic_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_risk_cfa_t5_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_risk_cfa_t15_rep6.csv,24,4,0,True,0
+regime map,days_m0.65_cv1_clustered_fixed_daily_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic2_rep6.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_clustered_periodic3_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_periodic4_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_periodic6_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_blind_threshold50_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_blind_threshold70_rep6.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_clustered_blind_threshold90_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_blind_risk_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_threshold50_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_threshold70_rep6.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_clustered_threshold90_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_risk_myopic_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_risk_cfa_t5_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_risk_cfa_t15_rep6.csv,25,5,0,True,0
+regime map,days_m0.5_cv1_clustered_fixed_daily_rep6.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_periodic2_rep6.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_periodic3_rep6.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_periodic4_rep6.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_periodic6_rep6.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold50_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold70_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold90_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_risk_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_threshold50_rep6.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_clustered_threshold70_rep6.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold90_rep6.csv,26,6,10,False,4
+regime map,days_m0.5_cv1_clustered_risk_myopic_rep6.csv,26,6,0,True,0
+regime map,days_m0.5_cv1_clustered_risk_cfa_t5_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv1_clustered_risk_cfa_t15_rep6.csv,26,6,0,True,0
+regime map,days_m0.4_cv1_clustered_fixed_daily_rep6.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic2_rep6.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic3_rep6.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_clustered_periodic4_rep6.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_clustered_periodic6_rep6.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_clustered_blind_threshold50_rep6.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_clustered_blind_threshold70_rep6.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_clustered_blind_threshold90_rep6.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_clustered_blind_risk_rep6.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_clustered_threshold50_rep6.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_clustered_threshold70_rep6.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_clustered_threshold90_rep6.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_clustered_risk_myopic_rep6.csv,28,7,0,True,0
+regime map,days_m0.4_cv1_clustered_risk_cfa_t5_rep6.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_clustered_risk_cfa_t15_rep6.csv,28,7,0,True,0
+regime map,days_m1_cv0.35_clustered_fixed_daily_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_periodic2_rep6.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_periodic3_rep6.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_periodic4_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_blind_threshold50_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_blind_threshold70_rep6.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_blind_threshold90_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_blind_risk_rep6.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_clustered_threshold50_rep6.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_threshold70_rep6.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_clustered_threshold90_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_risk_myopic_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_risk_cfa_t5_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_clustered_risk_cfa_t15_rep6.csv,23,3,10,False,7
+regime map,days_m0.65_cv0.35_clustered_fixed_daily_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic2_rep6.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_periodic3_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic4_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic6_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_blind_threshold50_rep6.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_blind_threshold70_rep6.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_blind_threshold90_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_blind_risk_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold50_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold70_rep6.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_threshold90_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_myopic_rep6.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t5_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t15_rep6.csv,25,5,0,True,0
+regime map,days_m0.5_cv0.35_clustered_fixed_daily_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic2_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic3_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic4_rep6.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_periodic6_rep6.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_blind_threshold50_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_threshold70_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_threshold90_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_risk_rep6.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_threshold50_rep6.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_clustered_threshold70_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_clustered_threshold90_rep6.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_clustered_risk_myopic_rep6.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t5_rep6.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t15_rep6.csv,26,6,0,True,0
+regime map,days_m0.4_cv0.35_clustered_fixed_daily_rep6.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic2_rep6.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_clustered_periodic3_rep6.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic4_rep6.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_clustered_periodic6_rep6.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_clustered_blind_threshold50_rep6.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_clustered_blind_threshold70_rep6.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_clustered_blind_threshold90_rep6.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_clustered_blind_risk_rep6.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold50_rep6.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold70_rep6.csv,28,7,0,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold90_rep6.csv,28,7,0,True,0
+regime map,days_m0.4_cv0.35_clustered_risk_myopic_rep6.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t5_rep6.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t15_rep6.csv,28,7,5,True,0
+regime map,days_m1_cv1_uniform_fixed_daily_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_periodic2_rep6.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_periodic3_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_periodic4_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_blind_threshold50_rep6.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_blind_threshold70_rep6.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_blind_threshold90_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_blind_risk_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_threshold50_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_threshold70_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_threshold90_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_risk_myopic_rep6.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_risk_cfa_t5_rep6.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_risk_cfa_t15_rep6.csv,23,3,0,True,0
+regime map,days_m0.8_cv1_uniform_fixed_daily_rep6.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_periodic2_rep6.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_periodic3_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_periodic4_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_blind_threshold50_rep6.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_blind_threshold70_rep6.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_uniform_blind_threshold90_rep6.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_blind_risk_rep6.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_threshold50_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_threshold70_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_threshold90_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_risk_myopic_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_risk_cfa_t5_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_risk_cfa_t15_rep6.csv,24,4,0,True,0
+regime map,days_m0.65_cv1_uniform_fixed_daily_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_periodic2_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_periodic3_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_periodic4_rep6.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_periodic6_rep6.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_blind_threshold50_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_blind_threshold70_rep6.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_blind_threshold90_rep6.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_blind_risk_rep6.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_threshold50_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_threshold70_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_threshold90_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_myopic_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t5_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t15_rep6.csv,25,5,0,True,0
+regime map,days_m0.4_cv1_uniform_fixed_daily_rep6.csv,30,8,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic2_rep6.csv,30,8,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic3_rep6.csv,30,8,15,False,7
+regime map,days_m0.4_cv1_uniform_periodic4_rep6.csv,30,8,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic6_rep6.csv,30,8,5,True,0
+regime map,days_m0.4_cv1_uniform_blind_threshold50_rep6.csv,30,8,10,False,2
+regime map,days_m0.4_cv1_uniform_blind_threshold70_rep6.csv,30,8,10,False,2
+regime map,days_m0.4_cv1_uniform_blind_threshold90_rep6.csv,30,8,15,False,7
+regime map,days_m0.4_cv1_uniform_blind_risk_rep6.csv,30,8,5,True,0
+regime map,days_m0.4_cv1_uniform_threshold50_rep6.csv,30,8,10,False,2
+regime map,days_m0.4_cv1_uniform_threshold70_rep6.csv,30,8,0,True,0
+regime map,days_m0.4_cv1_uniform_threshold90_rep6.csv,30,8,0,True,0
+regime map,days_m0.4_cv1_uniform_risk_myopic_rep6.csv,30,8,0,True,0
+regime map,days_m0.4_cv1_uniform_risk_cfa_t5_rep6.csv,30,8,10,False,2
+regime map,days_m0.4_cv1_uniform_risk_cfa_t15_rep6.csv,30,8,10,False,2
+regime map,days_m0.25_cv1_uniform_fixed_daily_rep6.csv,46,12,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic2_rep6.csv,46,12,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic3_rep6.csv,46,12,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic4_rep6.csv,46,12,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic6_rep6.csv,46,12,5,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold50_rep6.csv,46,12,5,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold70_rep6.csv,46,12,5,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold90_rep6.csv,46,12,5,True,0
+regime map,days_m0.25_cv1_uniform_blind_risk_rep6.csv,46,12,5,True,0
+regime map,days_m0.25_cv1_uniform_threshold50_rep6.csv,46,12,10,True,0
+regime map,days_m0.25_cv1_uniform_threshold70_rep6.csv,46,12,15,False,3
+regime map,days_m0.25_cv1_uniform_threshold90_rep6.csv,46,12,0,True,0
+regime map,days_m0.25_cv1_uniform_risk_myopic_rep6.csv,46,12,20,False,8
+regime map,days_m0.25_cv1_uniform_risk_cfa_t5_rep6.csv,46,12,0,True,0
+regime map,days_m0.25_cv1_uniform_risk_cfa_t15_rep6.csv,46,12,0,True,0
+regime map,days_m1_cv0.35_uniform_fixed_daily_rep6.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_periodic2_rep6.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_periodic3_rep6.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_periodic4_rep6.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_blind_threshold50_rep6.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_blind_threshold70_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_blind_threshold90_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_blind_risk_rep6.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_threshold50_rep6.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_threshold70_rep6.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_threshold90_rep6.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_risk_myopic_rep6.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_risk_cfa_t5_rep6.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_risk_cfa_t15_rep6.csv,23,3,0,True,0
+regime map,days_m0.8_cv0.35_uniform_fixed_daily_rep6.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_periodic2_rep6.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_periodic3_rep6.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_periodic4_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_blind_threshold50_rep6.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_blind_threshold70_rep6.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_blind_threshold90_rep6.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_blind_risk_rep6.csv,24,4,5,False,1
+regime map,days_m0.8_cv0.35_uniform_threshold50_rep6.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_threshold70_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_threshold90_rep6.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_risk_myopic_rep6.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t5_rep6.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t15_rep6.csv,24,4,10,False,6
+regime map,days_m0.65_cv0.35_uniform_fixed_daily_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic2_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic3_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic4_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic6_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_threshold50_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_threshold70_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_threshold90_rep6.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_risk_rep6.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_threshold50_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_threshold70_rep6.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_threshold90_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_myopic_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t5_rep6.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t15_rep6.csv,25,5,0,True,0
+regime map,days_m0.5_cv0.35_uniform_fixed_daily_rep6.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_periodic2_rep6.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_periodic3_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic4_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic6_rep6.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_blind_threshold50_rep6.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_blind_threshold70_rep6.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_blind_threshold90_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_risk_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold50_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold70_rep6.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold90_rep6.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_uniform_risk_myopic_rep6.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t5_rep6.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t15_rep6.csv,26,6,10,False,4
+regime map,days_m0.4_cv0.35_uniform_fixed_daily_rep6.csv,30,8,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic2_rep6.csv,30,8,15,False,7
+regime map,days_m0.4_cv0.35_uniform_periodic3_rep6.csv,30,8,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic4_rep6.csv,30,8,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic6_rep6.csv,30,8,5,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold50_rep6.csv,30,8,15,False,7
+regime map,days_m0.4_cv0.35_uniform_blind_threshold70_rep6.csv,30,8,10,False,2
+regime map,days_m0.4_cv0.35_uniform_blind_threshold90_rep6.csv,30,8,10,False,2
+regime map,days_m0.4_cv0.35_uniform_blind_risk_rep6.csv,30,8,5,True,0
+regime map,days_m0.4_cv0.35_uniform_threshold50_rep6.csv,30,8,15,False,7
+regime map,days_m0.4_cv0.35_uniform_threshold70_rep6.csv,30,8,15,False,7
+regime map,days_m0.4_cv0.35_uniform_threshold90_rep6.csv,30,8,5,True,0
+regime map,days_m0.4_cv0.35_uniform_risk_myopic_rep6.csv,30,8,0,True,0
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t5_rep6.csv,30,8,0,True,0
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t15_rep6.csv,30,8,0,True,0
+regime map,days_m1_cv1_clustered_fixed_daily_rep7.csv,24,4,5,False,1
+regime map,days_m1_cv1_clustered_periodic2_rep7.csv,24,4,5,False,1
+regime map,days_m1_cv1_clustered_periodic3_rep7.csv,24,4,5,False,1
+regime map,days_m1_cv1_clustered_periodic4_rep7.csv,24,4,10,False,6
+regime map,days_m1_cv1_clustered_blind_threshold50_rep7.csv,24,4,10,False,6
+regime map,days_m1_cv1_clustered_blind_threshold70_rep7.csv,24,4,5,False,1
+regime map,days_m1_cv1_clustered_blind_threshold90_rep7.csv,24,4,5,False,1
+regime map,days_m1_cv1_clustered_blind_risk_rep7.csv,24,4,5,False,1
+regime map,days_m1_cv1_clustered_threshold50_rep7.csv,24,4,0,True,0
+regime map,days_m1_cv1_clustered_threshold70_rep7.csv,24,4,0,True,0
+regime map,days_m1_cv1_clustered_threshold90_rep7.csv,24,4,10,False,6
+regime map,days_m1_cv1_clustered_risk_myopic_rep7.csv,24,4,5,False,1
+regime map,days_m1_cv1_clustered_risk_cfa_t5_rep7.csv,24,4,0,True,0
+regime map,days_m1_cv1_clustered_risk_cfa_t15_rep7.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_fixed_daily_rep7.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_periodic2_rep7.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_periodic3_rep7.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_periodic4_rep7.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_blind_threshold50_rep7.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_blind_threshold70_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_blind_threshold90_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_blind_risk_rep7.csv,24,4,5,False,1
+regime map,days_m0.8_cv1_clustered_threshold50_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_threshold70_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_threshold90_rep7.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_risk_myopic_rep7.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_clustered_risk_cfa_t5_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_clustered_risk_cfa_t15_rep7.csv,24,4,0,True,0
+regime map,days_m0.65_cv1_clustered_fixed_daily_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic2_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_periodic3_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic4_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_periodic6_rep7.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_clustered_blind_threshold50_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_blind_threshold70_rep7.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_clustered_blind_threshold90_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_blind_risk_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_threshold50_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_threshold70_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_threshold90_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_clustered_risk_myopic_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_risk_cfa_t5_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_clustered_risk_cfa_t15_rep7.csv,25,5,0,True,0
+regime map,days_m0.5_cv1_clustered_fixed_daily_rep7.csv,27,7,10,False,3
+regime map,days_m0.5_cv1_clustered_periodic2_rep7.csv,27,7,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic3_rep7.csv,27,7,10,False,3
+regime map,days_m0.5_cv1_clustered_periodic4_rep7.csv,27,7,5,True,0
+regime map,days_m0.5_cv1_clustered_periodic6_rep7.csv,27,7,5,True,0
+regime map,days_m0.5_cv1_clustered_blind_threshold50_rep7.csv,27,7,10,False,3
+regime map,days_m0.5_cv1_clustered_blind_threshold70_rep7.csv,27,7,10,False,3
+regime map,days_m0.5_cv1_clustered_blind_threshold90_rep7.csv,27,7,10,False,3
+regime map,days_m0.5_cv1_clustered_blind_risk_rep7.csv,27,7,5,True,0
+regime map,days_m0.5_cv1_clustered_threshold50_rep7.csv,27,7,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold70_rep7.csv,27,7,0,True,0
+regime map,days_m0.5_cv1_clustered_threshold90_rep7.csv,27,7,10,False,3
+regime map,days_m0.5_cv1_clustered_risk_myopic_rep7.csv,27,7,0,True,0
+regime map,days_m0.5_cv1_clustered_risk_cfa_t5_rep7.csv,27,7,0,True,0
+regime map,days_m0.5_cv1_clustered_risk_cfa_t15_rep7.csv,27,7,0,True,0
+regime map,days_m0.4_cv1_clustered_fixed_daily_rep7.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_clustered_periodic2_rep7.csv,31,8,15,False,7
+regime map,days_m0.4_cv1_clustered_periodic3_rep7.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic4_rep7.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_clustered_periodic6_rep7.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_clustered_blind_threshold50_rep7.csv,31,8,0,True,0
+regime map,days_m0.4_cv1_clustered_blind_threshold70_rep7.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_clustered_blind_threshold90_rep7.csv,31,8,15,False,7
+regime map,days_m0.4_cv1_clustered_blind_risk_rep7.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_clustered_threshold50_rep7.csv,31,8,5,True,0
+regime map,days_m0.4_cv1_clustered_threshold70_rep7.csv,31,8,0,True,0
+regime map,days_m0.4_cv1_clustered_threshold90_rep7.csv,31,8,0,True,0
+regime map,days_m0.4_cv1_clustered_risk_myopic_rep7.csv,31,8,15,False,7
+regime map,days_m0.4_cv1_clustered_risk_cfa_t5_rep7.csv,31,8,10,False,2
+regime map,days_m0.4_cv1_clustered_risk_cfa_t15_rep7.csv,31,8,5,True,0
+regime map,days_m1_cv0.35_clustered_fixed_daily_rep7.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_clustered_periodic2_rep7.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_clustered_periodic3_rep7.csv,24,4,5,False,1
+regime map,days_m1_cv0.35_clustered_periodic4_rep7.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_clustered_blind_threshold50_rep7.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_clustered_blind_threshold70_rep7.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_clustered_blind_threshold90_rep7.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_clustered_blind_risk_rep7.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_clustered_threshold50_rep7.csv,24,4,10,False,6
+regime map,days_m1_cv0.35_clustered_threshold70_rep7.csv,24,4,0,True,0
+regime map,days_m1_cv0.35_clustered_threshold90_rep7.csv,24,4,0,True,0
+regime map,days_m1_cv0.35_clustered_risk_myopic_rep7.csv,24,4,0,True,0
+regime map,days_m1_cv0.35_clustered_risk_cfa_t5_rep7.csv,24,4,0,True,0
+regime map,days_m1_cv0.35_clustered_risk_cfa_t15_rep7.csv,24,4,5,False,1
+regime map,days_m0.65_cv0.35_clustered_fixed_daily_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic2_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic3_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_periodic4_rep7.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_periodic6_rep7.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_blind_threshold50_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_clustered_blind_threshold70_rep7.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_blind_threshold90_rep7.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_blind_risk_rep7.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_clustered_threshold50_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold70_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_threshold90_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_myopic_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t5_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_clustered_risk_cfa_t15_rep7.csv,25,5,10,False,5
+regime map,days_m0.5_cv0.35_clustered_fixed_daily_rep7.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic2_rep7.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_clustered_periodic3_rep7.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_clustered_periodic4_rep7.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_clustered_periodic6_rep7.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_clustered_blind_threshold50_rep7.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_clustered_blind_threshold70_rep7.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_threshold90_rep7.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_clustered_blind_risk_rep7.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_clustered_threshold50_rep7.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_clustered_threshold70_rep7.csv,27,7,5,True,0
+regime map,days_m0.5_cv0.35_clustered_threshold90_rep7.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_clustered_risk_myopic_rep7.csv,27,7,0,True,0
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t5_rep7.csv,27,7,10,False,3
+regime map,days_m0.5_cv0.35_clustered_risk_cfa_t15_rep7.csv,27,7,0,True,0
+regime map,days_m0.4_cv0.35_clustered_fixed_daily_rep7.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_periodic2_rep7.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_periodic3_rep7.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_periodic4_rep7.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_periodic6_rep7.csv,31,8,10,False,2
+regime map,days_m0.4_cv0.35_clustered_blind_threshold50_rep7.csv,31,8,0,True,0
+regime map,days_m0.4_cv0.35_clustered_blind_threshold70_rep7.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_blind_threshold90_rep7.csv,31,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_blind_risk_rep7.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold50_rep7.csv,31,8,5,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold70_rep7.csv,31,8,0,True,0
+regime map,days_m0.4_cv0.35_clustered_threshold90_rep7.csv,31,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_risk_myopic_rep7.csv,31,8,0,True,0
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t5_rep7.csv,31,8,15,False,7
+regime map,days_m0.4_cv0.35_clustered_risk_cfa_t15_rep7.csv,31,8,0,True,0
+regime map,days_m1_cv1_uniform_fixed_daily_rep7.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_periodic2_rep7.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_periodic3_rep7.csv,23,3,0,True,0
+regime map,days_m1_cv1_uniform_periodic4_rep7.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_blind_threshold50_rep7.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_blind_threshold70_rep7.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_blind_threshold90_rep7.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_blind_risk_rep7.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_threshold50_rep7.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_threshold70_rep7.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_threshold90_rep7.csv,23,3,5,False,2
+regime map,days_m1_cv1_uniform_risk_myopic_rep7.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_risk_cfa_t5_rep7.csv,23,3,10,False,7
+regime map,days_m1_cv1_uniform_risk_cfa_t15_rep7.csv,23,3,10,False,7
+regime map,days_m0.8_cv1_uniform_fixed_daily_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_periodic2_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_periodic3_rep7.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_periodic4_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_blind_threshold50_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_blind_threshold70_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_blind_threshold90_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_blind_risk_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_threshold50_rep7.csv,24,4,0,True,0
+regime map,days_m0.8_cv1_uniform_threshold70_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_threshold90_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_risk_myopic_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_risk_cfa_t5_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv1_uniform_risk_cfa_t15_rep7.csv,24,4,10,False,6
+regime map,days_m0.65_cv1_uniform_fixed_daily_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_periodic2_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_periodic3_rep7.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_periodic4_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_periodic6_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_blind_threshold50_rep7.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_blind_threshold70_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv1_uniform_blind_threshold90_rep7.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_blind_risk_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_threshold50_rep7.csv,25,5,10,False,5
+regime map,days_m0.65_cv1_uniform_threshold70_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_threshold90_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_myopic_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t5_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv1_uniform_risk_cfa_t15_rep7.csv,25,5,0,True,0
+regime map,days_m0.4_cv1_uniform_fixed_daily_rep7.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_periodic2_rep7.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_periodic3_rep7.csv,28,7,5,True,0
+regime map,days_m0.4_cv1_uniform_periodic4_rep7.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_periodic6_rep7.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_blind_threshold50_rep7.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_blind_threshold70_rep7.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_blind_threshold90_rep7.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_blind_risk_rep7.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_threshold50_rep7.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_threshold70_rep7.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_threshold90_rep7.csv,28,7,0,True,0
+regime map,days_m0.4_cv1_uniform_risk_myopic_rep7.csv,28,7,10,False,3
+regime map,days_m0.4_cv1_uniform_risk_cfa_t5_rep7.csv,28,7,0,True,0
+regime map,days_m0.4_cv1_uniform_risk_cfa_t15_rep7.csv,28,7,10,False,3
+regime map,days_m0.25_cv1_uniform_fixed_daily_rep7.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic2_rep7.csv,44,11,15,False,4
+regime map,days_m0.25_cv1_uniform_periodic3_rep7.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_periodic4_rep7.csv,44,11,15,False,4
+regime map,days_m0.25_cv1_uniform_periodic6_rep7.csv,44,11,15,False,4
+regime map,days_m0.25_cv1_uniform_blind_threshold50_rep7.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold70_rep7.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_blind_threshold90_rep7.csv,44,11,20,False,9
+regime map,days_m0.25_cv1_uniform_blind_risk_rep7.csv,44,11,5,True,0
+regime map,days_m0.25_cv1_uniform_threshold50_rep7.csv,44,11,0,True,0
+regime map,days_m0.25_cv1_uniform_threshold70_rep7.csv,44,11,15,False,4
+regime map,days_m0.25_cv1_uniform_threshold90_rep7.csv,44,11,0,True,0
+regime map,days_m0.25_cv1_uniform_risk_myopic_rep7.csv,44,11,0,True,0
+regime map,days_m0.25_cv1_uniform_risk_cfa_t5_rep7.csv,44,11,15,False,4
+regime map,days_m0.25_cv1_uniform_risk_cfa_t15_rep7.csv,44,11,10,True,0
+regime map,days_m1_cv0.35_uniform_fixed_daily_rep7.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_periodic2_rep7.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_periodic3_rep7.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_periodic4_rep7.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_blind_threshold50_rep7.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_blind_threshold70_rep7.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_blind_threshold90_rep7.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_blind_risk_rep7.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_threshold50_rep7.csv,23,3,10,False,7
+regime map,days_m1_cv0.35_uniform_threshold70_rep7.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_threshold90_rep7.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_risk_myopic_rep7.csv,23,3,0,True,0
+regime map,days_m1_cv0.35_uniform_risk_cfa_t5_rep7.csv,23,3,5,False,2
+regime map,days_m1_cv0.35_uniform_risk_cfa_t15_rep7.csv,23,3,0,True,0
+regime map,days_m0.8_cv0.35_uniform_fixed_daily_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_periodic2_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_periodic3_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_periodic4_rep7.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_blind_threshold50_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_blind_threshold70_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_blind_threshold90_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_blind_risk_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_threshold50_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_threshold70_rep7.csv,24,4,0,True,0
+regime map,days_m0.8_cv0.35_uniform_threshold90_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_risk_myopic_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t5_rep7.csv,24,4,10,False,6
+regime map,days_m0.8_cv0.35_uniform_risk_cfa_t15_rep7.csv,24,4,0,True,0
+regime map,days_m0.65_cv0.35_uniform_fixed_daily_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic2_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic3_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic4_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_periodic6_rep7.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_blind_threshold50_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_threshold70_rep7.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_blind_threshold90_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_blind_risk_rep7.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_threshold50_rep7.csv,25,5,10,False,5
+regime map,days_m0.65_cv0.35_uniform_threshold70_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_threshold90_rep7.csv,25,5,5,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_myopic_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t5_rep7.csv,25,5,0,True,0
+regime map,days_m0.65_cv0.35_uniform_risk_cfa_t15_rep7.csv,25,5,5,True,0
+regime map,days_m0.5_cv0.35_uniform_fixed_daily_rep7.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_periodic2_rep7.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic3_rep7.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_periodic4_rep7.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_periodic6_rep7.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold50_rep7.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_blind_threshold70_rep7.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_blind_threshold90_rep7.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_blind_risk_rep7.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold50_rep7.csv,26,6,5,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold70_rep7.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_uniform_threshold90_rep7.csv,26,6,0,True,0
+regime map,days_m0.5_cv0.35_uniform_risk_myopic_rep7.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t5_rep7.csv,26,6,10,False,4
+regime map,days_m0.5_cv0.35_uniform_risk_cfa_t15_rep7.csv,26,6,0,True,0
+regime map,days_m0.4_cv0.35_uniform_fixed_daily_rep7.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic2_rep7.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic3_rep7.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic4_rep7.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_periodic6_rep7.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_uniform_blind_threshold50_rep7.csv,28,7,0,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_threshold70_rep7.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_uniform_blind_threshold90_rep7.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_blind_risk_rep7.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_threshold50_rep7.csv,28,7,5,True,0
+regime map,days_m0.4_cv0.35_uniform_threshold70_rep7.csv,28,7,0,True,0
+regime map,days_m0.4_cv0.35_uniform_threshold90_rep7.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_uniform_risk_myopic_rep7.csv,28,7,0,True,0
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t5_rep7.csv,28,7,10,False,3
+regime map,days_m0.4_cv0.35_uniform_risk_cfa_t15_rep7.csv,28,7,10,False,3

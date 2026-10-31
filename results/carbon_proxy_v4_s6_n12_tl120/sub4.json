@@ -1,0 +1,296 @@
+[
+ {
+  "lam": 0,
+  "feasible": true,
+  "cost": 139.91328000000001,
+  "co2_kg": 109.21665176,
+  "km": 53.494,
+  "true_priced": 139.91328000000001,
+  "trucks": [
+   "old_compactor"
+  ],
+  "sub": 4,
+  "method": "true",
+  "status": "OPTIMAL"
+ },
+ {
+  "lam": 0,
+  "feasible": true,
+  "cost": 139.91328000000001,
+  "co2_kg": 109.322942436,
+  "km": 53.494,
+  "true_priced": 139.91328000000001,
+  "trucks": [
+   "old_compactor"
+  ],
+  "sub": 4,
+  "method": "proxy",
+  "status": "OPTIMAL"
+ },
+ {
+  "lam": 0,
+  "feasible": true,
+  "cost": 139.91328000000001,
+  "co2_kg": 109.369209956,
+  "km": 53.494,
+  "true_priced": 139.91328000000001,
+  "trucks": [
+   "old_compactor"
+  ],
+  "sub": 4,
+  "method": "pyvrp",
+  "status": "FEASIBLE"
+ },
+ {
+  "lam": 50,
+  "feasible": true,
+  "cost": 139.91328000000001,
+  "co2_kg": 109.21665176,
+  "km": 53.494,
+  "true_priced": 145.374112588,
+  "trucks": [
+   "old_compactor"
+  ],
+  "sub": 4,
+  "method": "true",
+  "status": "OPTIMAL"
+ },
+ {
+  "lam": 50,
+  "feasible": true,
+  "cost": 139.91328000000001,
+  "co2_kg": 109.322942436,
+  "km": 53.494,
+  "true_priced": 145.3794271218,
+  "trucks": [
+   "old_compactor"
+  ],
+  "sub": 4,
+  "method": "proxy",
+  "status": "OPTIMAL"
+ },
+ {
+  "lam": 50,
+  "feasible": true,
+  "cost": 139.91328000000001,
+  "co2_kg": 109.369209956,
+  "km": 53.494,
+  "true_priced": 145.38174049780002,
+  "trucks": [
+   "old_compactor"
+  ],
+  "sub": 4,
+  "method": "pyvrp",
+  "status": "FEASIBLE"
+ },
+ {
+  "lam": 100,
+  "feasible": true,
+  "cost": 139.91328000000001,
+  "co2_kg": 109.21665176,
+  "km": 53.494,
+  "true_priced": 150.83494517600002,
+  "trucks": [
+   "old_compactor"
+  ],
+  "sub": 4,
+  "method": "true",
+  "status": "OPTIMAL"
+ },
+ {
+  "lam": 100,
+  "feasible": true,
+  "cost": 139.91328000000001,
+  "co2_kg": 109.322942436,
+  "km": 53.494,
+  "true_priced": 150.84557424360003,
+  "trucks": [
+   "old_compactor"
+  ],
+  "sub": 4,
+  "method": "proxy",
+  "status": "OPTIMAL"
+ },
+ {
+  "lam": 100,
+  "feasible": true,
+  "cost": 139.91328000000001,
+  "co2_kg": 109.369209956,
+  "km": 53.494,
+  "true_priced": 150.8502009956,
+  "trucks": [
+   "old_compactor"
+  ],
+  "sub": 4,
+  "method": "pyvrp",
+  "status": "FEASIBLE"
+ },
+ {
+  "lam": 200,
+  "feasible": true,
+  "cost": 146.7711,
+  "co2_kg": 73.67382329142858,
+  "km": 53.494,
+  "true_priced": 161.5058646582857,
+  "trucks": [
+   "new_compactor"
+  ],
+  "sub": 4,
+  "method": "true",
+  "status": "OPTIMAL"
+ },
+ {
+  "lam": 200,
+  "feasible": true,
+  "cost": 139.91328000000001,
+  "co2_kg": 109.369209956,
+  "km": 53.494,
+  "true_priced": 161.78712199120002,
+  "trucks": [
+   "old_compactor"
+  ],
+  "sub": 4,
+  "method": "proxy",
+  "status": "OPTIMAL"
+ },
+ {
+  "lam": 200,
+  "feasible": true,
+  "cost": 139.91328000000001,
+  "co2_kg": 109.369209956,
+  "km": 53.494,
+  "true_priced": 161.78712199120002,
+  "trucks": [
+   "old_compactor"
+  ],
+  "sub": 4,
+  "method": "pyvrp",
+  "status": "FEASIBLE"
+ },
+ {
+  "lam": 400,
+  "feasible": true,
+  "cost": 146.7711,
+  "co2_kg": 73.67382329142858,
+  "km": 53.494,
+  "true_priced": 176.24062931657141,
+  "trucks": [
+   "new_compactor"
+  ],
+  "sub": 4,
+  "method": "true",
+  "status": "OPTIMAL"
+ },
+ {
+  "lam": 400,
+  "feasible": true,
+  "cost": 146.7711,
+  "co2_kg": 73.73456082057143,
+  "km": 53.494,
+  "true_priced": 176.26492432822857,
+  "trucks": [
+   "new_compactor"
+  ],
+  "sub": 4,
+  "method": "proxy",
+  "status": "OPTIMAL"
+ },
+ {
+  "lam": 400,
+  "feasible": true,
+  "cost": 146.7711,
+  "co2_kg": 73.73456082057143,
+  "km": 53.494,
+  "true_priced": 176.26492432822857,
+  "trucks": [
+   "new_compactor"
+  ],
+  "sub": 4,
+  "method": "pyvrp",
+  "status": "FEASIBLE"
+ },
+ {
+  "lam": 800,
+  "feasible": true,
+  "cost": 146.7711,
+  "co2_kg": 73.67382329142858,
+  "km": 53.494,
+  "true_priced": 205.71015863314284,
+  "trucks": [
+   "new_compactor"
+  ],
+  "sub": 4,
+  "method": "true",
+  "status": "OPTIMAL"
+ },
+ {
+  "lam": 800,
+  "feasible": true,
+  "cost": 146.7711,
+  "co2_kg": 73.67382329142858,
+  "km": 53.494,
+  "true_priced": 205.71015863314284,
+  "trucks": [
+   "new_compactor"
+  ],
+  "sub": 4,
+  "method": "proxy",
+  "status": "OPTIMAL"
+ },
+ {
+  "lam": 800,
+  "feasible": true,
+  "cost": 146.7711,
+  "co2_kg": 73.73456082057143,
+  "km": 53.494,
+  "true_priced": 205.75874865645713,
+  "trucks": [
+   "new_compactor"
+  ],
+  "sub": 4,
+  "method": "pyvrp",
+  "status": "FEASIBLE"
+ },
+ {
+  "lam": 2000,
+  "feasible": true,
+  "cost": 146.7711,
+  "co2_kg": 73.67382329142858,
+  "km": 53.494,
+  "true_priced": 294.11874658285717,
+  "trucks": [
+   "new_compactor"
+  ],
+  "sub": 4,
+  "method": "true",
+  "status": "OPTIMAL"
+ },
+ {
+  "lam": 2000,
+  "feasible": true,
+  "cost": 146.7711,
+  "co2_kg": 73.67382329142858,
+  "km": 53.494,
+  "true_priced": 294.11874658285717,
+  "trucks": [
+   "new_compactor"
+  ],
+  "sub": 4,
+  "method": "proxy",
+  "status": "OPTIMAL"
+ },
+ {
+  "lam": 2000,
+  "feasible": true,
+  "cost": 146.7711,
+  "co2_kg": 73.73456082057143,
+  "km": 53.494,
+  "true_priced": 294.24022164114285,
+  "trucks": [
+   "new_compactor"
+  ],
+  "sub": 4,
+  "method": "pyvrp",
+  "status": "FEASIBLE"
+ }
+]

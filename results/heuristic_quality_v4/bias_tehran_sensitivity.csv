@@ -1,0 +1,29 @@
+scenario,capacity,best_no_sensor,best_sensor,net_saving_reported,net_saving_worst_for_sensing,net_saving_best_for_sensing,verdict
+gen0.7,current,fixed_daily,risk_cfa_t15/risk_cfa_t5/risk_myopic,-137.8,-61.5,16.5,depends on the gap
+gen0.7,double,fixed_daily/periodic2,risk_cfa_t15/risk_cfa_t5,6.2,-68.1,71.6,depends on the gap
+gen1.3,current,fixed_daily,risk_cfa_t15/risk_myopic,1349.8,1493.8,1626.3,sensing pays under any gap
+gen1.3,double,fixed_daily,risk_cfa_t15/risk_cfa_t5,13733.9,13725.2,13897.3,sensing pays under any gap
+leg3,current,fixed_daily,risk_cfa_t15/risk_cfa_t5/risk_myopic,-295.3,-186.0,-91.7,sensing does not pay under any gap
+leg12,current,fixed_daily,risk_cfa_t15/risk_myopic,-85.8,43.4,170.5,sensing pays under any gap
+fixed0.5,current,fixed_daily,risk_cfa_t15/risk_myopic,-181.9,-106.6,-37.4,sensing does not pay under any gap
+fixed0.5,double,fixed_daily,risk_cfa_t15,-330.5,-344.8,-247.1,sensing does not pay under any gap
+fixed1.5,current,fixed_daily,risk_cfa_t15/risk_myopic,-318.7,-162.1,-24.4,sensing does not pay under any gap
+fixed1.5,double,fixed_daily,risk_cfa_t5,-370.5,-450.7,-251.9,sensing does not pay under any gap
+km0.5,current,fixed_daily,risk_cfa_t15/risk_cfa_t5/risk_myopic,-258.9,-162.4,-76.6,sensing does not pay under any gap
+km0.5,double,fixed_daily,risk_myopic,-416.1,-455.8,-329.0,sensing does not pay under any gap
+km1.5,current,fixed_daily,risk_cfa_t5/risk_myopic,-247.8,-112.7,8.4,depends on the gap
+km1.5,double,fixed_daily,risk_myopic,-305.2,-358.5,-188.6,sensing does not pay under any gap
+spill_lost,current,fixed_daily,risk_myopic,-247.4,-141.5,-48.3,sensing does not pay under any gap
+spill_lost,double,fixed_daily,risk_myopic,-156.8,-206.9,-59.6,sensing does not pay under any gap
+split6,current,fixed_daily,risk_cfa_t15/risk_cfa_t5,-395.8,-263.3,-155.9,sensing does not pay under any gap
+split6,double,fixed_daily,risk_myopic,-7.3,-56.8,96.6,depends on the gap
+targeted,targeted,fixed_daily,risk_myopic,-279.4,-301.4,-158.9,sensing does not pay under any gap
+large,large,fixed_daily,risk_cfa_t15,-871.3,-891.5,-758.0,sensing does not pay under any gap
+alpha_tight,current,fixed_daily,risk_cfa_t15/risk_cfa_t5,-209.5,-94.2,9.1,depends on the gap
+alpha_tight,double,fixed_daily,risk_myopic,-304.0,-351.5,-203.0,sensing does not pay under any gap
+alpha_loose,current,fixed_daily,risk_cfa_t15/risk_cfa_t5,-266.9,-151.1,-47.7,sensing does not pay under any gap
+alpha_loose,double,fixed_daily,risk_myopic,-148.8,-198.4,-50.1,sensing does not pay under any gap
+normal,current,fixed_daily,risk_cfa_t5/risk_myopic,-243.8,-126.8,-23.2,sensing does not pay under any gap
+normal,double,fixed_daily,risk_cfa_t15,-1265.9,-1322.1,-1174.7,sensing does not pay under any gap
+draft_prize,current,fixed_daily,risk_cfa_t15/risk_cfa_t5,-273.4,-154.4,-50.6,sensing does not pay under any gap
+draft_prize,double,fixed_daily,risk_cfa_t5/risk_myopic,-506.8,-532.2,-380.8,sensing does not pay under any gap

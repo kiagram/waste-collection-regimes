@@ -12,7 +12,10 @@ from dataclasses import dataclass, field
 # collection points split into co-located sub-points. v3: v2 + routing engine with a greedy warm
 # start, truck-type swaps and best of 2 runs x 5,000 iterations (the 1,500-iteration cold-start engine
 # of v1/v2 left 5-39% on the table at district scale; see scripts/17_heuristic_quality.py).
-MODEL_VERSION = "v3"
+# v4 (review of 7 Oct 2026): Gamma risk model consistent with the simulator, penalty on the avoidable
+# risk P_skip - P_serve, spilled waste kept as a street backlog with a cleanup cost and a mass balance,
+# no-sensor baselines, carbon-consistent seed selection and truck swaps.
+MODEL_VERSION = "v4"
 
 DIESEL_CO2_KG_PER_L = 2.68  # IPCC 2006 default for diesel combustion (approx.)
 
@@ -76,6 +79,8 @@ class RiskParams:
     horizon_h: float = 24.0       # time to the next collection opportunity if skipped tonight
     fill_rate_cv: float = 0.35    # CV of DAILY fill increments (placeholder until Wyndham calibration)
     mode: str = "count"           # penalty risk measure: 'count' | 'prob' | 'excess'
+    dist: str = "gamma"           # increment law in the decision model: 'gamma' (as simulated) | 'normal'
+    incremental: bool = True      # price P_skip - P_serve (True) or P_skip alone (first draft)
     # Zone-dependent chance constraint: bin i MUST be collected tonight if
     # P(overflow before next opportunity) > alpha_i, with alpha_i interpolated between
     # alpha_max (least sensitive zone) and alpha_min (most sensitive zone).
@@ -83,8 +88,22 @@ class RiskParams:
     alpha_max: float = 0.50
 
 
+@dataclass(frozen=True)
+class SpillParams:
+    """What happens to waste that does not fit in a full container.
+
+    'recover': it stays on the street next to the point and is picked up by the crew at the next
+    visit (it counts against payload and takes manual time); 'lost': it leaves the system, the
+    accounting of the first draft, kept only to reproduce it.
+    """
+    mode: str = "recover"
+    recover_cap: float = 1.0            # street waste picked up per visit, in container volumes per container
+    manual_service_factor: float = 2.0  # manual pick-up time per container-volume, in lift-and-tip times (ASSUMPTION)
+    cleanup_cost_per_t: float = 30.0    # sweeping and disposal of spilled waste, USD/t (ASSUMPTION; varied 0-100)
+
+
 # PLACEHOLDER zone sensitivities in [0, 1]. They must be replaced by the
-# second-level Bayesian BWM weights from the new expert survey.
+# second-level Bayesian BWM weights from the new expert survey (see audit C6/M2).
 DEFAULT_ZONE_SENSITIVITY = {
     "industrial": 0.15,
     "semi_industrial": 0.25,
@@ -109,5 +128,6 @@ class Params:
     fleet_types: dict = field(default_factory=lambda: dict(DEFAULT_FLEET_TYPES))
     ops: OpsParams = field(default_factory=OpsParams)
     risk: RiskParams = field(default_factory=RiskParams)
+    spill: SpillParams = field(default_factory=SpillParams)
     zone_sensitivity: dict = field(default_factory=lambda: dict(DEFAULT_ZONE_SENSITIVITY))
     scale: ScaleParams = field(default_factory=ScaleParams)
